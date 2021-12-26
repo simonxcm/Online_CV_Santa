@@ -12,8 +12,6 @@
 html {
   background-color: var(--main-beige);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .inl-bk {
@@ -28,7 +26,7 @@ html {
   position: absolute;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   margin: 0;
 }
 
@@ -51,23 +49,21 @@ h1, h2 {
   text-align: right;
   margin-top: 210px;
   width: 50%;
-  height: 400vh;
 }
 
 .left-vhbox {
   margin-top: 80px;
   width: 50%;
-  height: 400vh;
 }
 
-.first-santa {
+#first-santa {
   font-size: 180px;
   font-weight: bold;
   color: var(--main-blue);
   transform: translateX(15%);
 }
 
-.second-santa {
+#second-santa {
   font-size: 180px;
   font-weight: bold;
   color: transparent;
@@ -76,7 +72,7 @@ h1, h2 {
   transform: translateX(16%) translateY(-96%);
 }
 
-.first-deoliveira {
+#first-deoliveira {
   font-size: 90px;
   font-weight: bold;
   color: var(--main-blue);
@@ -84,13 +80,27 @@ h1, h2 {
   margin-right: 20px;
 }
 
-.second-deoliveira {
+#second-deoliveira {
   font-size: 90px;
   font-weight: bold;
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--main-altblue);
   transform: translateX(-2%) translateY(-335%);
+}
+
+#assistant {
+  font-size: 40px;
+  color: var(--main-darkgrey);
+  margin-right: 20px;
+  transform: translateY(-720%);
+}
+
+#project-manager {
+  font-size: 40px;
+  color: var(--main-darkgrey);
+  margin-right: 20px;
+  transform: translateY(-720%);
 }
 
 /*# sourceMappingURL=styles.css.map */
