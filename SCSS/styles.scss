@@ -47,3 +47,20 @@ h1, h2 {
     -webkit-text-stroke-color: var(--main-altblue);
     transform: translateX(16%) translateY(-96%);
 }
+
+.first-deoliveira {
+    font-size: 90px;
+    font-weight: bold;
+    color: var(--main-blue);
+    transform: translateY(-240%);
+    margin-right: 20px;
+}
+
+.second-deoliveira {
+    font-size: 90px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--main-altblue);
+    transform: translateX(-2%) translateY(-335%);
+}
