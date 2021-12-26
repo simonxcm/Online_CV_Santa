@@ -1,9 +1,11 @@
-@import url(/SCSS/commons.scss);
+@import 'commons.scss';
 
 .header {
     background-color: var(--main-beige);
     width: 100%;
     height: 600px;
+    display: inline-block;
+    position: relative;
 }
 
 h1, h2 {
@@ -28,12 +30,19 @@ h1, h2 {
     width: 50%;
     text-align: right;
     margin-top: 150px;
-    transform: translateX(20%);
+    z-index: 1;
+    position: absolute;
 }
 
 .first-santa {
     font-size: 120px;
     font-weight: bold;
     color: var(--main-blue);
+    transform: translateX(20%);
+}
 
+.second-santa {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--main-altblue);
 }
