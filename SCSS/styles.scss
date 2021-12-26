@@ -1,6 +1,6 @@
 @import 'commons.scss';
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 
@@ -60,20 +60,35 @@ h1, h2, h3, h4 {
     color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--main-altblue);
-    transform: translateX(-2%) translateY(-335%);
+    transform: translateX(-2.2%) translateY(-335.5%);
 }
 
 #assistant {
     font-size: 40px;
     color: var(--main-darkgrey);
     margin-right: 20px;
-    transform: translateY(-720%);
+    transform: translateY(-750%);
 }
 
 #project-manager {
     font-size: 40px;
     color: var(--main-darkgrey);
     margin-right: 20px;
-    transform: translateY(-720%);
+    transform: translateY(-770%);
 }
 
+.email-me-button {
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    transform: translateY(-700%);
+    background-color: var(--main-blue);
+    color: var(--main-beige);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    >.children {
+        margin: 10px;
+    }
+}
