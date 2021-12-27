@@ -206,7 +206,6 @@ h1, h2, h3, h4 {
 .xp-section > .xp-container > .xp-content > .xp-block > p {
   font-size: 19px;
   font-weight: lighter;
-  width: 120%;
 }
 
 .saying-section {
@@ -246,6 +245,7 @@ h1, h2, h3, h4 {
   display: flex;
   margin: auto;
   width: 66%;
+  justify-content: space-around;
 }
 .studies-section > .studies-container > .studies-title {
   writing-mode: vertical-lr;
@@ -275,7 +275,7 @@ h1, h2, h3, h4 {
   border-radius: 10px;
 }
 .studies-section > .studies-container > .studies-content {
-  margin: 75px;
+  margin: 65px;
   height: auto;
 }
 .studies-section > .studies-container > .studies-content > .studies-block {
@@ -293,6 +293,38 @@ h1, h2, h3, h4 {
   font-size: 19px;
   font-weight: lighter;
   width: 120%;
+}
+
+.skills-section {
+  color: var(--main-blue);
+}
+.skills-section > .skills-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.skills-section > .skills-container > .skills-names {
+  text-align: right;
+  font-size: 30px;
+}
+.skills-section > .skills-container > .skills-names ul {
+  margin-right: 10px;
+  padding: 0;
+  line-height: 130%;
+}
+.skills-section > .skills-container > .skills-names li {
+  list-style-type: none;
+}
+.skills-section > .skills-container > .skills-stars {
+  text-align: left;
+  font-size: 30px;
+}
+.skills-section > .skills-container > .skills-stars ul {
+  margin-left: 10px;
+  padding: 0;
+}
+.skills-section > .skills-container > .skills-stars li {
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
