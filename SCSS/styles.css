@@ -115,8 +115,9 @@ h1, h2, h3, h4, p {
   border: none;
   border-radius: 12px;
 }
-.email-me-button > .children {
-  margin: 10px;
+.email-me-button a {
+  text-decoration: none;
+  color: var(--main-beige);
 }
 
 /*# sourceMappingURL=styles.css.map */

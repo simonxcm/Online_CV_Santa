@@ -88,7 +88,9 @@ h1, h2, h3, h4, p {
     font-weight: bold;
     border: none;
     border-radius: 12px;
-    >.children {
-        margin: 10px;
-    }
+        & a {
+            text-decoration: none;
+            color: var(--main-beige);
+        }
+
 }
