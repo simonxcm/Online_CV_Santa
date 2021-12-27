@@ -1,12 +1,13 @@
 @import 'commons.scss';
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4 {
     margin: 0;
 }
 
 .header-container {
     display: flex;
     position: relative;
+    height: 750px;
 }
 
 .profile-picture {
@@ -23,11 +24,13 @@ h1, h2, h3, h4, p {
     text-align: right;
     margin-top: 210px;
     width: 50%;
+    height: 600px;
 }
 
 .left-vhbox {
     margin-top: 80px;
     width: 50%;
+    height: 600px;
 }
 
 #first-santa {
@@ -93,4 +96,21 @@ h1, h2, h3, h4, p {
             color: var(--main-beige);
         }
 
+}
+
+.bio {
+    text-align: left;
+    width: 60%;
+    font-size: 25px;
+    margin: auto;
+    color: var(--main-blue);
+    font-weight: lighter;
+}
+
+.blue-line {
+    width: 70px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--main-blue);
+    transform: translateY(550%) translateX(-50%);
 }
