@@ -124,7 +124,7 @@ h1, h2, h3, h4 {
 .xp-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    margin-top: 150px;
+    margin: 150px 0 150px 0;
     padding: 100px 0 100px 0;
     height: 650px;
 
@@ -132,7 +132,7 @@ h1, h2, h3, h4 {
             display: flex;
             margin: auto;
             width: 66%;
-
+            
             & >.xp-title {
                 writing-mode: vertical-lr;
                 font-size: 50px;
@@ -164,6 +164,7 @@ h1, h2, h3, h4 {
 
             & >.xp-content {
                 margin: 40px;
+                height: auto;
 
                 & >.xp-block {
                     margin-bottom: 65px;
@@ -178,10 +179,37 @@ h1, h2, h3, h4 {
                     }
 
                     & >p {
-                        font-size: 17px;
+                        font-size: 19px;
                         font-weight: lighter;
+                        width: 120%;
                     }
                 }
             }
         } 
+}
+
+.saying-section {
+    width: 60%;
+    color: var(--main-blue);
+    font-weight: lighter;
+    text-align: left;
+    margin: auto;
+
+    & >.saying-text {
+        font-size: 40px;
+
+        & >img {
+            margin: 0;
+        }
+    }
+
+    & >.saying-author {
+        font-size: 60px;
+        font-weight: bold;
+        color: transparent;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: var(--main-blue);
+    }
+
+
 }

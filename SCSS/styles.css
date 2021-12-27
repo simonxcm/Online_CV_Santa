@@ -152,7 +152,7 @@ h1, h2, h3, h4 {
 .xp-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
-  margin-top: 150px;
+  margin: 150px 0 150px 0;
   padding: 100px 0 100px 0;
   height: 650px;
 }
@@ -188,6 +188,7 @@ h1, h2, h3, h4 {
 }
 .xp-section > .xp-container > .xp-content {
   margin: 40px;
+  height: auto;
 }
 .xp-section > .xp-container > .xp-content > .xp-block {
   margin-bottom: 65px;
@@ -201,8 +202,30 @@ h1, h2, h3, h4 {
   background-color: var(--main-beige);
 }
 .xp-section > .xp-container > .xp-content > .xp-block > p {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: lighter;
+  width: 120%;
+}
+
+.saying-section {
+  width: 60%;
+  color: var(--main-blue);
+  font-weight: lighter;
+  text-align: left;
+  margin: auto;
+}
+.saying-section > .saying-text {
+  font-size: 40px;
+}
+.saying-section > .saying-text > img {
+  margin: 0;
+}
+.saying-section > .saying-author {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--main-blue);
 }
 
 /*# sourceMappingURL=styles.css.map */
