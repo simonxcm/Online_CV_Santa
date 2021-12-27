@@ -1,5 +1,11 @@
 @import 'commons.scss';
 
+
+
+// *------- HEADER SECTION -------* //
+
+
+
 h1, h2, h3, h4 {
     margin: 0;
 }
@@ -102,6 +108,12 @@ h1, h2, h3, h4 {
 
 }
 
+
+
+// *------- BIO/PROFILE SECTION -------* //
+
+
+
 .bio {
     text-align: left;
     width: 60%;
@@ -119,7 +131,11 @@ h1, h2, h3, h4 {
     transform: translateY(550%) translateX(-50%);
 }
 
-// XP SECTION
+
+
+// *------- EXPERIENCE SECTION -------* //
+
+
 
 .xp-section {
     background-color: var(--main-blue);
@@ -136,7 +152,7 @@ h1, h2, h3, h4 {
             & >.xp-title {
                 writing-mode: vertical-lr;
                 font-size: 50px;
-                margin: 40px;
+                margin: 40px 40px 0 0;
             }
             
             & >.xp-chrono {
@@ -153,12 +169,14 @@ h1, h2, h3, h4 {
                     width: 3px;
                     height: 250px;
                     background-color: var(--main-beige);
+                    border-radius: 10px;
                 }
 
                 & >.line-in {
                     width: 3px;
                     height: 100px;
                     background-color: var(--main-beige);
+                    border-radius: 10px;
                 }
             }
 
@@ -188,6 +206,12 @@ h1, h2, h3, h4 {
         } 
 }
 
+
+
+// *------- ROSA PARKS SAYING SECTION -------* //
+
+
+
 .saying-section {
     width: 60%;
     color: var(--main-blue);
@@ -216,4 +240,78 @@ h1, h2, h3, h4 {
 
             }
     }
+}
+
+
+
+// *------- STUDIES SECTION -------* //
+
+
+.studies-section {
+    background-color: var(--main-blue);
+    color: var(--main-beige);
+    margin: 150px 0 150px 0;
+    padding: 100px 0 100px 0;
+    height: 350px;
+
+        & >.studies-container {
+            display: flex;
+            margin: auto;
+            width: 66%;
+            
+            & >.studies-title {
+                writing-mode: vertical-lr;
+                font-size: 50px;
+                margin: 10px 40px 0 0;
+            }
+            
+            & >.studies-chrono {
+                margin: 40px;
+                font-size: 30px;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                transform: translateY(-28%);
+
+                & >.line-out {
+                    width: 3px;
+                    height: 160px;
+                    background-color: var(--main-beige);
+                    border-radius: 10px;
+                }
+
+                & >.line-in {
+                    width: 3px;
+                    height: 60px;
+                    background-color: var(--main-beige);
+                    border-radius: 10px;
+                }
+            }
+
+            & >.studies-content {
+                margin: 75px;
+                height: auto;
+
+                & >.studies-block {
+                    margin-bottom: 90px;
+
+                    & >h4 {
+                        font-size: 22px;
+                        font-weight: normal;
+                        & >mark {
+                            color: var(--main-blue);
+                            background-color: var(--main-beige);
+                        }
+                    }
+
+                    & >p {
+                        font-size: 19px;
+                        font-weight: lighter;
+                        width: 120%;
+                    }
+                }
+            }
+        } 
 }
