@@ -191,25 +191,29 @@ h1, h2, h3, h4 {
 .saying-section {
     width: 60%;
     color: var(--main-blue);
-    font-weight: lighter;
     text-align: left;
     margin: auto;
 
-    & >.saying-text {
-        font-size: 40px;
+    & >.quote-up {
+        transform: translateY(40%);
+    }
 
-        & >img {
-            margin: 0;
-        }
+    & >.saying-text {
+        font-size: 50px;
+        font-weight: lighter;
+        line-height: 80%;
     }
 
     & >.saying-author {
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: var(--main-blue);
+        -webkit-text-stroke-color: var(--main-altblue);
+        transform: translateY(-20%);
+            & >.quote-down {
+                transform: translateX(470%) translateY(-30%);
+
+            }
     }
-
-
 }
