@@ -219,16 +219,9 @@
 
             & >.line-out-top {
                 width: 3px;
-                height: 150px;
+                height: 200px;
                 background-color: var(--main-beige);
                 border-radius: 0 0 10px 10px;
-            }
-
-            & >.line-out-down {
-                width: 3px;
-                height: 150px;
-                background-color: var(--main-beige);
-                border-radius: 10px 10px 0 0;
             }
 
             & >.line-in {
@@ -236,6 +229,13 @@
                 height: 100px;
                 background-color: var(--main-beige);
                 border-radius: 10px;
+            }
+
+            & >.line-out-down {
+                width: 3px;
+                height: 200px;
+                background-color: var(--main-beige);
+                border-radius: 10px 10px 0 0;
             }
         }
 
@@ -379,7 +379,7 @@
         }
 
         & >.studies-content {
-            margin-right: 370px;
+            margin-right: 320px;
             height: auto;
             display: flex;
             flex-direction: column;
@@ -605,7 +605,7 @@
 
 @media (max-width: 1400px) {
 
-    // *------- HEADER MEDIA QUERIES -------* //
+    // *------- HEADER MAX 1400PX MEDIA QUERIES -------* //
 
     .header-container {
         height: 600px;
@@ -658,6 +658,15 @@
             }
         }
     }
+
+    // *------- EXPERIENCE MAX 1400PX MEDIA QUERIES -------* //
+
+
+
+    // *------- STUDIES MAX 1400PX MEDIA QUERIES -------* //
+    
+    
+
 }
 
 @media (max-width: 1160px) {
@@ -727,7 +736,19 @@
             transform: translateY(480%) translateX(-50%);
         }
     }
+
+    // *------- EXPERIENCE MAX 1160PX MEDIA QUERIES -------* //
+
+    .xp-section {
+
+        & >.xp-container {
+            width: 80%;
+        }
+    }
+
 }
+
+
 
 @media (max-width: 950px) {
 
@@ -811,6 +832,33 @@
             transform: translateY(530%) translateX(-30%);
         }
     }
+
+
+        // *------- EXPERIENCE MAX 950PX MEDIA QUERIES -------* /
+
+        .xp-section {
+            background-color: var(--main-blue);
+            color: var(--main-beige);
+            height: auto;
+        
+            & >.xp-container {
+
+
+                
+                & >.xp-chrono {
+
+                    & >.line-out-top {
+                        height: 480px;
+
+                    }
+        
+                    & >.line-out-down {
+                        height: 480px;
+
+                    }
+                }
+            }
+        }   
 }
 
 @media (max-width: 650px) {
@@ -895,6 +943,13 @@
             transform: translateY(500%) translateX(-10%);
         }
     }
+
+
+// *------- EXPERIENCE MAX 450PX MEDIA QUERIES -------* /
+
+
+
+
 }
 
 @media (max-width: 450px) {
@@ -979,4 +1034,7 @@
             transform: translateY(470%) translateX(-30%);
         }
     }
+
+
+
 }
