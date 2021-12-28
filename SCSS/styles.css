@@ -136,18 +136,18 @@ html {
 
 .bio {
   text-align: left;
-  width: 70%;
   font-size: 30px;
   margin: 100px auto 150px auto;
   color: var(--main-blue);
   font-weight: lighter;
+  width: 930px;
 }
 .bio > .blue-line {
   width: 70px;
   height: 3px;
   border-radius: 10px;
   background-color: var(--main-blue);
-  transform: translateY(550%) translateX(-50%);
+  transform: translateY(550%) translateX(-30%);
 }
 .bio > .highlight-animation {
   position: relative;
@@ -500,6 +500,12 @@ html {
 }
 
 @media (max-width: 1400px) {
+  .header-container {
+    height: 600px;
+  }
+  .header-container > .right-vhbox {
+    margin-top: 150;
+  }
   .header-container > .right-vhbox > #first-santa {
     font-size: 150px;
     transform: translateX(15%);
@@ -518,14 +524,125 @@ html {
   }
   .header-container > .right-vhbox > #assistant {
     font-size: 30px;
-    transform: translateY(-720%);
+    transform: translateY(-780%);
   }
   .header-container > .right-vhbox > #project-manager {
     font-size: 30px;
-    transform: translateY(-740%);
+    transform: translateY(-800%);
   }
   .header-container > .right-vhbox a > .email-me-button {
-    transform: translateY(-500%);
+    transform: translateY(-550%);
+  }
+  .header-container > .left-vhbox > .profile-picture {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 1160px) {
+  .header-container {
+    height: 500px;
+  }
+  .header-container > .right-vhbox > #first-santa {
+    font-size: 120px;
+    transform: translateX(15%) translateY(-30%);
+  }
+  .header-container > .right-vhbox > #second-santa {
+    font-size: 120px;
+    transform: translateX(16%) translateY(-126%);
+  }
+  .header-container > .right-vhbox > #first-deoliveira {
+    font-size: 60px;
+    transform: translateY(-300%);
+  }
+  .header-container > .right-vhbox > #second-deoliveira {
+    font-size: 60px;
+    transform: translateX(-2.8%) translateY(-395.5%);
+  }
+  .header-container > .right-vhbox > #assistant {
+    font-size: 25px;
+    transform: translateY(-900%);
+  }
+  .header-container > .right-vhbox > #project-manager {
+    font-size: 25px;
+    transform: translateY(-920%);
+  }
+  .header-container > .right-vhbox a > .email-me-button {
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    transform: translateY(-650%);
+  }
+  .header-container > .left-vhbox {
+    margin-top: 150;
+  }
+  .header-container > .left-vhbox > .profile-picture {
+    width: 400px;
+    height: 400px;
+  }
+
+  .bio {
+    font-size: 22px;
+    width: 700px;
+  }
+  .bio > .blue-line {
+    transform: translateY(480%) translateX(-50%);
+  }
+}
+@media (max-width: 950px) {
+  .header-container {
+    height: 400px;
+  }
+  .header-container > .right-vhbox > #first-santa {
+    font-size: 85px;
+    transform: translateX(15%) translateY(-60%);
+  }
+  .header-container > .right-vhbox > #second-santa {
+    font-size: 85px;
+    transform: translateX(16%) translateY(-156%);
+    -webkit-text-stroke-width: 1px;
+  }
+  .header-container > .right-vhbox > #first-deoliveira {
+    font-size: 40px;
+    transform: translateY(-380%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox > #second-deoliveira {
+    font-size: 40px;
+    transform: translateX(-1.7%) translateY(-475.5%);
+    -webkit-text-stroke-width: 1px;
+  }
+  .header-container > .right-vhbox > #assistant {
+    font-size: 22px;
+    transform: translateY(-800%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox > #project-manager {
+    font-size: 22px;
+    transform: translateY(-820%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox a > .email-me-button {
+    width: 140px;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 10px;
+    transform: translateY(-680%);
+    margin-right: 10px;
+  }
+  .header-container > .left-vhbox > .profile-picture {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bio {
+    font-size: 19px;
+    width: 600px;
+    margin: 50px auto 100px auto;
+  }
+  .bio > .blue-line {
+    width: 45px;
+    height: 2px;
+    transform: translateY(530%) translateX(-30%);
   }
 }
 

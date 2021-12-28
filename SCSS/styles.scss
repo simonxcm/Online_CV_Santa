@@ -128,18 +128,18 @@
 
 .bio {
     text-align: left;
-    width: 70%;
     font-size: 30px;
     margin: 100px auto 150px auto;
     color: var(--main-blue);
     font-weight: lighter;
+    width: 930px;
     
     & >.blue-line {
         width: 70px;
         height: 3px;
         border-radius: 10px;
         background-color: var(--main-blue);
-        transform: translateY(550%) translateX(-50%);
+        transform: translateY(550%) translateX(-30%);
     }    
 
     & >.highlight-animation {
@@ -602,11 +602,17 @@
 
 
 
+// *------- HEADER MEDIA QUERIES -------* //
+
+
+
 @media (max-width: 1400px) {
 
     .header-container {
+        height: 600px;
 
         &>.right-vhbox {
+            margin-top: 150;
 
             &>#first-santa {
                 font-size: 150px;
@@ -630,21 +636,174 @@
 
             & >#assistant {
                 font-size: 30px;
-                transform: translateY(-720%);
+                transform: translateY(-780%);
             }
             
             & >#project-manager {
                 font-size: 30px;
-                transform: translateY(-740%);
+                transform: translateY(-800%);
             }
 
             & a {
                 & >.email-me-button {
-                    transform: translateY(-500%);
-
+                    transform: translateY(-550%);
                 }
+            } 
+        }
+
+        & >.left-vhbox {
+
+            & >.profile-picture {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+
+    .header-container {
+        height: 500px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 120px;
+                transform: translateX(15%) translateY(-30%);
+            }
+
+            & >#second-santa {
+                font-size: 120px;
+                transform: translateX(16%) translateY(-126%);
             }
             
+            & >#first-deoliveira {
+                font-size: 60px;
+                transform: translateY(-300%);
+            }
+            
+            & >#second-deoliveira {
+                font-size: 60px;
+                transform: translateX(-2.8%) translateY(-395.5%);
+            }
+
+            & >#assistant {
+                font-size: 25px;
+                transform: translateY(-900%);
+            }
+            
+            & >#project-manager {
+                font-size: 25px;
+                transform: translateY(-920%);
+            }
+
+            & a {
+                & >.email-me-button {
+                    width: 180px;
+                    height: 40px;
+                    font-size: 15px;
+                    transform: translateY(-650%);
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+            margin-top: 150;
+
+            & >.profile-picture {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    .bio {
+        font-size: 22px;
+        width: 700px;
+
+        & >.blue-line {
+            transform: translateY(480%) translateX(-50%);
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .header-container {
+        height: 400px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 85px;
+                transform: translateX(15%) translateY(-60%);
+            }
+
+            & >#second-santa {
+                font-size: 85px;
+                transform: translateX(16%) translateY(-156%);
+                -webkit-text-stroke-width: 1px;
+            }
+            
+            & >#first-deoliveira {
+                font-size: 40px;
+                transform: translateY(-380%);
+                margin-right: 10px;
+            }
+            
+            & >#second-deoliveira {
+                font-size: 40px;
+                transform: translateX(-1.7%) translateY(-475.5%);
+                -webkit-text-stroke-width: 1px;
+            }
+
+            & >#assistant {
+                font-size: 22px;
+                transform: translateY(-800%);
+                margin-right: 10px;
+
+            }
+            
+            & >#project-manager {
+                font-size: 22px;
+                transform: translateY(-820%);
+                margin-right: 10px;
+
+            }
+
+            & a {
+                & >.email-me-button {
+                    width: 140px;
+                    height: 30px;
+                    font-size: 10px;
+                    border-radius: 10px;
+                    transform: translateY(-680%);
+                    margin-right: 10px;
+
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+
+            & >.profile-picture {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+
+    .bio {
+        font-size: 19px;
+        width: 600px;
+        margin: 50px auto 100px auto;
+
+
+        & >.blue-line {
+            width: 45px;
+            height: 2px;
+            transform: translateY(530%) translateX(-30%);
         }
     }
 }
