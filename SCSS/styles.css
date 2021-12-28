@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
 .inl-bk {
   display: inline-block;
 }
@@ -32,47 +36,24 @@ mark {
   background-color: var(--main-blue);
 }
 
-h1, h2, h3, h4 {
-  margin: 0;
-}
-
 .header-container {
   display: flex;
   position: relative;
   height: 750px;
 }
-
-.profile-picture {
-  background-image: url(/MEDIAS/profile-picture.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 600px;
-  height: 600px;
-  border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-
-.right-vhbox {
+.header-container > .right-vhbox {
   text-align: right;
   margin-top: 210px;
   width: 50%;
   height: 600px;
 }
-
-.left-vhbox {
-  margin-top: 80px;
-  width: 50%;
-  height: 600px;
-}
-
-#first-santa {
+.header-container > .right-vhbox > #first-santa {
   font-size: 180px;
   font-weight: bold;
   color: var(--main-blue);
   transform: translateX(15%);
 }
-
-#second-santa {
+.header-container > .right-vhbox > #second-santa {
   font-size: 180px;
   font-weight: bold;
   color: transparent;
@@ -80,16 +61,14 @@ h1, h2, h3, h4 {
   -webkit-text-stroke-color: var(--main-altblue);
   transform: translateX(16%) translateY(-96%);
 }
-
-#first-deoliveira {
+.header-container > .right-vhbox > #first-deoliveira {
   font-size: 90px;
   font-weight: bold;
   color: var(--main-blue);
   transform: translateY(-240%);
   margin-right: 20px;
 }
-
-#second-deoliveira {
+.header-container > .right-vhbox > #second-deoliveira {
   font-size: 90px;
   font-weight: bold;
   color: transparent;
@@ -97,22 +76,19 @@ h1, h2, h3, h4 {
   -webkit-text-stroke-color: var(--main-altblue);
   transform: translateX(-2.2%) translateY(-335.5%);
 }
-
-#assistant {
+.header-container > .right-vhbox > #assistant {
   font-size: 40px;
   color: var(--main-darkgrey);
   margin-right: 20px;
   transform: translateY(-750%);
 }
-
-#project-manager {
+.header-container > .right-vhbox > #project-manager {
   font-size: 40px;
   color: var(--main-darkgrey);
   margin-right: 20px;
   transform: translateY(-770%);
 }
-
-.email-me-button {
+.header-container > .right-vhbox > .email-me-button {
   width: 180px;
   height: 50px;
   margin-right: 20px;
@@ -124,24 +100,37 @@ h1, h2, h3, h4 {
   border: none;
   border-radius: 12px;
 }
-.email-me-button a {
+.header-container > .right-vhbox > .email-me-button a {
   text-decoration: none;
   color: var(--main-beige);
 }
-.email-me-button :hover {
+.header-container > .right-vhbox > .email-me-button :hover {
   background-color: var(--main-altblue);
+}
+.header-container > .left-vhbox {
+  margin-top: 80px;
+  width: 50%;
+  height: 600px;
+}
+.header-container > .left-vhbox > .profile-picture {
+  background-image: url(/MEDIAS/profile-picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .bio {
   text-align: left;
-  width: 60%;
-  font-size: 25px;
-  margin: auto;
+  width: 70%;
+  font-size: 30px;
+  margin: 100px auto 150px auto;
   color: var(--main-blue);
   font-weight: lighter;
 }
-
-.blue-line {
+.bio > .blue-line {
   width: 70px;
   height: 3px;
   border-radius: 10px;
@@ -152,7 +141,6 @@ h1, h2, h3, h4 {
 .xp-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
-  margin: 150px 0 150px 0;
   padding: 100px 0 100px 0;
   height: 650px;
 }
@@ -216,7 +204,7 @@ h1, h2, h3, h4 {
   width: 60%;
   color: var(--main-blue);
   text-align: left;
-  margin: auto;
+  margin: 150px auto 150px auto;
   height: auto;
 }
 .saying-section > .quote-up {
@@ -242,7 +230,6 @@ h1, h2, h3, h4 {
 .studies-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
-  margin: 150px 0 150px 0;
   padding: 100px 0 100px 0;
   height: 350px;
 }
@@ -255,11 +242,9 @@ h1, h2, h3, h4 {
 .studies-section > .studies-container > .studies-title {
   writing-mode: vertical-lr;
   font-size: 50px;
-  margin: 10px 40px 0 0;
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--main-beige);
-  margin-bottom: 50px;
 }
 .studies-section > .studies-container > .studies-chrono {
   margin: 40px;
@@ -307,11 +292,19 @@ h1, h2, h3, h4 {
 .skills-section {
   color: var(--main-blue);
   height: auto;
+  margin: 150px auto 150px auto;
+}
+.skills-section > .skills-title {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--main-blue);
+  text-align: center;
+  width: 66%;
 }
 .skills-section > .skills-container {
   display: flex;
   justify-content: center;
-  margin: auto;
 }
 .skills-section > .skills-container > .skills-names {
   text-align: right;

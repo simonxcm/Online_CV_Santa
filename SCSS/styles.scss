@@ -5,108 +5,104 @@
 // *------- HEADER SECTION -------* //
 
 
-
-h1, h2, h3, h4 {
-    margin: 0;
-}
-
 .header-container {
     display: flex;
     position: relative;
     height: 750px;
-}
 
-.profile-picture {
-    background-image: url(/MEDIAS/profile-picture.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 600px;
-    height: 600px;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
+    & >.right-vhbox {
+        text-align: right;
+        margin-top: 210px;
+        width: 50%;
+        height: 600px;
 
-.right-vhbox {
-    text-align: right;
-    margin-top: 210px;
-    width: 50%;
-    height: 600px;
-}
-
-.left-vhbox {
-    margin-top: 80px;
-    width: 50%;
-    height: 600px;
-}
-
-#first-santa {
-    font-size: 180px;
-    font-weight: bold;
-    color: var(--main-blue);
-    transform: translateX(15%);
-}
-
-#second-santa {
-    font-size: 180px;
-    font-weight: bold;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--main-altblue);
-    transform: translateX(16%) translateY(-96%);
-}
-
-#first-deoliveira {
-    font-size: 90px;
-    font-weight: bold;
-    color: var(--main-blue);
-    transform: translateY(-240%);
-    margin-right: 20px;
-}
-
-#second-deoliveira {
-    font-size: 90px;
-    font-weight: bold;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--main-altblue);
-    transform: translateX(-2.2%) translateY(-335.5%);
-}
-
-#assistant {
-    font-size: 40px;
-    color: var(--main-darkgrey);
-    margin-right: 20px;
-    transform: translateY(-750%);
-}
-
-#project-manager {
-    font-size: 40px;
-    color: var(--main-darkgrey);
-    margin-right: 20px;
-    transform: translateY(-770%);
-}
-
-.email-me-button {
-    width: 180px;
-    height: 50px;
-    margin-right: 20px;
-    transform: translateY(-700%);
-    background-color: var(--main-blue);
-    color: var(--main-beige);
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    border-radius: 12px;
-
-    & a {
-        text-decoration: none;
-        color: var(--main-beige);
+        & >#first-santa {
+            font-size: 180px;
+            font-weight: bold;
+            color: var(--main-blue);
+            transform: translateX(15%);
+        }
+        
+        & >#second-santa {
+            font-size: 180px;
+            font-weight: bold;
+            color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: var(--main-altblue);
+            transform: translateX(16%) translateY(-96%);
+        }
+        
+        & >#first-deoliveira {
+            font-size: 90px;
+            font-weight: bold;
+            color: var(--main-blue);
+            transform: translateY(-240%);
+            margin-right: 20px;
+        }
+        
+        & >#second-deoliveira {
+            font-size: 90px;
+            font-weight: bold;
+            color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: var(--main-altblue);
+            transform: translateX(-2.2%) translateY(-335.5%);
+        }
+        
+        & >#assistant {
+            font-size: 40px;
+            color: var(--main-darkgrey);
+            margin-right: 20px;
+            transform: translateY(-750%);
+        }
+        
+        & >#project-manager {
+            font-size: 40px;
+            color: var(--main-darkgrey);
+            margin-right: 20px;
+            transform: translateY(-770%);
+        }
+        
+        & >.email-me-button {
+            width: 180px;
+            height: 50px;
+            margin-right: 20px;
+            transform: translateY(-700%);
+            background-color: var(--main-blue);
+            color: var(--main-beige);
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            border-radius: 12px;
+        
+            & a {
+                text-decoration: none;
+                color: var(--main-beige);
+            }
+        
+            & :hover {
+                background-color: var(--main-altblue);
+            }
+        
+        }
     }
 
-    & :hover {
-        background-color: var(--main-altblue);
-    }
+    & >.left-vhbox {
+        margin-top: 80px;
+        width: 50%;
+        height: 600px;
 
+        & >.profile-picture {
+            background-image: url(/MEDIAS/profile-picture.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 600px;
+            height: 600px;
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+        
+    }
 }
 
 
@@ -117,20 +113,21 @@ h1, h2, h3, h4 {
 
 .bio {
     text-align: left;
-    width: 60%;
-    font-size: 25px;
-    margin: auto;
+    width: 70%;
+    font-size: 30px;
+    margin: 100px auto 150px auto;
     color: var(--main-blue);
     font-weight: lighter;
+    
+    & >.blue-line {
+        width: 70px;
+        height: 3px;
+        border-radius: 10px;
+        background-color: var(--main-blue);
+        transform: translateY(550%) translateX(-50%);
+    }    
 }
 
-.blue-line {
-    width: 70px;
-    height: 3px;
-    border-radius: 10px;
-    background-color: var(--main-blue);
-    transform: translateY(550%) translateX(-50%);
-}
 
 
 
@@ -141,7 +138,6 @@ h1, h2, h3, h4 {
 .xp-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    margin: 150px 0 150px 0;
     padding: 100px 0 100px 0;
     height: 650px;
 
@@ -220,7 +216,7 @@ h1, h2, h3, h4 {
     width: 60%;
     color: var(--main-blue);
     text-align: left;
-    margin: auto;
+    margin: 150px auto 150px auto;
     height: auto;
 
     & >.quote-up {
@@ -256,7 +252,6 @@ h1, h2, h3, h4 {
 .studies-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    margin: 150px 0 150px 0;
     padding: 100px 0 100px 0;
     height: 350px;
 
@@ -269,11 +264,9 @@ h1, h2, h3, h4 {
         & >.studies-title {
             writing-mode: vertical-lr;
             font-size: 50px;
-            margin: 10px 40px 0 0;
             color: transparent;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--main-beige);
-            margin-bottom: 50px;
         }
         
         & >.studies-chrono {
@@ -334,11 +327,24 @@ h1, h2, h3, h4 {
 .skills-section {
     color: var(--main-blue);
     height: auto;
+    margin: 150px auto 150px auto;
+
+
+    & >.skills-title {
+        font-size: 50px;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: var(--main-blue);
+        text-align: center;
+        width: 66%;
+    }
+
 
     & >.skills-container {
         display: flex;
         justify-content: center;
-        margin: auto;
+
+
 
         & >.skills-names {
             text-align: right;
