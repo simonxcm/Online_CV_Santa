@@ -259,6 +259,7 @@
                 & >p {
                     font-size: 19px;
                     font-weight: lighter;
+                    margin-top: 15px;
                 }
             }
         }
@@ -372,7 +373,7 @@
             justify-content: center;
 
             & >:nth-child(1) {
-                margin: 20px 0 130px 0;
+                margin: 37px 0 112px 0;
             }
 
             & >.studies-block {
@@ -389,7 +390,7 @@
                 & >p {
                     font-size: 19px;
                     font-weight: lighter;
-                    width: 120%;
+                    margin-top: 15px;
                 }
             }
         }
@@ -414,6 +415,7 @@
         -webkit-text-stroke-color: var(--main-blue);
         text-align: center;
         width: 100%;
+        margin-bottom: 50px;
     }
 
 
@@ -423,35 +425,41 @@
 
 
 
-        & >.skills-names {
-            text-align: right;
-            font-size: 30px;
-
-            & ul {
-                margin-right: 10px;
-                padding: 0;
-                line-height: 130%;
-            }
-
-            & li {
-                list-style-type: none;
-            }
-        }
-
         & >.skills-stars {
 
-            text-align: left;
+            text-align: right;
             font-size: 30px;
             
             & ul {
-                margin-left: 10px;
-                padding: 0;
+                margin-right: 20px;
             }
 
             & li {
                 list-style-type: none;
+                line-height: 200%;
             }
         }
+
+        & >.skills-line {
+            width: 2px;
+            background-color: var(--main-altblue);
+        }
+
+        & >.skills-names {
+            text-align: left;
+            font-size: 30px;
+
+            & ul {
+                margin-left: 20px;
+            }
+
+            & li {
+                list-style-type: none;
+                line-height: 200%;
+            }
+        }
+
+        
     }
 }
 
