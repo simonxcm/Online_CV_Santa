@@ -848,12 +848,16 @@
                 & >.xp-chrono {
 
                     & >.line-out-top {
-                        height: 480px;
+                        height: 370px;
 
+                    }
+
+                    & .line-in {
+                        height: 200px;
                     }
         
                     & >.line-out-down {
-                        height: 480px;
+                        height: 370px;
 
                     }
                 }
@@ -932,7 +936,7 @@
     }
 
     .bio {
-        font-size: 15px;
+        font-size: 17px;
         width: 372px;
         margin: 10px auto 70px auto;
 
@@ -945,10 +949,65 @@
     }
 
 
-// *------- EXPERIENCE MAX 450PX MEDIA QUERIES -------* /
+    // *------- EXPERIENCE MAX 650PX MEDIA QUERIES -------* /
 
+    .xp-section {
 
+        & >.xp-container {
+            width: 70%;
+            
+            & >.xp-title {
+                writing-mode: vertical-lr;
+                font-size: 22px;
+                color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: var(--main-beige);
 
+                & h2 {
+                    text-align: left;
+                }
+            }
+
+            & >.xp-chrono {
+
+                & >.line-out-top {
+                    height: 270px;
+
+                }
+
+                & .line-in {
+                    height: 200px;
+                }
+    
+                & >.line-out-down {
+                    height: 270px;
+
+                }
+            }
+
+            & .xp-chrono {
+                margin: 0;
+            }
+
+            & .xp-content {
+
+                & :nth-child(1) {
+                    margin-top: 30px;
+                }
+
+                & .xp-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -982,7 +1041,7 @@
             
             & >#second-deoliveira {
                 font-size: 21px;
-                transform: translateX(-3.8%) translateY(-1013%);
+                transform: translateX(-4.3%) translateY(-1013%);
                 -webkit-text-stroke-width: 1px;
             }
 
@@ -1036,5 +1095,65 @@
     }
 
 
+    // *------- EXPERIENCE MAX 450PX MEDIA QUERIES -------* /
+
+    .xp-section {
+
+        & >.xp-container {
+            
+            & >.xp-title {
+                writing-mode: vertical-lr;
+                font-size: 22px;
+                color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: var(--main-beige);
+
+                & h2 {
+                    text-align: left;
+                }
+            }
+
+            & >.xp-chrono {
+
+                & >.line-out-top {
+                    height: 230px;
+
+                }
+
+                & .line-in {
+                    height: 170px;
+                }
+    
+                & >.line-out-down {
+                    height: 230px;
+
+                }
+            }
+
+            & .xp-chrono {
+                margin: 0;
+                font-size: 20px;
+            }
+
+            & .xp-content {
+
+                & :nth-child(1) {
+                    margin-top: 30px;
+                }
+
+                & .xp-block {
+                    margin-bottom: 40px;
+
+                    & h4 {
+                        font-size: 15px;
+                    }
+
+                    & p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
 
 }
