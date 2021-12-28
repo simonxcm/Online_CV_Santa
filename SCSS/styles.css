@@ -213,6 +213,7 @@ h1, h2, h3, h4 {
   color: var(--main-blue);
   text-align: left;
   margin: auto;
+  height: auto;
 }
 .saying-section > .quote-up {
   transform: translateY(40%);
@@ -297,6 +298,7 @@ h1, h2, h3, h4 {
 
 .skills-section {
   color: var(--main-blue);
+  height: auto;
 }
 .skills-section > .skills-container {
   display: flex;
@@ -332,11 +334,50 @@ h1, h2, h3, h4 {
   color: var(--main-beige);
   margin: 150px 0 150px 0;
   padding: 100px 0 100px 0;
-  height: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 .form-section > .form-container {
-  display: flex;
-  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+.form-section > .form-container > form > h2 {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--main-beige);
+  margin-bottom: 50px;
+}
+.form-section > .form-container > form > .form-element > input {
+  background-color: transparent;
+  border: 2px solid var(--main-beige);
+  color: var(--main-beige);
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.form-section > .form-container > form > .form-element > input:focus {
+  border-color: none;
+  color: var(--main-blue);
+  background-color: var(--main-beige);
+}
+.form-section > .form-container > form > .form-element > textarea {
+  background-color: transparent;
+  border: 2px solid var(--main-beige);
+  color: var(--main-beige);
+  border-radius: 10px;
+  width: 400px;
+  height: 150px;
+  margin-top: 15px;
+  padding: 15px 0 0 15px;
+}
+.form-section > .form-container > form > .form-element > textarea:focus {
+  border-color: none;
+  color: var(--main-blue);
+  background-color: var(--main-beige);
 }
 
 /*# sourceMappingURL=styles.css.map */
