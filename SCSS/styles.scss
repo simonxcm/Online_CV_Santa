@@ -153,6 +153,10 @@ h1, h2, h3, h4 {
                 writing-mode: vertical-lr;
                 font-size: 50px;
                 margin: 40px 40px 0 0;
+                color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: var(--main-beige);
+                margin-bottom: 50px;
             }
             
             & >.xp-chrono {
@@ -163,11 +167,11 @@ h1, h2, h3, h4 {
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                transform: translateY(-21.5%);
+                transform: translateY(-18%);
 
                 & >.line-out {
                     width: 3px;
-                    height: 250px;
+                    height: 200px;
                     background-color: var(--main-beige);
                     border-radius: 10px;
                 }
@@ -264,6 +268,10 @@ h1, h2, h3, h4 {
                 writing-mode: vertical-lr;
                 font-size: 50px;
                 margin: 10px 40px 0 0;
+                color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: var(--main-beige);
+                margin-bottom: 50px;
             }
             
             & >.studies-chrono {
