@@ -499,4 +499,34 @@ html {
   margin-top: 15px;
 }
 
+@media (max-width: 1400px) {
+  .header-container > .right-vhbox > #first-santa {
+    font-size: 150px;
+    transform: translateX(15%);
+  }
+  .header-container > .right-vhbox > #second-santa {
+    font-size: 150px;
+    transform: translateX(16%) translateY(-96%);
+  }
+  .header-container > .right-vhbox > #first-deoliveira {
+    font-size: 75px;
+    transform: translateY(-240%);
+  }
+  .header-container > .right-vhbox > #second-deoliveira {
+    font-size: 75px;
+    transform: translateX(-2.2%) translateY(-335.5%);
+  }
+  .header-container > .right-vhbox > #assistant {
+    font-size: 30px;
+    transform: translateY(-720%);
+  }
+  .header-container > .right-vhbox > #project-manager {
+    font-size: 30px;
+    transform: translateY(-740%);
+  }
+  .header-container > .right-vhbox a > .email-me-button {
+    transform: translateY(-500%);
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

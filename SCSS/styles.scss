@@ -1,5 +1,4 @@
-@import 'commons.scss';
-@import 'media-queries.scss';
+@import 'commons';
 
 
 // *------- HEADER SECTION -------* //
@@ -103,7 +102,6 @@
     
 
     }
-
 
     & >.left-vhbox {
         margin-top: 80px;
@@ -596,4 +594,57 @@
         }
     }
 
+}
+
+
+
+// *------- MEDIA QUERIES -------* //
+
+
+
+@media (max-width: 1400px) {
+
+    .header-container {
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 150px;
+                transform: translateX(15%);
+            }
+
+            & >#second-santa {
+                font-size: 150px;
+                transform: translateX(16%) translateY(-96%);
+            }
+            
+            & >#first-deoliveira {
+                font-size: 75px;
+                transform: translateY(-240%);
+            }
+            
+            & >#second-deoliveira {
+                font-size: 75px;
+                transform: translateX(-2.2%) translateY(-335.5%);
+            }
+
+            & >#assistant {
+                font-size: 30px;
+                transform: translateY(-720%);
+            }
+            
+            & >#project-manager {
+                font-size: 30px;
+                transform: translateY(-740%);
+            }
+
+            & a {
+                & >.email-me-button {
+                    transform: translateY(-500%);
+
+                }
+            }
+            
+        }
+    }
 }
