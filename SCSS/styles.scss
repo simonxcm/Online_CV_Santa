@@ -63,28 +63,30 @@
             transform: translateY(-770%);
         }
         
-        & >.email-me-button {
-            width: 180px;
-            height: 50px;
-            margin-right: 20px;
-            transform: translateY(-700%);
-            background-color: var(--main-blue);
+        & a {
+            text-decoration: none;
             color: var(--main-beige);
-            font-size: 20px;
-            font-weight: bold;
-            border: none;
-            border-radius: 12px;
-        
-            & a {
-                text-decoration: none;
+
+            & >.email-me-button {
+                width: 220px;
+                height: 50px;
+                margin-right: 20px;
+                transform: translateY(-680%);
+                background-color: var(--main-blue);
                 color: var(--main-beige);
-            }
-        
-            & :hover {
-                background-color: var(--main-altblue);
-            }
+                font-size: 20px;
+                font-weight: bold;
+                border: none;
+                border-radius: 12px;
+        }
+    
+        & :hover {
+            background-color: transparent;
+            color: var(--main-altblue);
+            border: 2px solid var(--main-altblue);
         }
     }
+}
 
     & >.left-vhbox {
         margin-top: 80px;
@@ -422,7 +424,7 @@
 
 
 
-.form-section {
+#form-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
     padding: 100px 0 100px 0;
