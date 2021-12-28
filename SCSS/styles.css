@@ -9,13 +9,15 @@
   font-family: "Gill Sans";
   src: url(/FONT/GillSans.ttc) format(ttc);
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background-color: var(--main-beige);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
-}
-
-h1, h2, h3, h4 {
   margin: 0;
 }
 
@@ -31,10 +33,6 @@ h1, h2, h3, h4 {
   position: absolute;
 }
 
-/* mark {
-    color: var(--main-beige);
-    background-color: var(--main-blue);
-} */
 .header-container {
   display: flex;
   position: relative;
@@ -170,8 +168,7 @@ h1, h2, h3, h4 {
 .xp-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
-  padding: 100px 0 100px 0;
-  height: 650px;
+  height: auto;
 }
 .xp-section > .xp-container {
   display: flex;
@@ -187,21 +184,32 @@ h1, h2, h3, h4 {
   -webkit-text-stroke-color: var(--main-beige);
   margin-bottom: 50px;
 }
+.xp-section > .xp-container > .xp-title h2 {
+  text-align: center;
+}
 .xp-section > .xp-container > .xp-chrono {
-  margin: 40px;
+  margin: 0 40px 0 40px;
   font-size: 30px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  transform: translateY(-18%);
 }
-.xp-section > .xp-container > .xp-chrono > .line-out {
+.xp-section > .xp-container > .xp-chrono p {
+  margin: 50px 0 50px 0;
+}
+.xp-section > .xp-container > .xp-chrono > .line-out-top {
   width: 3px;
-  height: 200px;
+  height: 150px;
   background-color: var(--main-beige);
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
+}
+.xp-section > .xp-container > .xp-chrono > .line-out-down {
+  width: 3px;
+  height: 150px;
+  background-color: var(--main-beige);
+  border-radius: 10px 10px 0 0;
 }
 .xp-section > .xp-container > .xp-chrono > .line-in {
   width: 3px;
@@ -212,6 +220,12 @@ h1, h2, h3, h4 {
 .xp-section > .xp-container > .xp-content {
   margin: 40px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.xp-section > .xp-container > .xp-content > :nth-child(1) {
+  margin-top: 70px;
 }
 .xp-section > .xp-container > .xp-content > .xp-block {
   margin-bottom: 65px;
@@ -263,8 +277,6 @@ h1, h2, h3, h4 {
 .studies-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
-  padding: 100px 0 100px 0;
-  height: 350px;
 }
 .studies-section > .studies-container {
   display: flex;
@@ -279,21 +291,26 @@ h1, h2, h3, h4 {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--main-beige);
 }
+.studies-section > .studies-container > .studies-title h2 {
+  text-align: center;
+}
 .studies-section > .studies-container > .studies-chrono {
-  margin: 40px;
+  margin: 0 40px 0 40px;
   font-size: 30px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  transform: translateY(-28%);
 }
-.studies-section > .studies-container > .studies-chrono > .line-out {
+.studies-section > .studies-container > .studies-chrono p {
+  margin: 40px 0 40px 0;
+}
+.studies-section > .studies-container > .studies-chrono > .line-out-top {
   width: 3px;
   height: 160px;
   background-color: var(--main-beige);
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
 }
 .studies-section > .studies-container > .studies-chrono > .line-in {
   width: 3px;
@@ -301,12 +318,21 @@ h1, h2, h3, h4 {
   background-color: var(--main-beige);
   border-radius: 10px;
 }
-.studies-section > .studies-container > .studies-content {
-  margin: 65px;
-  height: auto;
+.studies-section > .studies-container > .studies-chrono > .line-out-down {
+  width: 3px;
+  height: 160px;
+  background-color: var(--main-beige);
+  border-radius: 10px 10px 0 0;
 }
-.studies-section > .studies-container > .studies-content > .studies-block {
-  margin-bottom: 90px;
+.studies-section > .studies-container > .studies-content {
+  margin-right: 370px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.studies-section > .studies-container > .studies-content > :nth-child(1) {
+  margin: 20px 0 130px 0;
 }
 .studies-section > .studies-container > .studies-content > .studies-block > h4 {
   font-size: 22px;

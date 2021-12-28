@@ -10,16 +10,17 @@
     src: url(/FONT/GillSans.ttc) format(ttc);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 html {
     background-color: var(--main-beige);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     scroll-behavior: smooth;
-
-}
-
-h1, h2, h3, h4 {
     margin: 0;
+
 }
 
 .inl-bk {
@@ -34,7 +35,3 @@ h1, h2, h3, h4 {
     position: absolute;
 }
 
-/* mark {
-    color: var(--main-beige);
-    background-color: var(--main-blue);
-} */

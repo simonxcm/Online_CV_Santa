@@ -170,8 +170,7 @@
 .xp-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    padding: 100px 0 100px 0;
-    height: 650px;
+    height: auto;
 
     & >.xp-container {
         display: flex;
@@ -186,23 +185,37 @@
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--main-beige);
             margin-bottom: 50px;
+
+            & h2 {
+                text-align: center;
+            }
         }
         
         & >.xp-chrono {
-            margin: 40px;
+            margin: 0 40px 0 40px;
             font-size: 30px;
             font-weight: bold;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            transform: translateY(-18%);
 
-            & >.line-out {
+            & p {
+                margin: 50px 0 50px 0;
+            }
+
+            & >.line-out-top {
                 width: 3px;
-                height: 200px;
+                height: 150px;
                 background-color: var(--main-beige);
-                border-radius: 10px;
+                border-radius: 0 0 10px 10px;
+            }
+
+            & >.line-out-down {
+                width: 3px;
+                height: 150px;
+                background-color: var(--main-beige);
+                border-radius: 10px 10px 0 0;
             }
 
             & >.line-in {
@@ -216,6 +229,13 @@
         & >.xp-content {
             margin: 40px;
             height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & >:nth-child(1) {
+                margin-top: 70px;
+            }
 
             & >.xp-block {
                 margin-bottom: 65px;
@@ -246,9 +266,7 @@
 }
 
 
-
 // *------- ROSA PARKS SAYING SECTION -------* //
-
 
 
 .saying-section {
@@ -284,15 +302,12 @@
 }
 
 
-
 // *------- STUDIES SECTION -------* //
 
 
 .studies-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    padding: 100px 0 100px 0;
-    height: 350px;
 
     & >.studies-container {
         display: flex;
@@ -306,23 +321,31 @@
             color: transparent;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--main-beige);
+
+            & h2 {
+                text-align: center;
+            }
         }
+
         
         & >.studies-chrono {
-            margin: 40px;
+            margin: 0 40px 0 40px;
             font-size: 30px;
             font-weight: bold;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            transform: translateY(-28%);
 
-            & >.line-out {
+            & p {
+                margin: 40px 0 40px 0;
+            }
+
+            & >.line-out-top {
                 width: 3px;
                 height: 160px;
                 background-color: var(--main-beige);
-                border-radius: 10px;
+                border-radius: 0 0 10px 10px;
             }
 
             & >.line-in {
@@ -331,14 +354,27 @@
                 background-color: var(--main-beige);
                 border-radius: 10px;
             }
+
+            & >.line-out-down {
+                width: 3px;
+                height: 160px;
+                background-color: var(--main-beige);
+                border-radius: 10px 10px 0 0;
+            }
         }
 
         & >.studies-content {
-            margin: 65px;
+            margin-right: 370px;
             height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & >:nth-child(1) {
+                margin: 20px 0 130px 0;
+            }
 
             & >.studies-block {
-                margin-bottom: 90px;
 
                 & >h4 {
                     font-size: 22px;
