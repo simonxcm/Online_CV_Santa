@@ -83,7 +83,6 @@
             & :hover {
                 background-color: var(--main-altblue);
             }
-        
         }
     }
 
@@ -101,7 +100,6 @@
             border-radius: 30px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         }
-        
     }
 }
 
@@ -146,20 +144,19 @@
             animation-direction: alternate;
           }
           
-          @keyframes highlight {
-            0% {
-              width: 0;
-              opacity: 0;
-            }
-          
-            50% {
-              width: 100%;
-              opacity: 1;
-            }
-          
-          }
-      }
-
+        @keyframes highlight {
+        0% {
+            width: 0;
+            opacity: 0;
+        }
+        
+        50% {
+            width: 100%;
+            opacity: 1;
+        }
+        
+        }
+    }
 }
 
 
@@ -235,7 +232,6 @@
                         color: var(--main-beige);
                         
                     }
-
                 }
 
                 & >p {
@@ -368,7 +364,8 @@
 .skills-section {
     color: var(--main-blue);
     height: auto;
-    margin: 150px auto 150px auto;
+    padding: 100px 0 100px 0;
+    text-align: center;
 
 
     & >.skills-title {
@@ -377,7 +374,7 @@
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: var(--main-blue);
         text-align: center;
-        width: 66%;
+        width: 100%;
     }
 
 
@@ -428,7 +425,6 @@
 .form-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    margin-top: 150px;
     padding: 100px 0 100px 0;
     height: auto;
     display: flex;
