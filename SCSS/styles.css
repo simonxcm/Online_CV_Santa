@@ -340,7 +340,7 @@ h1, h2, h3, h4 {
 .form-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
-  margin: 150px 0 150px 0;
+  margin-top: 150px;
   padding: 100px 0 100px 0;
   height: auto;
   display: flex;
@@ -399,6 +399,32 @@ h1, h2, h3, h4 {
 .form-section > .form-container > button:hover {
   background-color: var(--main-altblue);
   color: var(--main-beige);
+}
+
+.footer-line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-beige);
+}
+
+.footer-section {
+  background-color: var(--main-blue);
+  color: var(--main-beige);
+  padding: 30px 0 30px 0;
+  font-size: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-section > .footer-container {
+  text-align: center;
+}
+.footer-section > .footer-container a {
+  text-decoration: none;
+  color: var(--main-beige);
+}
+.footer-section > .footer-container > div {
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
