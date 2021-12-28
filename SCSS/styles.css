@@ -31,11 +31,10 @@ h1, h2, h3, h4 {
   position: absolute;
 }
 
-mark {
-  color: var(--main-beige);
-  background-color: var(--main-blue);
-}
-
+/* mark {
+    color: var(--main-beige);
+    background-color: var(--main-blue);
+} */
 .header-container {
   display: flex;
   position: relative;
@@ -136,6 +135,36 @@ mark {
   border-radius: 10px;
   background-color: var(--main-blue);
   transform: translateY(550%) translateX(-50%);
+}
+.bio > .highlight-animation {
+  position: relative;
+}
+.bio > .highlight-animation:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* Place the pseudo element right under the content */
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, var(--main-altblue) 50%, transparent 50%);
+  animation-name: highlight;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* Make the animation run back and forth */
+}
+@keyframes highlight {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
 }
 
 .xp-section {
