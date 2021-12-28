@@ -387,5 +387,18 @@ h1, h2, h3, h4 {
   color: var(--main-blue);
   background-color: var(--main-beige);
 }
+.form-section > .form-container > button {
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: var(--main-beige);
+  color: var(--main-blue);
+  border: none;
+  border-radius: 10px;
+}
+.form-section > .form-container > button:hover {
+  background-color: var(--main-altblue);
+  color: var(--main-beige);
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -437,7 +437,22 @@ h1, h2, h3, h4 {
                     }
                 }
             }
-        }     
+        }
+
+        & >button {
+            margin-top: 15px;
+            width: 200px;
+            height: 40px;
+            background-color: var(--main-beige);
+            color: var(--main-blue);
+            border: none;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: var(--main-altblue);
+                color: var(--main-beige);
+            }
+        }
     }
 }
 
