@@ -42,7 +42,6 @@ html {
   text-align: right;
   margin-top: 210px;
   width: 50%;
-  height: 600px;
 }
 .header-container > .right-vhbox > #first-santa {
   font-size: 180px;
@@ -122,7 +121,6 @@ html {
 .header-container > .left-vhbox {
   margin-top: 80px;
   width: 50%;
-  height: 600px;
 }
 .header-container > .left-vhbox > .profile-picture {
   background-image: url(/MEDIAS/profile-picture.jpg);
@@ -643,6 +641,128 @@ html {
     width: 45px;
     height: 2px;
     transform: translateY(530%) translateX(-30%);
+  }
+}
+@media (max-width: 650px) {
+  .header-container {
+    height: 300px;
+  }
+  .header-container > .right-vhbox > #first-santa {
+    font-size: 65px;
+    transform: translateX(15%) translateY(-170%);
+  }
+  .header-container > .right-vhbox > #second-santa {
+    font-size: 65px;
+    transform: translateX(16%) translateY(-266%);
+    -webkit-text-stroke-width: 1px;
+  }
+  .header-container > .right-vhbox > #first-deoliveira {
+    font-size: 27px;
+    transform: translateY(-690%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox > #second-deoliveira {
+    font-size: 27px;
+    transform: translateX(-2.5%) translateY(-785.5%);
+    -webkit-text-stroke-width: 1px;
+  }
+  .header-container > .right-vhbox > #assistant {
+    font-size: 15px;
+    transform: translateY(-1350%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox > #project-manager {
+    font-size: 15px;
+    transform: translateY(-1370%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox a > .email-me-button {
+    width: 100px;
+    height: 25px;
+    font-size: 8px;
+    border-radius: 8px;
+    transform: translateY(-970%);
+    margin-right: 10px;
+  }
+  .header-container > .left-vhbox {
+    margin-top: 50px;
+  }
+  .header-container > .left-vhbox > .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .bio {
+    font-size: 15px;
+    width: 372px;
+    margin: 10px auto 70px auto;
+  }
+  .bio > .blue-line {
+    width: 30px;
+    height: 2px;
+    transform: translateY(500%) translateX(-10%);
+  }
+}
+@media (max-width: 450px) {
+  .header-container {
+    height: 200px;
+  }
+  .header-container > .right-vhbox > #first-santa {
+    font-size: 50px;
+    transform: translateX(15%) translateY(-270%);
+  }
+  .header-container > .right-vhbox > #second-santa {
+    font-size: 50px;
+    transform: translateX(16%) translateY(-366%);
+    -webkit-text-stroke-width: 1px;
+  }
+  .header-container > .right-vhbox > #first-deoliveira {
+    font-size: 21px;
+    transform: translateY(-920%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox > #second-deoliveira {
+    font-size: 21px;
+    transform: translateX(-3.8%) translateY(-1013%);
+    -webkit-text-stroke-width: 1px;
+  }
+  .header-container > .right-vhbox > #assistant {
+    font-size: 13px;
+    transform: translateY(-1600%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox > #project-manager {
+    font-size: 13px;
+    transform: translateY(-1620%);
+    margin-right: 10px;
+  }
+  .header-container > .right-vhbox a > .email-me-button {
+    width: 80px;
+    height: 22px;
+    font-size: 8px;
+    border-radius: 6px;
+    transform: translateY(-1120%);
+    margin-right: 10px;
+  }
+  .header-container > .left-vhbox {
+    margin-top: 35px;
+  }
+  .header-container > .left-vhbox > .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  .bio {
+    font-size: 13px;
+    width: 280px;
+    margin: 40px auto 60px auto;
+  }
+  .bio > .blue-line {
+    width: 30px;
+    height: 2px;
+    transform: translateY(470%) translateX(-30%);
   }
 }
 

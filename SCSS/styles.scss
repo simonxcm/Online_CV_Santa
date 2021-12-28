@@ -13,7 +13,6 @@
         text-align: right;
         margin-top: 210px;
         width: 50%;
-        height: 600px;
 
         & >#first-santa {
             font-size: 180px;
@@ -106,7 +105,6 @@
     & >.left-vhbox {
         margin-top: 80px;
         width: 50%;
-        height: 600px;
 
         & >.profile-picture {
             background-image: url(/MEDIAS/profile-picture.jpg);
@@ -602,11 +600,12 @@
 
 
 
-// *------- HEADER MEDIA QUERIES -------* //
 
 
 
 @media (max-width: 1400px) {
+
+    // *------- HEADER MEDIA QUERIES -------* //
 
     .header-container {
         height: 600px;
@@ -662,6 +661,8 @@
 }
 
 @media (max-width: 1160px) {
+
+    // *------- HEADER MEDIA QUERIES -------* //
 
     .header-container {
         height: 500px;
@@ -729,6 +730,10 @@
 }
 
 @media (max-width: 950px) {
+
+
+    // *------- HEADER MEDIA QUERIES -------* //
+
 
     .header-container {
         height: 400px;
@@ -804,6 +809,174 @@
             width: 45px;
             height: 2px;
             transform: translateY(530%) translateX(-30%);
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+
+    // *------- HEADER MEDIA QUERIES -------* /
+
+
+    .header-container {
+        height: 300px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 65px;
+                transform: translateX(15%) translateY(-170%);
+            }
+
+            & >#second-santa {
+                font-size: 65px;
+                transform: translateX(16%) translateY(-266%);
+                -webkit-text-stroke-width: 1px;
+            }
+            
+            & >#first-deoliveira {
+                font-size: 27px;
+                transform: translateY(-690%);
+                margin-right: 10px;
+            }
+            
+            & >#second-deoliveira {
+                font-size: 27px;
+                transform: translateX(-2.5%) translateY(-785.5%);
+                -webkit-text-stroke-width: 1px;
+            }
+
+            & >#assistant {
+                font-size: 15px;
+                transform: translateY(-1350%);
+                margin-right: 10px;
+
+            }
+            
+            & >#project-manager {
+                font-size: 15px;
+                transform: translateY(-1370%);
+                margin-right: 10px;
+
+            }
+
+            & a {
+                & >.email-me-button {
+                    width: 100px;
+                    height: 25px;
+                    font-size: 8px;
+                    border-radius: 8px;
+                    transform: translateY(-970%);
+                    margin-right: 10px;
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+            margin-top: 50px;
+            & >.profile-picture {
+                width: 200px;
+                height: 200px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .bio {
+        font-size: 15px;
+        width: 372px;
+        margin: 10px auto 70px auto;
+
+
+        & >.blue-line {
+            width: 30px;
+            height: 2px;
+            transform: translateY(500%) translateX(-10%);
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+
+    // *------- HEADER MEDIA QUERIES -------* //
+
+
+    .header-container {
+        height: 200px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 50px;
+                transform: translateX(15%) translateY(-270%);
+            }
+
+            & >#second-santa {
+                font-size: 50px;
+                transform: translateX(16%) translateY(-366%);
+                -webkit-text-stroke-width: 1px;
+            }
+            
+            & >#first-deoliveira {
+                font-size: 21px;
+                transform: translateY(-920%);
+                margin-right: 10px;
+            }
+            
+            & >#second-deoliveira {
+                font-size: 21px;
+                transform: translateX(-3.8%) translateY(-1013%);
+                -webkit-text-stroke-width: 1px;
+            }
+
+            & >#assistant {
+                font-size: 13px;
+                transform: translateY(-1600%);
+                margin-right: 10px;
+
+            }
+            
+            & >#project-manager {
+                font-size: 13px;
+                transform: translateY(-1620%);
+                margin-right: 10px;
+
+            }
+
+            & a {
+                & >.email-me-button {
+                    width: 80px;
+                    height: 22px;
+                    font-size: 8px;
+                    border-radius: 6px;
+                    transform: translateY(-1120%);
+                    margin-right: 10px;
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+            margin-top: 35px;
+            & >.profile-picture {
+                width: 150px;
+                height: 150px;
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .bio {
+        font-size: 13px;
+        width: 280px;
+        margin: 40px auto 60px auto;
+
+
+        & >.blue-line {
+            width: 30px;
+            height: 2px;
+            transform: translateY(470%) translateX(-30%);
         }
     }
 }
