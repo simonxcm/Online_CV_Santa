@@ -70,7 +70,7 @@ html {
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--main-altblue);
-  transform: translateX(-2.2%) translateY(-335.5%);
+  transform: translateX(-1.8%) translateY(-335.5%);
 }
 .header-container > .right-vhbox > #assistant {
   font-size: 40px;
@@ -140,17 +140,10 @@ html {
   font-weight: lighter;
   width: 930px;
 }
-.bio > .blue-line {
-  width: 70px;
-  height: 3px;
-  border-radius: 10px;
-  background-color: var(--main-blue);
-  transform: translateY(550%) translateX(-30%);
-}
-.bio > .highlight-animation {
+.bio p > .highlight-animation {
   position: relative;
 }
-.bio > .highlight-animation:after {
+.bio p > .highlight-animation:after {
   content: "";
   display: inline-block;
   position: absolute;
