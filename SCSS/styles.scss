@@ -282,7 +282,7 @@
 
 
 .saying-section {
-    width: 60%;
+    width: 65%;
     color: var(--main-blue);
     text-align: left;
     margin: 150px auto 150px auto;
@@ -657,13 +657,24 @@
         }
     }
 
-    // *------- EXPERIENCE MAX 1400PX MEDIA QUERIES -------* //
+    // *------- ROSA PARKS SAYING MAX 1400PX MEDIA QUERIES -------* //
 
+    .saying-section {
 
+        & .saying-text {
 
-    // *------- STUDIES MAX 1400PX MEDIA QUERIES -------* //
-    
-    
+            width: 90%;
+        }
+        
+        & .saying-author {
+
+            & .quote-down {
+
+                transform: translateX(200%) translateY(30%);
+
+            }
+        }
+    }
 
 }
 
@@ -744,6 +755,20 @@
         }
     }
 
+
+    // *------- ROSA PARKS SAYING MAX 1160PX MEDIA QUERIES -------* //
+
+    .saying-section {
+        
+        & .saying-author {
+
+            & .quote-down {
+
+                transform: translateX(300%) translateY(-25%);
+
+            }
+        }
+    }
 }
 
 
@@ -860,7 +885,22 @@
                     }
                 }
             }
-        }   
+        }
+        
+        
+        // *------- ROSA PARKS SAYING MAX 950PX MEDIA QUERIES -------* //
+
+        .saying-section {
+            
+            & .saying-author {
+
+                & .quote-down {
+
+                    transform: translateX(20%) translateY(30%);
+
+                }
+            }
+        }
 }
 
 @media (max-width: 650px) {
@@ -1003,6 +1043,29 @@
                         font-size: 15px;
                     }
                 }
+            }
+        }
+    }
+
+    // *------- ROSA PARKS SAYING MAX 650PX MEDIA QUERIES -------* //
+
+    .saying-section {
+
+        & >.quote-up {
+            width: 40px;
+        }
+
+        & .saying-text {
+
+            font-size: 30px;
+        }
+    
+        & .saying-author {
+
+            & .quote-down {
+                width: 40px;
+                transform: translateX(20%) translateY(30%);
+
             }
         }
     }

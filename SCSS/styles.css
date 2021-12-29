@@ -253,7 +253,7 @@ html {
 }
 
 .saying-section {
-  width: 60%;
+  width: 65%;
   color: var(--main-blue);
   text-align: left;
   margin: 150px auto 150px auto;
@@ -528,6 +528,13 @@ html {
     width: 500px;
     height: 500px;
   }
+
+  .saying-section .saying-text {
+    width: 90%;
+  }
+  .saying-section .saying-author .quote-down {
+    transform: translateX(200%) translateY(30%);
+  }
 }
 @media (max-width: 1160px) {
   .header-container {
@@ -581,6 +588,10 @@ html {
 
   .xp-section > .xp-container {
     width: 80%;
+  }
+
+  .saying-section .saying-author .quote-down {
+    transform: translateX(300%) translateY(-25%);
   }
 }
 @media (max-width: 950px) {
@@ -653,6 +664,10 @@ html {
   }
   .xp-section > .xp-container > .xp-chrono > .line-out-down {
     height: 370px;
+  }
+
+  .saying-section .saying-author .quote-down {
+    transform: translateX(20%) translateY(30%);
   }
 }
 @media (max-width: 650px) {
@@ -749,6 +764,17 @@ html {
   }
   .xp-section > .xp-container .xp-content .xp-block p {
     font-size: 15px;
+  }
+
+  .saying-section > .quote-up {
+    width: 40px;
+  }
+  .saying-section .saying-text {
+    font-size: 30px;
+  }
+  .saying-section .saying-author .quote-down {
+    width: 40px;
+    transform: translateX(20%) translateY(30%);
   }
 }
 @media (max-width: 450px) {
