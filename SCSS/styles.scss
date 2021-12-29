@@ -330,6 +330,7 @@
         
         & >.studies-title {
             writing-mode: vertical-lr;
+            margin-right: 40px;
             font-size: 50px;
             color: transparent;
             -webkit-text-stroke-width: 2px;
@@ -377,7 +378,7 @@
         }
 
         & >.studies-content {
-            margin-right: 320px;
+            margin: 0 320px 0 40px;
             height: auto;
             display: flex;
             flex-direction: column;
@@ -676,6 +677,19 @@
         }
     }
 
+    // *------- STUDIES MAX 1400PX MEDIA QUERIES -------* //
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 240px 0 40px;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 1160px) {
@@ -769,6 +783,19 @@
             }
         }
     }
+
+    // *------- STUDIES SAYING MAX 1160PX MEDIA QUERIES -------* //
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 150px 0 40px;
+            }
+        }
+    }
 }
 
 
@@ -857,50 +884,63 @@
     }
 
 
-        // *------- EXPERIENCE MAX 950PX MEDIA QUERIES -------* /
+    // *------- EXPERIENCE MAX 950PX MEDIA QUERIES -------* /
 
-        .xp-section {
-            background-color: var(--main-blue);
-            color: var(--main-beige);
-            height: auto;
-        
-            & >.xp-container {
+    .xp-section {
+        background-color: var(--main-blue);
+        color: var(--main-beige);
+        height: auto;
+    
+        & >.xp-container {
 
 
-                
-                & >.xp-chrono {
-
-                    & >.line-out-top {
-                        height: 370px;
-
-                    }
-
-                    & .line-in {
-                        height: 200px;
-                    }
-        
-                    & >.line-out-down {
-                        height: 370px;
-
-                    }
-                }
-            }
-        }
-        
-        
-        // *------- ROSA PARKS SAYING MAX 950PX MEDIA QUERIES -------* //
-
-        .saying-section {
             
-            & .saying-author {
+            & >.xp-chrono {
 
-                & .quote-down {
+                & >.line-out-top {
+                    height: 370px;
 
-                    transform: translateX(20%) translateY(30%);
+                }
+
+                & .line-in {
+                    height: 200px;
+                }
+    
+                & >.line-out-down {
+                    height: 370px;
 
                 }
             }
         }
+    }
+        
+        
+    // *------- ROSA PARKS SAYING MAX 950PX MEDIA QUERIES -------* //
+
+    .saying-section {
+        
+        & .saying-author {
+
+            & .quote-down {
+
+                transform: translateX(20%) translateY(30%);
+
+            }
+        }
+    }
+
+    // *------- STUDIES SAYING MAX 950PX MEDIA QUERIES -------* //
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 0 0 40px;
+            }
+        }
+    }
 }
 
 @media (max-width: 650px) {
@@ -1076,6 +1116,40 @@
         }
     }
 
+    // *------- STUDIES MAX 650PX MEDIA QUERIES -------* //
+
+    .studies-section {
+
+        & .studies-container {
+            width: 70%;
+
+            & .studies-title {
+                font-size: 22px;
+                margin: 40px 0 0 0;
+                -webkit-text-stroke-width: 1px;
+
+                & h2 {
+                    text-align: left;
+                }
+
+            }
+            
+            & .studies-content {
+                margin: 0 0 0 40px;
+
+                & .studies-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 450px) {
@@ -1256,5 +1330,45 @@
 
         }
     }
+
+        // *------- STUDIES SAYING MAX 450PX MEDIA QUERIES -------* //
+
+        .studies-section {
+
+            & .studies-container {
+                width: 70%;
+    
+                & .studies-title {
+                    font-size: 22px;
+                    margin: 40px 40px 0 0;
+                    -webkit-text-stroke-width: 1px;
+    
+                    & h2 {
+                        text-align: left;
+                    }
+    
+                }
+
+                & .studies-chrono {
+                    margin: 0 ;
+                    font-size: 20px;
+                }
+                
+                & .studies-content {
+                    margin: 0 0 0 40px;
+    
+                    & .studies-block {
+    
+                        & h4 {
+                            font-size: 18px;
+                        }
+    
+                        & p {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
 
 }
