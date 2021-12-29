@@ -1052,7 +1052,10 @@
     .saying-section {
 
         & >.quote-up {
-            width: 40px;
+
+            & img {
+                width: 45px;
+            }
         }
 
         & .saying-text {
@@ -1063,10 +1066,13 @@
         & .saying-author {
 
             & .quote-down {
-                width: 40px;
-                transform: translateX(20%) translateY(30%);
-
+                width: 45px;
+                transform:  translateY(30%);
             }
+        }
+
+        & .saying-author {
+            font-size: 40px;
         }
     }
 
@@ -1214,6 +1220,40 @@
                     }
                 }
             }
+        }
+    }
+
+    // *------- ROSA PARKS SAYING MAX 450PX MEDIA QUERIES -------* //
+
+    .saying-section {
+
+        margin: 100px auto 100px auto;
+
+
+        & >.quote-up {
+
+            & img {
+                width: 30px;
+            }
+        }
+
+        & .saying-text {
+
+            font-size: 25px;
+        }
+    
+        & .saying-author {
+
+            & .quote-down {
+                width: 30px;
+                transform:  translateY(30%);
+            }
+        }
+
+        & .saying-author {
+            font-size: 25px;
+            -webkit-text-stroke-width: 1px;
+
         }
     }
 

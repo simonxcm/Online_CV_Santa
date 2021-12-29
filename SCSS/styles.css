@@ -766,15 +766,18 @@ html {
     font-size: 15px;
   }
 
-  .saying-section > .quote-up {
-    width: 40px;
+  .saying-section > .quote-up img {
+    width: 45px;
   }
   .saying-section .saying-text {
     font-size: 30px;
   }
   .saying-section .saying-author .quote-down {
-    width: 40px;
-    transform: translateX(20%) translateY(30%);
+    width: 45px;
+    transform: translateY(30%);
+  }
+  .saying-section .saying-author {
+    font-size: 40px;
   }
 }
 @media (max-width: 450px) {
@@ -872,6 +875,24 @@ html {
   }
   .xp-section > .xp-container .xp-content .xp-block p {
     font-size: 13px;
+  }
+
+  .saying-section {
+    margin: 100px auto 100px auto;
+  }
+  .saying-section > .quote-up img {
+    width: 30px;
+  }
+  .saying-section .saying-text {
+    font-size: 25px;
+  }
+  .saying-section .saying-author .quote-down {
+    width: 30px;
+    transform: translateY(30%);
+  }
+  .saying-section .saying-author {
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
   }
 }
 
