@@ -51,14 +51,26 @@
             font-size: 40px;
             color: var(--main-darkgrey);
             margin-right: 20px;
-            transform: translateY(-750%);
+            transform: translateY(-710%);
         }
         
         & >#project-manager {
             font-size: 40px;
             color: var(--main-darkgrey);
             margin-right: 20px;
-            transform: translateY(-770%);
+            transform: translateY(-730%);
+        }
+
+        & .linkedin-icon {
+
+            & img {
+                transform: translateY(-647%);
+                margin-right: 2%;
+            }
+
+            & :hover {
+                box-shadow: none;
+            }
         }
         
         & a {
@@ -75,7 +87,7 @@
                 border: none;
                 border-radius: 12px;
                 color: var(--main-beige);
-                background: linear-gradient(-90deg, var(--main-blue), var(--main-beige), var(--main-altblue));
+                background: linear-gradient(-90deg, var(--main-blue), var(--main-altblue));
                 background-size: 800% 800%;
                 animation: gradient 15s ease infinite;
             }
@@ -94,8 +106,7 @@
 
             & :hover {
 
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;       
-
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             }
         }
     
@@ -113,8 +124,8 @@
             width: 600px;
             height: 600px;
             border-radius: 30px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;       
-         }
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
     }
 }
 
@@ -419,23 +430,9 @@
     padding: 100px 0 100px 0;
     text-align: center;
 
-    // TITLE REMOVED //
-    /* & >.skills-title {
-        font-size: 50px;
-        color: transparent;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: var(--main-blue);
-        text-align: center;
-        width: 100%;
-        margin-bottom: 50px;
-    } */
-
-
     & >.skills-container {
         display: flex;
         justify-content: center;
-
-
 
         & >.skills-stars {
 
@@ -476,8 +473,6 @@
                 line-height: 200%;
             }
         }
-
-        
     }
 }
 
@@ -640,6 +635,26 @@
         & >div {
             margin-top: 15px;
         }
+
+        & .top {
+            text-decoration: none;
+            color: var(--main-beige);
+
+            & button {
+                width: 200px;
+                height: 30px;
+                font-size: 15px;
+                font-weight: bold;
+                border: 1px solid var(--main-beige);
+                border-radius: 12px;
+                color: var(--main-beige);
+                background-color: var(--main-blue);
+            }
+
+            & :hover {
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
     }
 
 }
@@ -722,7 +737,7 @@
 
             & .quote-down {
 
-                transform: translateX(200%) translateY(30%);
+                transform: translateX(20%) translateY(30%);
 
             }
         }
@@ -820,20 +835,6 @@
         }
     }
 
-
-    // *------- ROSA PARKS SAYING MAX 1160PX MEDIA QUERIES -------* //
-
-    .saying-section {
-        
-        & .saying-author {
-
-            & .quote-down {
-
-                transform: translateX(300%) translateY(-25%);
-
-            }
-        }
-    }
 
     // *------- STUDIES SAYING MAX 1160PX MEDIA QUERIES -------* //
 
@@ -1543,7 +1544,11 @@
         
     }
 
+
+
     // *------- CONTACT FORM MAX 650PX MEDIA QUERIES -------* //
+
+
 
     #form-section {
 
