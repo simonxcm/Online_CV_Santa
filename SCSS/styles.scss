@@ -93,9 +93,9 @@
             }
 
             & :hover {
-                background-color: var(--main-beige);
-                color: var(--main-blue);
-                border: 2px solid var(--main-blue);
+
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;       
+
             }
         }
     
@@ -490,7 +490,7 @@
 #form-section {
     background-color: var(--main-blue);
     color: var(--main-beige);
-    padding: 100px 0 100px 0;
+    padding: 120px 0 170px 0;
     height: auto;
     display: flex;
     justify-content: center;
@@ -502,46 +502,91 @@
         & >form {
 
             & >h2 {
-                font-size: 50px;
+                font-size: 70px;
+                color: transparent;
                 color: transparent;
                 -webkit-text-stroke-width: 2px;
-                -webkit-text-stroke-color: var(--main-beige);
-                margin-bottom: 50px;
+                -webkit-text-stroke-color: var(--main-beige);                margin-bottom: 50px;
             }
 
             & >.form-element {
+            
 
-                & >input {
-                    background-color: transparent;
+                & input {
+                    color: var(--main-blue);
+                    background-color: var(--main-beige);
                     border: 2px solid var(--main-beige);
-                    color: var(--main-beige);
-                    border-radius: 10px;
+                    border-radius: 20px;
                     width: 400px;
                     height: 40px;
-                    margin-top: 15px;
-                    padding-left: 15px;
+                    margin-top: 16px;
+                    padding-left: 16px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
+                    outline: none;
+
+                    &::-webkit-input-placeholder {
+                        color: var(--main-blue);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+
+                    &:-moz-placeholder {
+                        color: var(--main-blue);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
 
                     &:focus {
-                        border-color: none;
-                        color: var(--main-blue);
-                        background-color: var(--main-beige);
+                        border: none;
+                        color: var(--main-beige);
+                        background-color: transparent;
+
+                        &::-webkit-input-placeholder {
+                            color: var(--main-beige);
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        }
+    
+                        &:-moz-placeholder {
+                            color: var(--main-beige);
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        }
                     }
                 }
 
-                & >textarea {
-                    background-color: transparent;
+                & textarea {
+                    color: var(--main-blue);
+                    background-color: var(--main-beige);
                     border: 2px solid var(--main-beige);
-                    color: var(--main-beige);
-                    border-radius: 10px;
-                    width: 400px;
+                    border-radius: 20px;
+                    width: 450px;
                     height: 150px;
-                    margin-top: 15px;
-                    padding: 15px 0 0 15px;
+                    margin-top: 32px;
+                    padding: 16px 0 0 16px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
+                    outline: none;
+
+                    &::-webkit-input-placeholder {
+                        color: var(--main-blue);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+
+                    &:-moz-placeholder {
+                        color: var(--main-blue);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
 
                     &:focus {
-                        border-color: none;
-                        color: var(--main-blue);
-                        background-color: var(--main-beige);
+                        border: none;
+                        color: var(--main-beige);
+                        background-color: transparent;
+
+                        &::-webkit-input-placeholder {
+                            color: var(--main-beige);
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        }
+    
+                        &:-moz-placeholder {
+                            color: var(--main-beige);
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        }
                     }
                 }
             }
@@ -549,16 +594,18 @@
 
         & >button {
             margin-top: 15px;
-            width: 200px;
+            width: 400px;
             height: 40px;
-            background-color: var(--main-beige);
-            color: var(--main-blue);
-            border: none;
-            border-radius: 10px;
+            background-color: transparent;
+            color: var(--main-beige);
+            border: 2px solid var(--main-beige);
+            border-radius: 20px;
 
             &:hover {
                 background-color: var(--main-altblue);
                 color: var(--main-beige);
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
             }
         }
     }
