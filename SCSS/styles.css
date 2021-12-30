@@ -121,7 +121,11 @@ html {
   }
 }
 .header-container > .right-vhbox a :hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: var(--main-blue);
+  background: none;
+  background-color: var(--main-beige);
+  border: 2px solid var(--main-beige);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
 }
 .header-container > .left-vhbox {
   margin-top: 80px;
