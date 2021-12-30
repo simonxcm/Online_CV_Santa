@@ -86,16 +86,12 @@ html {
 }
 .header-container > .right-vhbox .linkedin-icon img {
   transform: translateY(-647%);
-  margin-right: 2%;
 }
-.header-container > .right-vhbox .linkedin-icon :hover {
-  box-shadow: none;
-}
-.header-container > .right-vhbox a {
+.header-container > .right-vhbox .contact-btn-link {
   text-decoration: none;
   color: var(--main-beige);
 }
-.header-container > .right-vhbox a > .email-me-button {
+.header-container > .right-vhbox .contact-btn-link > .email-me-button {
   width: 220px;
   height: 50px;
   margin-right: 20px;
@@ -120,7 +116,7 @@ html {
     background-position: 0% 50%;
   }
 }
-.header-container > .right-vhbox a :hover {
+.header-container > .right-vhbox .contact-btn-link :hover {
   color: var(--main-blue);
   background: none;
   background-color: var(--main-beige);
@@ -418,7 +414,7 @@ html {
   font-size: 20px;
   text-align: center;
 }
-#form-section > .form-container > form > h2 {
+#form-section > .form-container > h2 {
   font-size: 70px;
   color: transparent;
   -webkit-text-stroke-width: 2px;
@@ -491,7 +487,7 @@ html {
   color: var(--main-beige);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#form-section > .form-container > button {
+#form-section > .form-container > form > button {
   margin-top: 32px;
   width: 400px;
   height: 40px;
@@ -500,7 +496,7 @@ html {
   border: 2px solid var(--main-beige);
   border-radius: 20px;
 }
-#form-section > .form-container > button:hover {
+#form-section > .form-container > form > button:hover {
   background-color: var(--main-altblue);
   color: var(--main-beige);
   border: none;
@@ -581,7 +577,7 @@ html {
   .header-container > .right-vhbox .linkedin-icon img {
     transform: translateY(-550%);
   }
-  .header-container > .right-vhbox a > .email-me-button {
+  .header-container > .right-vhbox .contact-btn-link > .email-me-button {
     transform: translateY(-583%);
   }
   .header-container > .left-vhbox > .profile-picture {
@@ -631,7 +627,7 @@ html {
   .header-container > .right-vhbox .linkedin-icon img {
     transform: translateY(-530%);
   }
-  .header-container > .right-vhbox a > .email-me-button {
+  .header-container > .right-vhbox .contact-btn-link > .email-me-button {
     width: 180px;
     height: 40px;
     font-size: 15px;
@@ -694,9 +690,8 @@ html {
   .header-container > .right-vhbox .linkedin-icon img {
     transform: translateY(-605%);
     width: 35px;
-    margin-right: 1%;
   }
-  .header-container > .right-vhbox a > .email-me-button {
+  .header-container > .right-vhbox .contact-btn-link > .email-me-button {
     width: 140px;
     height: 30px;
     font-size: 10px;
@@ -743,7 +738,7 @@ html {
     margin: 0 0 0 40px;
   }
 
-  #form-section .form-container form h2 {
+  #form-section .form-container h2 {
     font-size: 60px;
   }
 }
@@ -783,9 +778,8 @@ html {
   .header-container > .right-vhbox .linkedin-icon img {
     transform: translateY(-813%);
     width: 30px;
-    margin-right: 1%;
   }
-  .header-container > .right-vhbox a > .email-me-button {
+  .header-container > .right-vhbox .contact-btn-link > .email-me-button {
     width: 100px;
     height: 25px;
     font-size: 8px;
@@ -902,7 +896,7 @@ html {
     line-height: 200%;
   }
 
-  #form-section .form-container form h2 {
+  #form-section .form-container h2 {
     font-size: 45px;
   }
   #form-section .form-container form .form-element input {
@@ -911,7 +905,7 @@ html {
   #form-section .form-container form .form-element textarea {
     width: 400px;
   }
-  #form-section .form-container button {
+  #form-section .form-container form button {
     width: 350px;
   }
 }
@@ -951,9 +945,8 @@ html {
   .header-container > .right-vhbox .linkedin-icon img {
     transform: translateY(-990%);
     width: 25px;
-    margin-right: 1%;
   }
-  .header-container > .right-vhbox a > .email-me-button {
+  .header-container > .right-vhbox .contact-btn-link > .email-me-button {
     width: 80px;
     height: 22px;
     font-size: 8px;
@@ -1079,7 +1072,7 @@ html {
     line-height: 200%;
   }
 
-  #form-section .form-container form h2 {
+  #form-section .form-container h2 {
     font-size: 36px;
   }
   #form-section .form-container form .form-element input {
@@ -1088,7 +1081,7 @@ html {
   #form-section .form-container form .form-element textarea {
     width: 300px;
   }
-  #form-section .form-container button {
+  #form-section .form-container form button {
     width: 230px;
   }
 }

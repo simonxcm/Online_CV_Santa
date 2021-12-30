@@ -18,7 +18,7 @@
             <h3 id="assistant">ASSISTANTE</h3>
             <h3 id="project-manager">CHEF DE PROJET</h3>
             <span><a class="linkedin-icon" href="https://www.linkedin.com/in/santa-de-oliveira-bb3743134/"><img src="/MEDIAS/linkedin-blue.png" alt="linkedin"> </a></span>
-            <a href="#form-section"><button class="email-me-button" name="email" type="button">ME CONTACTER</button></a>
+            <a class="contact-btn-link" href="#form-section"><button class="email-me-button" name="email" type="button">ME CONTACTER</button></a>
         </div>
         <div class="left-vhbox">
             <div class="profile-picture"></div>
@@ -158,8 +158,9 @@
 
     <div id="form-section">
         <div class="form-container">
+            <h2>ME CONTACTER</h2>
+
             <form method="post" action="contactform.php">
-                <h2>ME CONTACTER</h2>
                 <div class="form-element">
                     <input type="text" name="name" placeholder="Nom et prénom" minlength="2" maxlength="35" required>   
                 </div>
@@ -171,9 +172,9 @@
                 </div>
                 <div class="form-element">
                     <textarea name="message" placeholder="Message" minlength="15" required></textarea>
-                </div>    
+                </div>   
+                <button type="submit" name="submit">Envoyer</button> 
             </form>
-            <button type="submit" name="submit">Envoyer</button>
         </div>
     </div>
 
