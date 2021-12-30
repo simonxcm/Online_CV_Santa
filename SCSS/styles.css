@@ -419,7 +419,6 @@ html {
 #form-section > .form-container > form > h2 {
   font-size: 70px;
   color: transparent;
-  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--main-beige);
   margin-bottom: 50px;
@@ -491,7 +490,7 @@ html {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #form-section > .form-container > button {
-  margin-top: 15px;
+  margin-top: 32px;
   width: 400px;
   height: 40px;
   background-color: transparent;
@@ -723,6 +722,10 @@ html {
   .studies-section .studies-container .studies-content {
     margin: 0 0 0 40px;
   }
+
+  #form-section .form-container form h2 {
+    font-size: 60px;
+  }
 }
 @media (max-width: 650px) {
   .header-container {
@@ -872,6 +875,19 @@ html {
   }
   .skills-section > .skills-container > .skills-names li {
     line-height: 200%;
+  }
+
+  #form-section .form-container form h2 {
+    font-size: 45px;
+  }
+  #form-section .form-container form .form-element input {
+    width: 350px;
+  }
+  #form-section .form-container form .form-element textarea {
+    width: 400px;
+  }
+  #form-section .form-container button {
+    width: 350px;
   }
 }
 @media (max-width: 450px) {
@@ -1031,6 +1047,19 @@ html {
   }
   .skills-section > .skills-container > .skills-names li {
     line-height: 200%;
+  }
+
+  #form-section .form-container form h2 {
+    font-size: 36px;
+  }
+  #form-section .form-container form .form-element input {
+    width: 230px;
+  }
+  #form-section .form-container form .form-element textarea {
+    width: 300px;
+  }
+  #form-section .form-container button {
+    width: 230px;
   }
 }
 

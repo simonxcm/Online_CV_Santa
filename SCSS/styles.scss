@@ -504,7 +504,6 @@
             & >h2 {
                 font-size: 70px;
                 color: transparent;
-                color: transparent;
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: var(--main-beige);                margin-bottom: 50px;
             }
@@ -593,7 +592,7 @@
         }
 
         & >button {
-            margin-top: 15px;
+            margin-top: 32px;
             width: 400px;
             height: 40px;
             background-color: transparent;
@@ -993,6 +992,21 @@
             }
         }
     }
+
+    // *------- CONTACT FORM MAX 950PX MEDIA QUERIES -------* //
+
+    #form-section {
+
+        & .form-container {
+
+            & form {
+
+                & h2 {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 650px) {
@@ -1239,6 +1253,36 @@
 
         }
         
+    }
+
+    // *------- CONTACT FORM MAX 650PX MEDIA QUERIES -------* //
+
+    #form-section {
+
+        & .form-container {
+
+            & form {
+
+                & h2 {
+                    font-size: 45px;
+                }
+
+                & .form-element {
+
+                    & input {
+                        width: 350px;
+                    }
+    
+                    & textarea {
+                        width: 400px;
+                    }
+                }
+            }
+
+            & button {
+                width: 350px;
+            }
+        }
     }
 }
 
@@ -1497,6 +1541,36 @@
 
         }
         
+    }
+
+    // *------- CONTACT FORM MAX 650PX MEDIA QUERIES -------* //
+
+    #form-section {
+
+        & .form-container {
+
+            & form {
+
+                & h2 {
+                    font-size: 36px;
+                }
+
+                & .form-element {
+
+                    & input {
+                        width: 230px;
+                    }
+    
+                    & textarea {
+                        width: 300px;
+                    }
+                }
+            }
+
+            & button {
+                width: 230px;
+            }
+        }
     }
 
 }
