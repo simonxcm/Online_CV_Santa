@@ -660,12 +660,7 @@
 }
 
 
-
 // *------- MEDIA QUERIES -------* //
-
-
-
-
 
 
 @media (max-width: 1400px) {
@@ -708,12 +703,21 @@
                 transform: translateY(-800%);
             }
 
-            & a {
-                & >.email-me-button {
+            & .linkedin-icon {
+
+                & img {
                     transform: translateY(-550%);
                 }
-            } 
+
+            }
+
+            & a {
+                & >.email-me-button {
+                    transform: translateY(-583%);
+                }
+            }
         }
+        
 
         & >.left-vhbox {
 
@@ -797,12 +801,20 @@
                 transform: translateY(-920%);
             }
 
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-530%);
+                }
+
+            }
+
             & a {
                 & >.email-me-button {
                     width: 180px;
                     height: 40px;
                     font-size: 15px;
-                    transform: translateY(-650%);
+                    transform: translateY(-710%);
                 }
             } 
         }
@@ -900,13 +912,23 @@
 
             }
 
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-605%);
+                    width: 35px;
+                    margin-right: 1%;
+                }
+
+            }
+
             & a {
                 & >.email-me-button {
                     width: 140px;
                     height: 30px;
                     font-size: 10px;
                     border-radius: 10px;
-                    transform: translateY(-680%);
+                    transform: translateY(-750%);
                     margin-right: 10px;
 
                 }
@@ -1058,13 +1080,23 @@
 
             }
 
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-813%);
+                    width: 30px;
+                    margin-right: 1%;
+                }
+
+            }
+
             & a {
                 & >.email-me-button {
                     width: 100px;
                     height: 25px;
                     font-size: 8px;
                     border-radius: 8px;
-                    transform: translateY(-970%);
+                    transform: translateY(-1020%);
                     margin-right: 10px;
                 }
             } 
@@ -1335,13 +1367,23 @@
 
             }
 
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-990%);
+                    width: 25px;
+                    margin-right: 1%;
+                }
+
+            }
+
             & a {
                 & >.email-me-button {
                     width: 80px;
                     height: 22px;
                     font-size: 8px;
                     border-radius: 6px;
-                    transform: translateY(-1120%);
+                    transform: translateY(-1165%);
                     margin-right: 10px;
                 }
             } 

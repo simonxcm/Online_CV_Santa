@@ -577,8 +577,11 @@ html {
     font-size: 30px;
     transform: translateY(-800%);
   }
-  .header-container > .right-vhbox a > .email-me-button {
+  .header-container > .right-vhbox .linkedin-icon img {
     transform: translateY(-550%);
+  }
+  .header-container > .right-vhbox a > .email-me-button {
+    transform: translateY(-583%);
   }
   .header-container > .left-vhbox > .profile-picture {
     width: 500px;
@@ -624,11 +627,14 @@ html {
     font-size: 25px;
     transform: translateY(-920%);
   }
+  .header-container > .right-vhbox .linkedin-icon img {
+    transform: translateY(-530%);
+  }
   .header-container > .right-vhbox a > .email-me-button {
     width: 180px;
     height: 40px;
     font-size: 15px;
-    transform: translateY(-650%);
+    transform: translateY(-710%);
   }
   .header-container > .left-vhbox {
     margin-top: 150;
@@ -687,12 +693,17 @@ html {
     transform: translateY(-820%);
     margin-right: 10px;
   }
+  .header-container > .right-vhbox .linkedin-icon img {
+    transform: translateY(-605%);
+    width: 35px;
+    margin-right: 1%;
+  }
   .header-container > .right-vhbox a > .email-me-button {
     width: 140px;
     height: 30px;
     font-size: 10px;
     border-radius: 10px;
-    transform: translateY(-680%);
+    transform: translateY(-750%);
     margin-right: 10px;
   }
   .header-container > .left-vhbox > .profile-picture {
@@ -771,12 +782,17 @@ html {
     transform: translateY(-1370%);
     margin-right: 10px;
   }
+  .header-container > .right-vhbox .linkedin-icon img {
+    transform: translateY(-813%);
+    width: 30px;
+    margin-right: 1%;
+  }
   .header-container > .right-vhbox a > .email-me-button {
     width: 100px;
     height: 25px;
     font-size: 8px;
     border-radius: 8px;
-    transform: translateY(-970%);
+    transform: translateY(-1020%);
     margin-right: 10px;
   }
   .header-container > .left-vhbox {
@@ -934,12 +950,17 @@ html {
     transform: translateY(-1620%);
     margin-right: 10px;
   }
+  .header-container > .right-vhbox .linkedin-icon img {
+    transform: translateY(-990%);
+    width: 25px;
+    margin-right: 1%;
+  }
   .header-container > .right-vhbox a > .email-me-button {
     width: 80px;
     height: 22px;
     font-size: 8px;
     border-radius: 6px;
-    transform: translateY(-1120%);
+    transform: translateY(-1165%);
     margin-right: 10px;
   }
   .header-container > .left-vhbox {
