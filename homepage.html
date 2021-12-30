@@ -158,22 +158,22 @@
 
     <div id="form-section">
         <div class="form-container">
-            <form method="post" action="contact_form.php">
+            <form method="post" action="contactform.php">
                 <h2>ME CONTACTER</h2>
                 <div class="form-element">
-                    <input type="text" id="name" placeholder="Nom et prénom" minlength="2" maxlength="35" required>   
+                    <input type="text" name="name" placeholder="Nom et prénom" minlength="2" maxlength="35" required>   
                 </div>
                 <div class="form-element">
-                    <input type="tel" id="telNb" name="telNb" placeholder="Numéro de téléphone">
+                    <input type="tel" name="tel" placeholder="Numéro de téléphone">
                 </div>
                 <div class="form-element">
-                    <input type="email" id="email" placeholder="Adresse e-mail" required>
+                    <input type="text" name="mail" placeholder="Adresse e-mail" required>
                 </div>
                 <div class="form-element">
-                    <textarea id="message" placeholder="Message" minlength="15" required></textarea>
+                    <textarea name="message" placeholder="Message" minlength="15" required></textarea>
                 </div>    
             </form>
-            <button type="button">Envoyer</button>
+            <button type="submit" name="submit">Envoyer</button>
         </div>
     </div>
 
