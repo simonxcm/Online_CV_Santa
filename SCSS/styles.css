@@ -550,9 +550,6 @@ html {
   .header-container {
     height: 600px;
   }
-  .header-container > .right-vhbox {
-    margin-top: 150;
-  }
   .header-container > .right-vhbox > #first-santa {
     font-size: 150px;
     transform: translateX(15%);
@@ -635,9 +632,6 @@ html {
     height: 40px;
     font-size: 15px;
     transform: translateY(-710%);
-  }
-  .header-container > .left-vhbox {
-    margin-top: 150;
   }
   .header-container > .left-vhbox > .profile-picture {
     width: 400px;
