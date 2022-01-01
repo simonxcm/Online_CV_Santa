@@ -1,25 +1,32 @@
 <?php
 
+$message_sent = false;
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['name']) && isset($_POST['mail']) && isset($_POST['subject']) && isset($_POST['message'])) {
 
-    $name = $_POST['name'];
-    $tel = $_POST['tel'];
-    $mailFrom = $_POST['mail'];
-    $message = $_POST['message'];
+    if(filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
 
-    $mailTo = "contact@santadeoliveira.com";
-    $headers = "From: ".$mailFrom;
-    $txt = "You have received an e-mail from " .$name. ".\n\n".$message;
+        $name = htmlspecialchars($_POST['name']);
+        $mail = htmlspecialchars($_POST['mail']);
+        $subject = htmlspecialchars($_POST['subject']);
+        $message = htmlspecialchars($_POST['message']);
 
-    mail($mailTo, $tel, $txt, $headers);
+        $to = "contact@santadeoliveira.com";
+        $body = "";
 
-    header("Location: homepage.html?mailsent");
+        $body .= "From: ".$name. "\r\n";
+        $body .= "Email: ".$mail. "\r\n";
+        $body .= "Message: ".$message. "\r\n";
 
-}
+        mail($to, $subject, $body);
 
+        $message_sent = true;
+
+        header("Location:thankyou.php");
+
+        } else {
+            $invalid_email = "invalid-email";
+            header("Location:homepage.php#form-section");
+    }
+};
 ?>
-
-
-
- 
