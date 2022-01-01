@@ -1,7 +1,10 @@
 @import 'commons';
 
-
-// *------- HEADER SECTION -------* //
+// *------------------------------* //
+// *-------                -------* //
+// *------  HEADER SECTION  ------* //
+// *--------               -------* //
+// *------------------------------* //
 
 
 .header-container {
@@ -125,7 +128,12 @@
     }
 }
 
-// *------- BIO/PROFILE SECTION -------* //
+
+// *----------------------------* //
+// *-------              -------* //
+// *------  BIO  SECTION  ------* //
+// *-------              -------* //
+// *----------------------------* //
 
 
 .bio {
@@ -177,9 +185,11 @@
 }
 
 
-
-// *------- EXPERIENCE SECTION -------* //
-
+// *----------------------------------* //
+// *-------                    -------* //
+// *------  EXPERIENCE SECTION  ------* //
+// *-------                    -------* //
+// *----------------------------------* //
 
 
 .xp-section {
@@ -282,7 +292,11 @@
 }
 
 
-// *------- ROSA PARKS SAYING SECTION -------* //
+// *-----------------------------------------* //
+// *-------                           -------* //
+// *------  ROSA PARKS SAYING SECTION  ------* //
+// *-------                           -------* //
+// *-----------------------------------------* //
 
 
 .saying-section {
@@ -311,7 +325,11 @@
 }
 
 
-// *------- STUDIES SECTION -------* //
+// *-------------------------------* //
+// *-------                 -------* //
+// *------  STUDIES SECTION  ------* //
+// *-------                 -------* //
+// *-------------------------------* //
 
 
 .studies-section {
@@ -406,7 +424,11 @@
 }
 
 
-// *------- SKILLS SECTION -------* //
+// *------------------------------* //
+// *-------                -------* //
+// *------  SKILLS SECTION  ------* //
+// *-------                -------* //
+// *------------------------------* //
 
 
 .skills-section {
@@ -461,143 +483,12 @@
     }
 }
 
+// *------------------------------* //
+// *-------                -------* //
+// *------  FOOTER SECTION  ------* //
+// *--------                ------* //
+// *------------------------------* //
 
-// *------- CONTACT FORM SECTION -------* //
-
-
-
-#form-section {
-    background-color: var(--main-blue);
-    color: var(--main-beige);
-    padding: 120px 0 170px 0;
-    height: auto;
-    display: flex;
-    justify-content: center;
-
-    & >.form-container {
-        font-size: 20px;
-        text-align: center;
-
-        & >h2 {
-            font-size: 70px;
-            color: transparent;
-            -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: var(--main-beige);                
-            margin-bottom: 50px;
-        }
-
-        & >form {
-
-            
-
-            & >.form-element {
-            
-                & input {
-                    color: var(--main-blue);
-                    background-color: var(--main-beige);
-                    border: 2px solid var(--main-beige);
-                    border-radius: 20px;
-                    width: 400px;
-                    height: 40px;
-                    margin-top: 16px;
-                    padding-left: 16px;
-                    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
-                    outline: none;
-
-                    &::-webkit-input-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:-moz-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:focus {
-                        border: none;
-                        color: var(--main-beige);
-                        background-color: transparent;
-
-                        &::-webkit-input-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
-    
-                        &:-moz-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
-                    }
-                }
-
-                & >.invalid-email {
-                    border: 3px solid red !important;
-                    opacity: 0.8 !important;
-                }
-
-                & textarea {
-                    color: var(--main-blue);
-                    background-color: var(--main-beige);
-                    border: 2px solid var(--main-beige);
-                    border-radius: 20px;
-                    width: 450px;
-                    height: 150px;
-                    margin-top: 32px;
-                    padding: 16px 0 0 16px;
-                    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
-                    outline: none;
-
-                    &::-webkit-input-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:-moz-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:focus {
-                        border: none;
-                        color: var(--main-beige);
-                        background-color: transparent;
-
-                        &::-webkit-input-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
-    
-                        &:-moz-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
-                    }
-                }
-            }
-
-            & >button {
-                margin-top: 32px;
-                width: 400px;
-                height: 40px;
-                background-color: transparent;
-                color: var(--main-beige);
-                border: 2px solid var(--main-beige);
-                border-radius: 20px;
-    
-                &:hover {
-                    background-color: var(--main-altblue);
-                    color: var(--main-beige);
-                    border: none;
-                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-                }
-            }
-        }   
-    }
-}
-
-
-// *------- FOOTER SECTION -------* //
 
 
 .footer-line {
@@ -611,7 +502,6 @@
     color: var(--main-beige);
     padding: 30px 0 30px 0;
     font-size: 20px;
-    height: 500px;
     display: flex;
     justify-content: center;
 
