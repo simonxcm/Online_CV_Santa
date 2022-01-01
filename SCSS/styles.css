@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Gill Sans";
-  src: url(/FONT/GillSans.ttc) format(ttc);
+  src: url(/FONT/Gill\ Sans.otf) format(otf);
 }
 * {
   margin: 0;
@@ -31,20 +31,6 @@ html {
 
 .psa {
   position: absolute;
-}
-
-.thankyou-section {
-  height: 300px;
-}
-.thankyou-section h1 {
-  color: var(--main-blue);
-  text-align: center;
-  margin-top: 150px;
-}
-.thankyou-section h2 {
-  color: var(--main-blue);
-  text-align: center;
-  margin-top: 50px;
 }
 
 .header-container {
@@ -914,22 +900,6 @@ html {
   }
 }
 @media (max-width: 450px) {
-  .thankyou-section {
-    height: 180px;
-  }
-  .thankyou-section h1 {
-    color: var(--main-blue);
-    text-align: center;
-    margin-top: 100px;
-    font-size: 20px;
-  }
-  .thankyou-section h2 {
-    color: var(--main-blue);
-    text-align: center;
-    margin-top: 50px;
-    font-size: 12px;
-  }
-
   .header-container {
     height: 200px;
   }
@@ -984,9 +954,10 @@ html {
   }
 
   .bio {
-    font-size: 13px;
+    font-size: 16px;
     width: 280px;
     margin: 40px auto 60px auto;
+    text-align: center;
   }
   .bio > .blue-line {
     width: 30px;
