@@ -1368,17 +1368,9 @@
     }
 
     .bio {
-        font-size: 16px;
-        width: 280px;
+        font-size: 15px;
+        width: 320px;
         margin: 40px auto 60px auto;
-        text-align: center;
-
-
-        & >.blue-line {
-            width: 30px;
-            height: 2px;
-            transform: translateY(470%) translateX(-30%);
-        }
     }
 
 
