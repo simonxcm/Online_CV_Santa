@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Gill Sans';
-    src: url(/FONT/GillSans.otf) format(otf);
+    src: url(/FONT/GILLSANS.ttf) format(ttf);
 }
 
 * {
@@ -22,16 +22,3 @@ html {
     margin: 0;
 
 }
-
-.inl-bk {
-    display: inline-block;
-}
-
-.psr {
-    position: relative;
-}
-
-.psa {
-    position: absolute;
-}
-
