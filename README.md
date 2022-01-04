@@ -3,7 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Visual Identity] (#visual-identity)
+* [Visual Identity](#visual-identity)
 * [Setup](#setup)
 
 ## General info
