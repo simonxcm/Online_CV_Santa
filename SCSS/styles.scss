@@ -1,7 +1,9 @@
 @import 'commons';
 
 
-// *------- HEADER SECTION -------* //
+// *------------------------------------------* //
+// *------------  HEADER SECTION  ------------* //
+// *------------------------------------------* //
 
 
 .header-container {
@@ -65,15 +67,10 @@
 
             & img {
                 transform: translateY(-647%);
-                margin-right: 2%;
-            }
-
-            & :hover {
-                box-shadow: none;
             }
         }
         
-        & a {
+        & .contact-btn-link {
             text-decoration: none;
             color: var(--main-beige);
 
@@ -105,12 +102,13 @@
             }
 
             & :hover {
-
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                color: var(--main-blue);
+                background: none;
+                background-color: var(--main-beige);
+                border: 2px solid var(--main-beige);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
             }
         }
-    
-
     }
 
     & >.left-vhbox {
@@ -130,9 +128,373 @@
 }
 
 
+// *---------------------  HEADER MEDIA QUERIES  ---------------------* //
 
-// *------- BIO/PROFILE SECTION -------* //
 
+@media (max-width: 1400px) {
+
+    .header-container {
+        height: 600px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 150px;
+                transform: translateX(15%);
+            }
+
+            & >#second-santa {
+                font-size: 150px;
+                transform: translateX(16%) translateY(-96%);
+            }
+            
+            & >#first-deoliveira {
+                font-size: 75px;
+                transform: translateY(-240%);
+            }
+            
+            & >#second-deoliveira {
+                font-size: 75px;
+                transform: translateX(-2.2%) translateY(-335.5%);
+            }
+
+            & >#assistant {
+                font-size: 30px;
+                transform: translateY(-780%);
+            }
+            
+            & >#project-manager {
+                font-size: 30px;
+                transform: translateY(-800%);
+            }
+
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-550%);
+                }
+
+            }
+
+            & .contact-btn-link {
+
+                & >.email-me-button {
+                    transform: translateY(-583%);
+                }
+            }
+        }
+        
+        & >.left-vhbox {
+
+            & >.profile-picture {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+
+    .header-container {
+        height: 500px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 120px;
+                transform: translateX(15%) translateY(-30%);
+            }
+
+            & >#second-santa {
+                font-size: 120px;
+                transform: translateX(16%) translateY(-126%);
+            }
+            
+            & >#first-deoliveira {
+                font-size: 60px;
+                transform: translateY(-300%);
+            }
+            
+            & >#second-deoliveira {
+                font-size: 60px;
+                transform: translateX(-2.8%) translateY(-395.5%);
+            }
+
+            & >#assistant {
+                font-size: 25px;
+                transform: translateY(-900%);
+            }
+            
+            & >#project-manager {
+                font-size: 25px;
+                transform: translateY(-920%);
+            }
+
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-530%);
+                }
+
+            }
+
+            & .contact-btn-link {
+
+                & >.email-me-button {
+                    width: 180px;
+                    height: 40px;
+                    font-size: 15px;
+                    transform: translateY(-710%);
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+
+            & >.profile-picture {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .header-container {
+        height: 400px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 85px;
+                transform: translateX(15%) translateY(-60%);
+            }
+
+            & >#second-santa {
+                font-size: 85px;
+                transform: translateX(16%) translateY(-156%);
+                -webkit-text-stroke-width: 1px;
+            }
+            
+            & >#first-deoliveira {
+                font-size: 40px;
+                transform: translateY(-380%);
+                margin-right: 10px;
+            }
+            
+            & >#second-deoliveira {
+                font-size: 40px;
+                transform: translateX(-1.7%) translateY(-475.5%);
+                -webkit-text-stroke-width: 1px;
+            }
+
+            & >#assistant {
+                font-size: 22px;
+                transform: translateY(-800%);
+                margin-right: 10px;
+
+            }
+            
+            & >#project-manager {
+                font-size: 22px;
+                transform: translateY(-820%);
+                margin-right: 10px;
+
+            }
+
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-605%);
+                    width: 35px;
+                }
+
+            }
+
+            & .contact-btn-link {
+
+                & >.email-me-button {
+                    width: 140px;
+                    height: 30px;
+                    font-size: 10px;
+                    border-radius: 10px;
+                    transform: translateY(-750%);
+                    margin-right: 10px;
+
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+
+            & >.profile-picture {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .header-container {
+        height: 300px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 65px;
+                transform: translateX(15%) translateY(-170%);
+            }
+
+            & >#second-santa {
+                font-size: 65px;
+                transform: translateX(16%) translateY(-266%);
+                -webkit-text-stroke-width: 1px;
+            }
+            
+            & >#first-deoliveira {
+                font-size: 27px;
+                transform: translateY(-690%);
+                margin-right: 10px;
+            }
+            
+            & >#second-deoliveira {
+                font-size: 27px;
+                transform: translateX(-2.5%) translateY(-785.5%);
+                -webkit-text-stroke-width: 1px;
+            }
+
+            & >#assistant {
+                font-size: 15px;
+                transform: translateY(-1350%);
+                margin-right: 10px;
+
+            }
+            
+            & >#project-manager {
+                font-size: 15px;
+                transform: translateY(-1370%);
+                margin-right: 10px;
+
+            }
+
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-813%);
+                    width: 30px;
+                }
+
+            }
+
+            & .contact-btn-link {
+
+                & >.email-me-button {
+                    width: 100px;
+                    height: 25px;
+                    font-size: 8px;
+                    border-radius: 8px;
+                    transform: translateY(-1020%);
+                    margin-right: 10px;
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+            margin-top: 50px;
+            & >.profile-picture {
+                width: 200px;
+                height: 200px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .header-container {
+        height: 200px;
+
+        &>.right-vhbox {
+
+            &>#first-santa {
+                font-size: 50px;
+                transform: translateX(15%) translateY(-270%);
+            }
+
+            & >#second-santa {
+                font-size: 50px;
+                transform: translateX(16%) translateY(-366%);
+                -webkit-text-stroke-width: 1px;
+            }
+            
+            & >#first-deoliveira {
+                font-size: 21px;
+                transform: translateY(-920%);
+                margin-right: 10px;
+            }
+            
+            & >#second-deoliveira {
+                font-size: 21px;
+                transform: translateX(-4.3%) translateY(-1013%);
+                -webkit-text-stroke-width: 1px;
+            }
+
+            & >#assistant {
+                font-size: 13px;
+                transform: translateY(-1600%);
+                margin-right: 10px;
+
+            }
+            
+            & >#project-manager {
+                font-size: 13px;
+                transform: translateY(-1620%);
+                margin-right: 10px;
+
+            }
+
+            & .linkedin-icon {
+
+                & img {
+                    transform: translateY(-990%);
+                    width: 25px;
+                }
+
+            }
+
+            & .contact-btn-link {
+
+                & >.email-me-button {
+                    width: 80px;
+                    height: 22px;
+                    font-size: 8px;
+                    border-radius: 6px;
+                    transform: translateY(-1165%);
+                    margin-right: 10px;
+                }
+            } 
+        }
+
+        & >.left-vhbox {
+            margin-top: 35px;
+            & >.profile-picture {
+                width: 150px;
+                height: 150px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+
+// *------------------------------------------* //
+// *--------------  BIO SECTION  -------------* //
+// *------------------------------------------* //
 
 
 .bio {
@@ -165,28 +527,67 @@
               }
               
             @keyframes highlight {
-            0% {
-                width: 0;
-                opacity: 0;
-            }
-            
-            50% {
-                width: 100%;
-                opacity: 1;
-            }
-            
+                0% {
+                    width: 0;
+                    opacity: 0;
+                }
+                
+                50% {
+                    width: 100%;
+                    opacity: 1;
+                }
             }
         }
-
     }
-
-
 }
 
 
+// *---------------------  BIO MEDIA QUERIES  ---------------------* //
 
-// *------- EXPERIENCE SECTION -------* //
 
+@media (max-width: 1160px) {
+
+    .bio {
+        font-size: 22px;
+        width: 700px;
+
+        & >.blue-line {
+            transform: translateY(480%) translateX(-50%);
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .bio {
+        font-size: 19px;
+        width: 600px;
+        margin: 50px auto 100px auto;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .bio {
+        font-size: 17px;
+        width: 372px;
+        margin: 10px auto 70px auto;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .bio {
+        font-size: 15px;
+        width: 320px;
+        margin: 40px auto 60px auto;
+    }
+}
+
+
+// *-------------------------------------------------* //
+// *--------------  EXPERIENCE SECTION  -------------* //
+// *-------------------------------------------------* //
 
 
 .xp-section {
@@ -288,8 +689,175 @@
     } 
 }
 
+// *---------------------  EXPERIENCE MEDIA QUERIES  ---------------------* //
 
-// *------- ROSA PARKS SAYING SECTION -------* //
+
+@media (max-width: 1160px) {
+
+    .xp-section {
+
+        & >.xp-container {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .xp-section {
+        background-color: var(--main-blue);
+        color: var(--main-beige);
+        height: auto;
+    
+        & >.xp-container {
+
+            & >.xp-chrono {
+
+                & >.line-out-top {
+                    height: 370px;
+
+                }
+
+                & .line-in {
+                    height: 200px;
+                }
+    
+                & >.line-out-down {
+                    height: 370px;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .xp-section {
+
+        & >.xp-container {
+            width: 70%;
+            
+            & >.xp-title {
+                writing-mode: vertical-lr;
+                font-size: 22px;
+                color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: var(--main-beige);
+
+                & h2 {
+                    text-align: left;
+                }
+            }
+
+            & >.xp-chrono {
+
+                & >.line-out-top {
+                    height: 270px;
+
+                }
+
+                & .line-in {
+                    height: 200px;
+                }
+    
+                & >.line-out-down {
+                    height: 270px;
+
+                }
+            }
+
+            & .xp-chrono {
+                margin: 0;
+            }
+
+            & .xp-content {
+
+                & :nth-child(1) {
+                    margin-top: 30px;
+                }
+
+                & .xp-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .xp-section {
+
+        & >.xp-container {
+            
+            & >.xp-title {
+                writing-mode: vertical-lr;
+                font-size: 22px;
+                color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: var(--main-beige);
+
+                & h2 {
+                    text-align: left;
+                }
+            }
+
+            & >.xp-chrono {
+
+                & >.line-out-top {
+                    height: 230px;
+
+                }
+
+                & .line-in {
+                    height: 170px;
+                }
+    
+                & >.line-out-down {
+                    height: 230px;
+
+                }
+            }
+
+            & .xp-chrono {
+                margin: 0;
+                font-size: 20px;
+            }
+
+            & .xp-content {
+
+                & :nth-child(1) {
+                    margin-top: 30px;
+                }
+
+                & .xp-block {
+                    margin-bottom: 40px;
+
+                    & h4 {
+                        font-size: 15px;
+                    }
+
+                    & p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// *--------------------------------------------------------* //
+// *--------------  ROSA PARKS SAYING SECTION  -------------* //
+// *--------------------------------------------------------* //
 
 
 .saying-section {
@@ -298,10 +866,6 @@
     text-align: left;
     margin: 150px auto 150px auto;
     height: auto;
-
-    & >.quote-up {
-        transform: translateY(40%);
-    }
 
     & >.saying-text {
         font-size: 50px;
@@ -316,17 +880,90 @@
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
         -webkit-text-stroke-color: var(--main-altblue);
-        transform: translateY(-20%);
+        transform: translateY(20%);
+    }
+}
 
-        & >.quote-down {
-            transform: translateX(470%) translateY(-30%);
 
+// *---------------------  ROSA PARKS SAYING MEDIA QUERIES  ---------------------* //
+
+
+@media (max-width: 1400px) {
+
+    .saying-section {
+
+        & .saying-text {
+
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .saying-section {
+
+        & >.quote-up {
+
+            & img {
+                width: 45px;
+            }
+        }
+
+        & .saying-text {
+
+            font-size: 30px;
+        }
+    
+        & .saying-author {
+
+            & .quote-down {
+                width: 45px;
+            }
+        }
+
+        & .saying-author {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .saying-section {
+
+        margin: 100px auto 100px auto;
+
+        & >.quote-up {
+
+            & img {
+                width: 30px;
+            }
+        }
+
+        & .saying-text {
+
+            font-size: 25px;
+        }
+    
+        & .saying-author {
+
+            & .quote-down {
+                width: 30px;
+            }
+        }
+
+        & .saying-author {
+            font-size: 25px;
+            -webkit-text-stroke-width: 1px;
         }
     }
 }
 
 
-// *------- STUDIES SECTION -------* //
+// *----------------------------------------------* //
+// *--------------  STUDIES SECTION  -------------* //
+// *----------------------------------------------* //
 
 
 .studies-section {
@@ -352,7 +989,6 @@
             }
         }
 
-        
         & >.studies-chrono {
             margin: 0 40px 0 40px;
             font-size: 30px;
@@ -421,7 +1057,131 @@
 }
 
 
-// *------- SKILLS SECTION -------* //
+// *---------------------  STUDIES MEDIA QUERIES  ---------------------* //
+
+
+@media (max-width: 1400px) {
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 240px 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 150px 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 0 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .studies-section {
+
+        & .studies-container {
+            width: 70%;
+
+            & .studies-title {
+                font-size: 22px;
+                margin: 40px 0 0 0;
+                -webkit-text-stroke-width: 1px;
+
+                & h2 {
+                    text-align: left;
+                }
+
+            }
+            
+            & .studies-content {
+                margin: 0 0 0 40px;
+
+                & .studies-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .studies-section {
+
+        & .studies-container {
+            width: 70%;
+
+            & .studies-title {
+                font-size: 22px;
+                margin: 40px 40px 0 0;
+                -webkit-text-stroke-width: 1px;
+
+                & h2 {
+                    text-align: left;
+                }
+            }
+
+            & .studies-chrono {
+                margin: 0 ;
+                font-size: 20px;
+            }
+            
+            & .studies-content {
+                margin: 0 0 0 40px;
+
+                & .studies-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// *---------------------------------------------* //
+// *--------------  SKILLS SECTION  -------------* //
+// *---------------------------------------------* //
 
 
 .skills-section {
@@ -477,136 +1237,84 @@
 }
 
 
-
-// *------- CONTACT FORM SECTION -------* //
-
+// *---------------------  SKILLS MEDIA QUERIES  ---------------------* //
 
 
-#form-section {
-    background-color: var(--main-blue);
-    color: var(--main-beige);
-    padding: 120px 0 170px 0;
-    height: auto;
-    display: flex;
-    justify-content: center;
+@media (max-width: 650px) {
 
-    & >.form-container {
-        font-size: 20px;
-        text-align: center;
+    .skills-section {
 
-        & >form {
+        & >.skills-container {
 
-            & >h2 {
-                font-size: 70px;
-                color: transparent;
-                -webkit-text-stroke-width: 2px;
-                -webkit-text-stroke-color: var(--main-beige);                margin-bottom: 50px;
-            }
-
-            & >.form-element {
-            
-
-                & input {
-                    color: var(--main-blue);
-                    background-color: var(--main-beige);
-                    border: 2px solid var(--main-beige);
-                    border-radius: 20px;
-                    width: 400px;
-                    height: 40px;
-                    margin-top: 16px;
-                    padding-left: 16px;
-                    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
-                    outline: none;
-
-                    &::-webkit-input-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:-moz-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:focus {
-                        border: none;
-                        color: var(--main-beige);
-                        background-color: transparent;
-
-                        &::-webkit-input-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
+            & >.skills-stars {
     
-                        &:-moz-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
-                    }
+                & ul {
+                    margin-right: 20px;
                 }
-
-                & textarea {
-                    color: var(--main-blue);
-                    background-color: var(--main-beige);
-                    border: 2px solid var(--main-beige);
-                    border-radius: 20px;
-                    width: 450px;
-                    height: 150px;
-                    margin-top: 32px;
-                    padding: 16px 0 0 16px;
-                    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
-                    outline: none;
-
-                    &::-webkit-input-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:-moz-placeholder {
-                        color: var(--main-blue);
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-
-                    &:focus {
-                        border: none;
-                        color: var(--main-beige);
-                        background-color: transparent;
-
-                        &::-webkit-input-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
     
-                        &:-moz-placeholder {
-                            color: var(--main-beige);
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        }
+                & li {
+                    line-height: 132%;
+
+                    & img {
+                        width: 20px;
                     }
                 }
             }
-        }
-
-        & >button {
-            margin-top: 32px;
-            width: 400px;
-            height: 40px;
-            background-color: transparent;
-            color: var(--main-beige);
-            border: 2px solid var(--main-beige);
-            border-radius: 20px;
-
-            &:hover {
-                background-color: var(--main-altblue);
-                color: var(--main-beige);
-                border: none;
-                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+            & >.skills-names {
+                font-size: 20px;
+    
+                & ul {
+                    margin-left: 20px;
+                }
+    
+                & li {
+                    line-height: 200%;
+                }
             }
         }
     }
 }
 
+@media (max-width: 450px) {
 
-// *------- FOOTER SECTION -------* //
+    .skills-section {
+
+        & >.skills-container {
+
+            & >.skills-stars {
+    
+                & ul {
+                    margin-right: 20px;
+                }
+    
+                & li {
+                    line-height: 98%;
+
+                    & img {
+                        width: 15px;
+                    }
+                }
+            }
+    
+            & >.skills-names {
+                font-size: 15px;
+    
+                & ul {
+                    margin-left: 20px;
+                }
+    
+                & li {
+                    line-height: 200%;
+                }
+            }
+        }
+    }
+}
+
+// *---------------------------------------------* //
+// *--------------  FOOTER SECTION  -------------* //
+// *---------------------------------------------* //
 
 
 .footer-line {
@@ -620,7 +1328,6 @@
     color: var(--main-beige);
     padding: 30px 0 30px 0;
     font-size: 20px;
-    height: auto;
     display: flex;
     justify-content: center;
 
@@ -656,966 +1363,4 @@
             }
         }
     }
-
-}
-
-
-// *------- MEDIA QUERIES -------* //
-
-
-@media (max-width: 1400px) {
-
-    // *------- HEADER MAX 1400PX MEDIA QUERIES -------* //
-
-    .header-container {
-        height: 600px;
-
-        &>.right-vhbox {
-
-            &>#first-santa {
-                font-size: 150px;
-                transform: translateX(15%);
-            }
-
-            & >#second-santa {
-                font-size: 150px;
-                transform: translateX(16%) translateY(-96%);
-            }
-            
-            & >#first-deoliveira {
-                font-size: 75px;
-                transform: translateY(-240%);
-            }
-            
-            & >#second-deoliveira {
-                font-size: 75px;
-                transform: translateX(-2.2%) translateY(-335.5%);
-            }
-
-            & >#assistant {
-                font-size: 30px;
-                transform: translateY(-780%);
-            }
-            
-            & >#project-manager {
-                font-size: 30px;
-                transform: translateY(-800%);
-            }
-
-            & .linkedin-icon {
-
-                & img {
-                    transform: translateY(-550%);
-                }
-
-            }
-
-            & a {
-                & >.email-me-button {
-                    transform: translateY(-583%);
-                }
-            }
-        }
-        
-
-        & >.left-vhbox {
-
-            & >.profile-picture {
-                width: 500px;
-                height: 500px;
-            }
-        }
-    }
-
-    // *------- ROSA PARKS SAYING MAX 1400PX MEDIA QUERIES -------* //
-
-    .saying-section {
-
-        & .saying-text {
-
-            width: 90%;
-        }
-        
-        & .saying-author {
-
-            & .quote-down {
-
-                transform: translateX(20%) translateY(30%);
-
-            }
-        }
-    }
-
-    // *------- STUDIES MAX 1400PX MEDIA QUERIES -------* //
-
-    .studies-section {
-
-        & .studies-container {
-            
-            & .studies-content {
-
-                margin: 0 240px 0 40px;
-            }
-        }
-    }
-
-}
-
-@media (max-width: 1160px) {
-
-    // *------- HEADER MEDIA QUERIES -------* //
-
-    .header-container {
-        height: 500px;
-
-        &>.right-vhbox {
-
-            &>#first-santa {
-                font-size: 120px;
-                transform: translateX(15%) translateY(-30%);
-            }
-
-            & >#second-santa {
-                font-size: 120px;
-                transform: translateX(16%) translateY(-126%);
-            }
-            
-            & >#first-deoliveira {
-                font-size: 60px;
-                transform: translateY(-300%);
-            }
-            
-            & >#second-deoliveira {
-                font-size: 60px;
-                transform: translateX(-2.8%) translateY(-395.5%);
-            }
-
-            & >#assistant {
-                font-size: 25px;
-                transform: translateY(-900%);
-            }
-            
-            & >#project-manager {
-                font-size: 25px;
-                transform: translateY(-920%);
-            }
-
-            & .linkedin-icon {
-
-                & img {
-                    transform: translateY(-530%);
-                }
-
-            }
-
-            & a {
-                & >.email-me-button {
-                    width: 180px;
-                    height: 40px;
-                    font-size: 15px;
-                    transform: translateY(-710%);
-                }
-            } 
-        }
-
-        & >.left-vhbox {
-
-            & >.profile-picture {
-                width: 400px;
-                height: 400px;
-            }
-        }
-    }
-
-    .bio {
-        font-size: 22px;
-        width: 700px;
-
-        & >.blue-line {
-            transform: translateY(480%) translateX(-50%);
-        }
-    }
-
-    // *------- EXPERIENCE MAX 1160PX MEDIA QUERIES -------* //
-
-    .xp-section {
-
-        & >.xp-container {
-            width: 80%;
-        }
-    }
-
-
-    // *------- STUDIES SAYING MAX 1160PX MEDIA QUERIES -------* //
-
-    .studies-section {
-
-        & .studies-container {
-            
-            & .studies-content {
-
-                margin: 0 150px 0 40px;
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 950px) {
-
-
-    // *------- HEADER MEDIA QUERIES -------* //
-
-
-    .header-container {
-        height: 400px;
-
-        &>.right-vhbox {
-
-            &>#first-santa {
-                font-size: 85px;
-                transform: translateX(15%) translateY(-60%);
-            }
-
-            & >#second-santa {
-                font-size: 85px;
-                transform: translateX(16%) translateY(-156%);
-                -webkit-text-stroke-width: 1px;
-            }
-            
-            & >#first-deoliveira {
-                font-size: 40px;
-                transform: translateY(-380%);
-                margin-right: 10px;
-            }
-            
-            & >#second-deoliveira {
-                font-size: 40px;
-                transform: translateX(-1.7%) translateY(-475.5%);
-                -webkit-text-stroke-width: 1px;
-            }
-
-            & >#assistant {
-                font-size: 22px;
-                transform: translateY(-800%);
-                margin-right: 10px;
-
-            }
-            
-            & >#project-manager {
-                font-size: 22px;
-                transform: translateY(-820%);
-                margin-right: 10px;
-
-            }
-
-            & .linkedin-icon {
-
-                & img {
-                    transform: translateY(-605%);
-                    width: 35px;
-                    margin-right: 1%;
-                }
-
-            }
-
-            & a {
-                & >.email-me-button {
-                    width: 140px;
-                    height: 30px;
-                    font-size: 10px;
-                    border-radius: 10px;
-                    transform: translateY(-750%);
-                    margin-right: 10px;
-
-                }
-            } 
-        }
-
-        & >.left-vhbox {
-
-            & >.profile-picture {
-                width: 300px;
-                height: 300px;
-            }
-        }
-    }
-
-    .bio {
-        font-size: 19px;
-        width: 600px;
-        margin: 50px auto 100px auto;
-
-
-        & >.blue-line {
-            width: 45px;
-            height: 2px;
-            transform: translateY(530%) translateX(-30%);
-        }
-    }
-
-
-    // *------- EXPERIENCE MAX 950PX MEDIA QUERIES -------* /
-
-    .xp-section {
-        background-color: var(--main-blue);
-        color: var(--main-beige);
-        height: auto;
-    
-        & >.xp-container {
-
-
-            
-            & >.xp-chrono {
-
-                & >.line-out-top {
-                    height: 370px;
-
-                }
-
-                & .line-in {
-                    height: 200px;
-                }
-    
-                & >.line-out-down {
-                    height: 370px;
-
-                }
-            }
-        }
-    }
-        
-        
-    // *------- ROSA PARKS SAYING MAX 950PX MEDIA QUERIES -------* //
-
-    .saying-section {
-        
-        & .saying-author {
-
-            & .quote-down {
-
-                transform: translateX(20%) translateY(30%);
-
-            }
-        }
-    }
-
-    // *------- STUDIES SAYING MAX 950PX MEDIA QUERIES -------* //
-
-    .studies-section {
-
-        & .studies-container {
-            
-            & .studies-content {
-
-                margin: 0 0 0 40px;
-            }
-        }
-    }
-
-    // *------- CONTACT FORM MAX 950PX MEDIA QUERIES -------* //
-
-    #form-section {
-
-        & .form-container {
-
-            & form {
-
-                & h2 {
-                    font-size: 60px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 650px) {
-
-
-    // *------- HEADER MEDIA QUERIES -------* /
-
-
-    .header-container {
-        height: 300px;
-
-        &>.right-vhbox {
-
-            &>#first-santa {
-                font-size: 65px;
-                transform: translateX(15%) translateY(-170%);
-            }
-
-            & >#second-santa {
-                font-size: 65px;
-                transform: translateX(16%) translateY(-266%);
-                -webkit-text-stroke-width: 1px;
-            }
-            
-            & >#first-deoliveira {
-                font-size: 27px;
-                transform: translateY(-690%);
-                margin-right: 10px;
-            }
-            
-            & >#second-deoliveira {
-                font-size: 27px;
-                transform: translateX(-2.5%) translateY(-785.5%);
-                -webkit-text-stroke-width: 1px;
-            }
-
-            & >#assistant {
-                font-size: 15px;
-                transform: translateY(-1350%);
-                margin-right: 10px;
-
-            }
-            
-            & >#project-manager {
-                font-size: 15px;
-                transform: translateY(-1370%);
-                margin-right: 10px;
-
-            }
-
-            & .linkedin-icon {
-
-                & img {
-                    transform: translateY(-813%);
-                    width: 30px;
-                    margin-right: 1%;
-                }
-
-            }
-
-            & a {
-                & >.email-me-button {
-                    width: 100px;
-                    height: 25px;
-                    font-size: 8px;
-                    border-radius: 8px;
-                    transform: translateY(-1020%);
-                    margin-right: 10px;
-                }
-            } 
-        }
-
-        & >.left-vhbox {
-            margin-top: 50px;
-            & >.profile-picture {
-                width: 200px;
-                height: 200px;
-                border-radius: 20px;
-            }
-        }
-    }
-
-    .bio {
-        font-size: 17px;
-        width: 372px;
-        margin: 10px auto 70px auto;
-
-
-        & >.blue-line {
-            width: 30px;
-            height: 2px;
-            transform: translateY(500%) translateX(-10%);
-        }
-    }
-
-
-    // *------- EXPERIENCE MAX 650PX MEDIA QUERIES -------* /
-
-    .xp-section {
-
-        & >.xp-container {
-            width: 70%;
-            
-            & >.xp-title {
-                writing-mode: vertical-lr;
-                font-size: 22px;
-                color: transparent;
-                -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: var(--main-beige);
-
-                & h2 {
-                    text-align: left;
-                }
-            }
-
-            & >.xp-chrono {
-
-                & >.line-out-top {
-                    height: 270px;
-
-                }
-
-                & .line-in {
-                    height: 200px;
-                }
-    
-                & >.line-out-down {
-                    height: 270px;
-
-                }
-            }
-
-            & .xp-chrono {
-                margin: 0;
-            }
-
-            & .xp-content {
-
-                & :nth-child(1) {
-                    margin-top: 30px;
-                }
-
-                & .xp-block {
-
-                    & h4 {
-                        font-size: 18px;
-                    }
-
-                    & p {
-                        font-size: 15px;
-                    }
-                }
-            }
-        }
-    }
-
-    // *------- ROSA PARKS SAYING MAX 650PX MEDIA QUERIES -------* //
-
-    .saying-section {
-
-        & >.quote-up {
-
-            & img {
-                width: 45px;
-            }
-        }
-
-        & .saying-text {
-
-            font-size: 30px;
-        }
-    
-        & .saying-author {
-
-            & .quote-down {
-                width: 45px;
-                transform:  translateY(30%);
-            }
-        }
-
-        & .saying-author {
-            font-size: 40px;
-        }
-    }
-
-    // *------- STUDIES MAX 650PX MEDIA QUERIES -------* //
-
-    .studies-section {
-
-        & .studies-container {
-            width: 70%;
-
-            & .studies-title {
-                font-size: 22px;
-                margin: 40px 0 0 0;
-                -webkit-text-stroke-width: 1px;
-
-                & h2 {
-                    text-align: left;
-                }
-
-            }
-            
-            & .studies-content {
-                margin: 0 0 0 40px;
-
-                & .studies-block {
-
-                    & h4 {
-                        font-size: 18px;
-                    }
-
-                    & p {
-                        font-size: 15px;
-                    }
-                }
-            }
-        }
-    }
-
-    // *------- SKILLS MAX 650PX MEDIA QUERIES -------* //
-
-
-    .skills-section {
-
-        & >.skills-container {
-
-            & >.skills-stars {
-    
-                & ul {
-                    margin-right: 20px;
-                }
-    
-                & li {
-                    line-height: 132%;
-
-                    & img {
-                        width: 20px;
-                    }
-                }
-            }
-    
-            & >.skills-names {
-                font-size: 20px;
-    
-                & ul {
-                    margin-left: 20px;
-                }
-    
-                & li {
-                    line-height: 200%;
-                }
-            }
-
-        }
-        
-    }
-
-    // *------- CONTACT FORM MAX 650PX MEDIA QUERIES -------* //
-
-    #form-section {
-
-        & .form-container {
-
-            & form {
-
-                & h2 {
-                    font-size: 45px;
-                }
-
-                & .form-element {
-
-                    & input {
-                        width: 350px;
-                    }
-    
-                    & textarea {
-                        width: 400px;
-                    }
-                }
-            }
-
-            & button {
-                width: 350px;
-            }
-        }
-    }
-}
-
-@media (max-width: 450px) {
-
-
-    // *------- HEADER MEDIA QUERIES -------* //
-
-
-    .header-container {
-        height: 200px;
-
-        &>.right-vhbox {
-
-            &>#first-santa {
-                font-size: 50px;
-                transform: translateX(15%) translateY(-270%);
-            }
-
-            & >#second-santa {
-                font-size: 50px;
-                transform: translateX(16%) translateY(-366%);
-                -webkit-text-stroke-width: 1px;
-            }
-            
-            & >#first-deoliveira {
-                font-size: 21px;
-                transform: translateY(-920%);
-                margin-right: 10px;
-            }
-            
-            & >#second-deoliveira {
-                font-size: 21px;
-                transform: translateX(-4.3%) translateY(-1013%);
-                -webkit-text-stroke-width: 1px;
-            }
-
-            & >#assistant {
-                font-size: 13px;
-                transform: translateY(-1600%);
-                margin-right: 10px;
-
-            }
-            
-            & >#project-manager {
-                font-size: 13px;
-                transform: translateY(-1620%);
-                margin-right: 10px;
-
-            }
-
-            & .linkedin-icon {
-
-                & img {
-                    transform: translateY(-990%);
-                    width: 25px;
-                    margin-right: 1%;
-                }
-
-            }
-
-            & a {
-                & >.email-me-button {
-                    width: 80px;
-                    height: 22px;
-                    font-size: 8px;
-                    border-radius: 6px;
-                    transform: translateY(-1165%);
-                    margin-right: 10px;
-                }
-            } 
-        }
-
-        & >.left-vhbox {
-            margin-top: 35px;
-            & >.profile-picture {
-                width: 150px;
-                height: 150px;
-                border-radius: 15px;
-            }
-        }
-    }
-
-    .bio {
-        font-size: 13px;
-        width: 280px;
-        margin: 40px auto 60px auto;
-
-
-        & >.blue-line {
-            width: 30px;
-            height: 2px;
-            transform: translateY(470%) translateX(-30%);
-        }
-    }
-
-
-    // *------- EXPERIENCE MAX 450PX MEDIA QUERIES -------* /
-
-    .xp-section {
-
-        & >.xp-container {
-            
-            & >.xp-title {
-                writing-mode: vertical-lr;
-                font-size: 22px;
-                color: transparent;
-                -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: var(--main-beige);
-
-                & h2 {
-                    text-align: left;
-                }
-            }
-
-            & >.xp-chrono {
-
-                & >.line-out-top {
-                    height: 230px;
-
-                }
-
-                & .line-in {
-                    height: 170px;
-                }
-    
-                & >.line-out-down {
-                    height: 230px;
-
-                }
-            }
-
-            & .xp-chrono {
-                margin: 0;
-                font-size: 20px;
-            }
-
-            & .xp-content {
-
-                & :nth-child(1) {
-                    margin-top: 30px;
-                }
-
-                & .xp-block {
-                    margin-bottom: 40px;
-
-                    & h4 {
-                        font-size: 15px;
-                    }
-
-                    & p {
-                        font-size: 13px;
-                    }
-                }
-            }
-        }
-    }
-
-    // *------- ROSA PARKS SAYING MAX 450PX MEDIA QUERIES -------* //
-
-    .saying-section {
-
-        margin: 100px auto 100px auto;
-
-
-        & >.quote-up {
-
-            & img {
-                width: 30px;
-            }
-        }
-
-        & .saying-text {
-
-            font-size: 25px;
-        }
-    
-        & .saying-author {
-
-            & .quote-down {
-                width: 30px;
-                transform:  translateY(30%);
-            }
-        }
-
-        & .saying-author {
-            font-size: 25px;
-            -webkit-text-stroke-width: 1px;
-
-        }
-    }
-
-        // *------- STUDIES SAYING MAX 450PX MEDIA QUERIES -------* //
-
-        .studies-section {
-
-            & .studies-container {
-                width: 70%;
-    
-                & .studies-title {
-                    font-size: 22px;
-                    margin: 40px 40px 0 0;
-                    -webkit-text-stroke-width: 1px;
-    
-                    & h2 {
-                        text-align: left;
-                    }
-    
-                }
-
-                & .studies-chrono {
-                    margin: 0 ;
-                    font-size: 20px;
-                }
-                
-                & .studies-content {
-                    margin: 0 0 0 40px;
-    
-                    & .studies-block {
-    
-                        & h4 {
-                            font-size: 18px;
-                        }
-    
-                        & p {
-                            font-size: 15px;
-                        }
-                    }
-                }
-            }
-        }
-
-    // *------- SKILLS MAX 450PX MEDIA QUERIES -------* //
-
-
-    .skills-section {
-
-        & >.skills-container {
-
-            & >.skills-stars {
-    
-                & ul {
-                    margin-right: 20px;
-                }
-    
-                & li {
-                    line-height: 98%;
-
-                    & img {
-                        width: 15px;
-                    }
-                }
-            }
-    
-            & >.skills-names {
-                font-size: 15px;
-    
-                & ul {
-                    margin-left: 20px;
-                }
-    
-                & li {
-                    line-height: 200%;
-                }
-            }
-
-        }
-        
-    }
-
-
-
-    // *------- CONTACT FORM MAX 650PX MEDIA QUERIES -------* //
-
-
-
-    #form-section {
-
-        & .form-container {
-
-            & form {
-
-                & h2 {
-                    font-size: 36px;
-                }
-
-                & .form-element {
-
-                    & input {
-                        width: 230px;
-                    }
-    
-                    & textarea {
-                        width: 300px;
-                    }
-                }
-            }
-
-            & button {
-                width: 230px;
-            }
-        }
-    }
-
 }
