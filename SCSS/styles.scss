@@ -5,6 +5,21 @@
 // *------------  HEADER SECTION  ------------* //
 // *------------------------------------------* //
 
+.english-version {
+    display: flex;
+    margin: auto;
+    width: 30px;
+    height: 100px;
+    background-color: var(--main-blue);
+    border-radius: 10px;
+
+    & >p {
+        writing-mode: vertical-lr;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: var(--main-beige);
+    }
+}
 
 .header-container {
     display: flex;
