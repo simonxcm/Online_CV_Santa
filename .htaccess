@@ -1,1 +1,5 @@
 DirectoryIndex homepage.html
+DirectoryIndex homepage.html
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://santadeoliveira.com/$1 [R=301,L]
