@@ -24,19 +24,19 @@
     position: relative;
     height: 750px;
 
-    & >.right-vhbox {
+    >.right-vhbox {
         text-align: right;
         margin-top: 210px;
         width: 50%;
 
-        & >#first-santa {
+        >#first-santa {
             font-size: 180px;
             font-weight: bold;
             color: var(--main-blue);
             transform: translateX(15%);
         }
         
-        & >#second-santa {
+        >#second-santa {
             font-size: 180px;
             font-weight: bold;
             color: transparent;
@@ -45,7 +45,7 @@
             transform: translateX(16%) translateY(-96%);
         }
         
-        & >#first-deoliveira {
+        >#first-deoliveira {
             font-size: 90px;
             font-weight: bold;
             color: var(--main-blue);
@@ -53,7 +53,7 @@
             margin-right: 20px;
         }
         
-        & >#second-deoliveira {
+        >#second-deoliveira {
             font-size: 90px;
             font-weight: bold;
             color: transparent;
@@ -62,32 +62,32 @@
             transform: translateX(-1.8%) translateY(-335.5%);
         }
         
-        & >#assistant {
+        >#assistant {
             font-size: 40px;
             color: var(--main-darkgrey);
             margin-right: 20px;
             transform: translateY(-710%);
         }
         
-        & >#project-manager {
+        >#project-manager {
             font-size: 40px;
             color: var(--main-darkgrey);
             margin-right: 20px;
             transform: translateY(-730%);
         }
 
-        & .linkedin-icon {
+        .linkedin-icon {
 
-            & img {
+            img {
                 transform: translateY(-647%);
             }
         }
         
-        & .contact-btn-link {
+        .contact-btn-link {
             text-decoration: none;
             color: var(--main-beige);
 
-            & >.email-me-button {
+            >.email-me-button {
                 width: 220px;
                 height: 50px;
                 margin-right: 20px;
@@ -114,7 +114,7 @@
                 }
             }
 
-            & :hover {
+            :hover {
                 color: var(--main-blue);
                 background: none;
                 background-color: var(--main-beige);
@@ -124,11 +124,11 @@
         }
     }
 
-    & >.left-vhbox {
+    >.left-vhbox {
         margin-top: 80px;
         width: 50%;
 
-        & >.profile-picture {
+        >.profile-picture {
             background-image: url(/MEDIAS/profile-picture.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -154,39 +154,39 @@
     .header-container {
         height: 600px;
 
-        &>.right-vhbox {
+        >.right-vhbox {
 
-            &>#first-santa {
+            >#first-santa {
                 font-size: 150px;
                 transform: translateX(15%);
             }
 
-            & >#second-santa {
+            >#second-santa {
                 font-size: 150px;
                 transform: translateX(16%) translateY(-96%);
             }
             
-            & >#first-deoliveira {
+            >#first-deoliveira {
                 font-size: 75px;
                 transform: translateY(-240%);
             }
             
-            & >#second-deoliveira {
+            >#second-deoliveira {
                 font-size: 75px;
                 transform: translateX(-2.2%) translateY(-335.5%);
             }
 
-            & >#assistant {
+            >#assistant {
                 font-size: 30px;
                 transform: translateY(-780%);
             }
             
-            & >#project-manager {
+            >#project-manager {
                 font-size: 30px;
                 transform: translateY(-800%);
             }
 
-            & .linkedin-icon {
+            .linkedin-icon {
 
                 & img {
                     transform: translateY(-550%);
@@ -194,17 +194,17 @@
 
             }
 
-            & .contact-btn-link {
+            .contact-btn-link {
 
-                & >.email-me-button {
+                >.email-me-button {
                     transform: translateY(-583%);
                 }
             }
         }
         
-        & >.left-vhbox {
+        >.left-vhbox {
 
-            & >.profile-picture {
+            >.profile-picture {
                 width: 500px;
                 height: 500px;
             }
@@ -222,49 +222,49 @@
     .header-container {
         height: 500px;
 
-        &>.right-vhbox {
+        >.right-vhbox {
 
-            &>#first-santa {
+            >#first-santa {
                 font-size: 120px;
                 transform: translateX(15%) translateY(-30%);
             }
 
-            & >#second-santa {
+            >#second-santa {
                 font-size: 120px;
                 transform: translateX(16%) translateY(-126%);
             }
             
-            & >#first-deoliveira {
+            >#first-deoliveira {
                 font-size: 60px;
                 transform: translateY(-300%);
             }
             
-            & >#second-deoliveira {
+            >#second-deoliveira {
                 font-size: 60px;
                 transform: translateX(-2.8%) translateY(-395.5%);
             }
 
-            & >#assistant {
+            >#assistant {
                 font-size: 25px;
                 transform: translateY(-900%);
             }
             
-            & >#project-manager {
+            >#project-manager {
                 font-size: 25px;
                 transform: translateY(-920%);
             }
 
-            & .linkedin-icon {
+            .linkedin-icon {
 
-                & img {
+                img {
                     transform: translateY(-530%);
                 }
 
             }
 
-            & .contact-btn-link {
+            .contact-btn-link {
 
-                & >.email-me-button {
+                >.email-me-button {
                     width: 180px;
                     height: 40px;
                     font-size: 15px;
@@ -273,7 +273,7 @@
             } 
         }
 
-        & >.left-vhbox {
+        >.left-vhbox {
 
             & >.profile-picture {
                 width: 400px;
@@ -293,57 +293,57 @@
     .header-container {
         height: 400px;
 
-        &>.right-vhbox {
+        >.right-vhbox {
 
-            &>#first-santa {
+            >#first-santa {
                 font-size: 85px;
                 transform: translateX(15%) translateY(-60%);
             }
 
-            & >#second-santa {
+            >#second-santa {
                 font-size: 85px;
                 transform: translateX(16%) translateY(-156%);
                 -webkit-text-stroke-width: 1px;
             }
             
-            & >#first-deoliveira {
+            >#first-deoliveira {
                 font-size: 40px;
                 transform: translateY(-380%);
                 margin-right: 10px;
             }
             
-            & >#second-deoliveira {
+            >#second-deoliveira {
                 font-size: 40px;
                 transform: translateX(-1.7%) translateY(-475.5%);
                 -webkit-text-stroke-width: 1px;
             }
 
-            & >#assistant {
+            >#assistant {
                 font-size: 22px;
                 transform: translateY(-800%);
                 margin-right: 10px;
 
             }
             
-            & >#project-manager {
+            >#project-manager {
                 font-size: 22px;
                 transform: translateY(-820%);
                 margin-right: 10px;
 
             }
 
-            & .linkedin-icon {
+            .linkedin-icon {
 
-                & img {
+                img {
                     transform: translateY(-605%);
                     width: 35px;
                 }
 
             }
 
-            & .contact-btn-link {
+            .contact-btn-link {
 
-                & >.email-me-button {
+                >.email-me-button {
                     width: 140px;
                     height: 30px;
                     font-size: 10px;
@@ -355,9 +355,9 @@
             } 
         }
 
-        & >.left-vhbox {
+        >.left-vhbox {
 
-            & >.profile-picture {
+            >.profile-picture {
                 width: 300px;
                 height: 300px;
             }
@@ -374,57 +374,57 @@
     .header-container {
         height: 300px;
 
-        &>.right-vhbox {
+        >.right-vhbox {
 
-            &>#first-santa {
+            >#first-santa {
                 font-size: 65px;
                 transform: translateX(15%) translateY(-170%);
             }
 
-            & >#second-santa {
+            >#second-santa {
                 font-size: 65px;
                 transform: translateX(16%) translateY(-266%);
                 -webkit-text-stroke-width: 1px;
             }
             
-            & >#first-deoliveira {
+            >#first-deoliveira {
                 font-size: 27px;
                 transform: translateY(-690%);
                 margin-right: 10px;
             }
             
-            & >#second-deoliveira {
+            >#second-deoliveira {
                 font-size: 27px;
                 transform: translateX(-2.5%) translateY(-785.5%);
                 -webkit-text-stroke-width: 1px;
             }
 
-            & >#assistant {
+            >#assistant {
                 font-size: 15px;
                 transform: translateY(-1350%);
                 margin-right: 10px;
 
             }
             
-            & >#project-manager {
+            >#project-manager {
                 font-size: 15px;
                 transform: translateY(-1370%);
                 margin-right: 10px;
 
             }
 
-            & .linkedin-icon {
+            .linkedin-icon {
 
-                & img {
+                img {
                     transform: translateY(-813%);
                     width: 30px;
                 }
 
             }
 
-            & .contact-btn-link {
+            .contact-btn-link {
 
-                & >.email-me-button {
+                >.email-me-button {
                     width: 100px;
                     height: 25px;
                     font-size: 8px;
@@ -435,9 +435,10 @@
             } 
         }
 
-        & >.left-vhbox {
+        >.left-vhbox {
             margin-top: 50px;
-            & >.profile-picture {
+
+            >.profile-picture {
                 width: 200px;
                 height: 200px;
                 border-radius: 20px;
@@ -456,57 +457,57 @@
     .header-container {
         height: 200px;
 
-        &>.right-vhbox {
+        >.right-vhbox {
 
-            &>#first-santa {
+            >#first-santa {
                 font-size: 50px;
                 transform: translateX(15%) translateY(-270%);
             }
 
-            & >#second-santa {
+            >#second-santa {
                 font-size: 50px;
                 transform: translateX(16%) translateY(-366%);
                 -webkit-text-stroke-width: 1px;
             }
             
-            & >#first-deoliveira {
+            >#first-deoliveira {
                 font-size: 21px;
                 transform: translateY(-920%);
                 margin-right: 10px;
             }
             
-            & >#second-deoliveira {
+            >#second-deoliveira {
                 font-size: 21px;
                 transform: translateX(-4.3%) translateY(-1013%);
                 -webkit-text-stroke-width: 1px;
             }
 
-            & >#assistant {
+            >#assistant {
                 font-size: 13px;
                 transform: translateY(-1600%);
                 margin-right: 10px;
 
             }
             
-            & >#project-manager {
+            >#project-manager {
                 font-size: 13px;
                 transform: translateY(-1620%);
                 margin-right: 10px;
 
             }
 
-            & .linkedin-icon {
+            .linkedin-icon {
 
-                & img {
+                img {
                     transform: translateY(-990%);
                     width: 25px;
                 }
 
             }
 
-            & .contact-btn-link {
+            .contact-btn-link {
 
-                & >.email-me-button {
+                >.email-me-button {
                     width: 80px;
                     height: 22px;
                     font-size: 8px;
@@ -517,9 +518,10 @@
             } 
         }
 
-        & >.left-vhbox {
+        >.left-vhbox {
             margin-top: 35px;
-            & >.profile-picture {
+
+            >.profile-picture {
                 width: 150px;
                 height: 150px;
                 border-radius: 15px;
@@ -542,12 +544,12 @@
     font-weight: lighter;
     width: 930px;
     
-    & p {
+    p {
 
-        & >.highlight-animation {
+        >.highlight-animation {
             position: relative;
     
-            &:after {
+            :after {
                 content: "";
                 display: inline-block;
                 position: absolute;
@@ -588,7 +590,7 @@
         font-size: 22px;
         width: 700px;
 
-        & >.blue-line {
+        >.blue-line {
             transform: translateY(480%) translateX(-50%);
         }
     }
@@ -632,12 +634,12 @@
     color: var(--main-beige);
     height: auto;
 
-    & >.xp-container {
+    >.xp-container {
         display: flex;
         margin: auto;
         width: 66%;
         
-        & >.xp-title {
+    >.xp-title {
             writing-mode: vertical-lr;
             font-size: 50px;
             margin: 40px 40px 0 0;
@@ -646,12 +648,12 @@
             -webkit-text-stroke-color: var(--main-beige);
             margin-bottom: 50px;
 
-            & h2 {
+            h2 {
                 text-align: center;
             }
         }
         
-        & >.xp-chrono {
+        >.xp-chrono {
             margin: 0 40px 0 40px;
             font-size: 30px;
             font-weight: bold;
@@ -660,25 +662,25 @@
             justify-content: space-around;
             align-items: center;
 
-            & p {
+            page-break-after: ; {
                 margin: 50px 0 50px 0;
             }
 
-            & >.line-out-top {
+            >.line-out-top {
                 width: 3px;
                 height: 200px;
                 background-color: var(--main-beige);
                 border-radius: 0 0 10px 10px;
             }
 
-            & >.line-in {
+            >.line-in {
                 width: 3px;
                 height: 100px;
                 background-color: var(--main-beige);
                 border-radius: 10px;
             }
 
-            & >.line-out-down {
+            >.line-out-down {
                 width: 3px;
                 height: 200px;
                 background-color: var(--main-beige);
@@ -686,36 +688,36 @@
             }
         }
 
-        & >.xp-content {
+        >.xp-content {
             margin: 40px;
             height: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            & >:nth-child(1) {
+            >:nth-child(1) {
                 margin-top: 70px;
             }
 
-            & >.xp-block {
+            >.xp-block {
                 margin-bottom: 65px;
 
-                & >h4 {
+                >h4 {
                     font-size: 22px;
                     font-weight: normal;
 
-                    & >mark {
+                    >mark {
                         color: var(--main-blue);
                         background-color: var(--main-beige);
                     }
 
-                    & >a {
+                    >a {
                         text-decoration: none;
                         color: var(--main-beige);
                     }
                 }
 
-                & >p {
+                >p {
                     font-size: 19px;
                     font-weight: lighter;
                     margin-top: 15px;
