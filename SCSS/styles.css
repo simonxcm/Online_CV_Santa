@@ -700,8 +700,8 @@ html {
   position: relative;
 }
 .project-container > .video-vhbox:hover .video-thumbnail {
-  transition: 1s;
-  opacity: 0;
+  display: none;
+  transition: display 2s;
 }
 .project-container > .video-vhbox > .youtube-box {
   background-repeat: no-repeat;

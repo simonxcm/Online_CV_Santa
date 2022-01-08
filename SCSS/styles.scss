@@ -930,8 +930,8 @@
         position: relative;
 
         &:hover .video-thumbnail {
-            transition: 1s;
-            opacity: 0;
+            display: none;
+            transition: display 2s;
         }
 
         >.youtube-box {
