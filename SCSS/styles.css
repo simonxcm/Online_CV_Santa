@@ -496,7 +496,7 @@ html {
   }
 }
 #navbar {
-  padding: 30px 30px;
+  padding: 30px 0 30px 0;
   border-top: 1px solid var(--main-blue);
   background-color: var(--main-beige);
   width: 100%;
@@ -525,6 +525,16 @@ html {
   z-index: 3;
 }
 
+@media (max-width: 1160px) {
+  #navbar .menu ul {
+    font-size: 18px;
+  }
+}
+@media (max-width: 950px) {
+  #navbar .menu ul {
+    font-size: 15px;
+  }
+}
 .xp-section {
   background-color: var(--main-blue);
   color: var(--main-beige);
