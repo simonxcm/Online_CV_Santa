@@ -755,10 +755,22 @@ html {
   .project-container {
     height: 500px;
   }
+  .project-container > .title-vhbox > #title {
+    font-size: 30px;
+  }
+  .project-container > .title-vhbox p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 950px) {
   .project-container {
     height: 400px;
+  }
+  .project-container > .title-vhbox > #title {
+    font-size: 24px;
+  }
+  .project-container > .title-vhbox p {
+    font-size: 17px;
   }
 }
 @media (max-width: 650px) {
@@ -766,22 +778,18 @@ html {
     height: 350px;
   }
   .project-container > .title-vhbox > #title {
-    font-size: 25px;
+    font-size: 22px;
   }
   .project-container > .title-vhbox p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 @media (max-width: 450px) {
-  .project-container {
-    height: 250px;
-  }
   .project-container > .title-vhbox > #title {
     font-size: 18px;
-    margin: 0 10px 0 10px;
   }
   .project-container > .title-vhbox p {
-    font-size: 10px;
+    font-size: 15px;
     width: 80%;
   }
 }

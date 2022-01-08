@@ -937,7 +937,6 @@
 }
 
 
-
 // *--------------------------------------------* //
 // *------------  PROJECTS SECTION  ------------* //
 // *--------------------------------------------* //
@@ -1006,6 +1005,17 @@
 @media (max-width: 1160px) {
     .project-container {
         height: 500px;
+
+        & >.title-vhbox {
+    
+            & >#title {
+                font-size: 30px;
+            }
+    
+            p {
+                font-size: 20px;
+            }
+        }
     }
 }
 
@@ -1013,6 +1023,17 @@
 
     .project-container{
         height: 400px;
+
+        & >.title-vhbox {
+    
+            & >#title {
+                font-size: 24px;
+            }
+    
+            p {
+                font-size: 17px;
+            }
+        }
     }
 }
 
@@ -1024,11 +1045,11 @@
         & >.title-vhbox {
     
             & >#title {
-                font-size: 25px;
+                font-size: 22px;
             }
     
             p {
-                font-size: 12px;
+                font-size: 15px;
             }
         }
     } 
@@ -1038,22 +1059,20 @@
 
     .project-container {
 
-        height: 250px;
-    
         & >.title-vhbox {
 
             & >#title {
                 font-size: 18px;
-                margin: 0 10px 0 10px;
             }
     
             p {
-                font-size: 10px;
+                font-size: 15px;
                 width: 80%;
             }
         }
     }
 }
+
 
 
 // *--------------------------------------------------------* //
