@@ -144,6 +144,7 @@ html {
   background-color: var(--main-beige);
   border: 2px solid var(--main-beige);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
+  cursor: pointer;
 }
 .header-container > .left-vhbox {
   margin-top: 80px;
@@ -494,15 +495,28 @@ html {
     margin: 40px auto 60px auto;
   }
 }
-.navbar {
+#navbar {
   padding: 30px 30px;
   border-top: 1.5px solid var(--main-blue);
+  background-color: var(--main-beige);
+  width: 100%;
 }
-.navbar > .menu > ul {
+#navbar .menu ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  font-size: 22px;
+  font-weight: lighter;
+}
+#navbar .menu ul li a {
+  text-decoration: none;
   color: var(--main-blue);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
 }
 
 .xp-section {

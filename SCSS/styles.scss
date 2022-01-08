@@ -107,6 +107,7 @@
                 background-color: var(--main-beige);
                 border: 2px solid var(--main-beige);
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
+                cursor: pointer;
             }
         }
     }
@@ -628,20 +629,38 @@
 // *----------------------------------------------* //
 
 
-.navbar {
+#navbar {
     padding: 30px 30px;
     border-top: 1.5px solid var(--main-blue);
+    background-color: var(--main-beige);
+    width: 100%;
 
-    &>.menu {
+    .menu {
         
-        &>ul {
+        ul {
             display: flex;
             justify-content: space-evenly;
             list-style-type: none;
-            color: var(--main-blue);
+            font-size: 22px;
+            font-weight: lighter;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: var(--main-blue);
+                }
+            }
+            
         }
     }
 }
+
+.sticky {
+	position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+}
+
 
 
 // *-------------------------------------------------* //
