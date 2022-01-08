@@ -497,9 +497,11 @@ html {
 }
 #navbar {
   padding: 30px 30px;
-  border-top: 1.5px solid var(--main-blue);
+  border-top: 1px solid var(--main-blue);
   background-color: var(--main-beige);
   width: 100%;
+  z-index: 3;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 #navbar .menu ul {
   display: flex;
@@ -512,11 +514,15 @@ html {
   text-decoration: none;
   color: var(--main-blue);
 }
+#navbar .menu ul li a:hover {
+  opacity: 0.5;
+}
 
 .sticky {
   position: -webkit-sticky;
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 
 .xp-section {
@@ -716,7 +722,9 @@ html {
 }
 .project-container > .title-vhbox p {
   text-align: center;
-  margin-top: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 30px;
   color: var(--main-blue);
   width: 60%;
 }

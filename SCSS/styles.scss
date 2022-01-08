@@ -631,10 +631,11 @@
 
 #navbar {
     padding: 30px 30px;
-    border-top: 1.5px solid var(--main-blue);
+    border-top: 1px solid var(--main-blue);
     background-color: var(--main-beige);
     width: 100%;
-
+    z-index: 3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     .menu {
         
         ul {
@@ -645,12 +646,16 @@
             font-weight: lighter;
 
             li {
+
                 a {
                     text-decoration: none;
                     color: var(--main-blue);
+
+                    &:hover {
+                        opacity: 0.5;
+                    }
                 }
             }
-            
         }
     }
 }
@@ -659,8 +664,8 @@
 	position: -webkit-sticky;
     position: fixed;
     top: 0;
+    z-index: 3;
 }
-
 
 
 // *-------------------------------------------------* //
@@ -766,7 +771,7 @@
     } 
 }
 
-// *---------------------  EXPERIENCE MEDIA QUERIES  ---------------------* //
+// *-----------------  EXPERIENCE MEDIA QUERIES  -----------------* //
 
 
 @media (max-width: 1160px) {
@@ -959,7 +964,9 @@
 
         p {
             text-align: center;
-            margin-top: 20px;
+            font-size: 20px;
+            font-weight: lighter;
+            margin-top: 30px;
             color: var(--main-blue);
             width: 60%;
         }
