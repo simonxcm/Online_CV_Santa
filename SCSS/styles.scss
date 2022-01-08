@@ -6,19 +6,6 @@
 // *------------------------------------------* //
 
 
-.english-link {
-    font-size: 120%;
-    color: var(--main-blue);
-    margin: 12px 0 0 15px;
-    text-align: left;
-    
-
-    & a {
-        color: var(--main-blue);
-        text-decoration: none;
-    }
-}
-
 .header-container {
     display: flex;
     position: relative;
@@ -137,6 +124,18 @@
             border-radius: 30px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
+
+        .english-link {
+            font-size: 120%;
+            color: var(--main-blue);
+            margin: 12px 0 0 15px;
+            text-align: left;
+            
+            & a {
+                color: var(--main-blue);
+                text-decoration: none;
+            }
+        }
     }
 }
 
@@ -145,11 +144,6 @@
 
 
 @media (max-width: 1400px) {
-
-    .english-link {
-        font-size: 110%;
-        margin: 10px 0 0 15px;
-    }
 
     .header-container {
         height: 600px;
@@ -208,16 +202,16 @@
                 width: 500px;
                 height: 500px;
             }
+
+            .english-link {
+                font-size: 110%;
+                margin: 10px 0 0 15px;
+            }
         }
     }
 }
 
 @media (max-width: 1160px) {
-
-    .english-link {
-        font-size: 100%;
-        margin: 10px 0 0 12px;
-    }
 
     .header-container {
         height: 500px;
@@ -279,16 +273,16 @@
                 width: 400px;
                 height: 400px;
             }
+
+            .english-link {
+                font-size: 100%;
+                margin: 10px 0 0 12px;
+            }
         }
     }
 }
 
 @media (max-width: 950px) {
-
-    .english-link {
-        font-size: 90%;
-        margin: 7px 0 0 10px;
-    }
 
     .header-container {
         height: 400px;
@@ -361,15 +355,16 @@
                 width: 300px;
                 height: 300px;
             }
+
+            .english-link {
+                font-size: 90%;
+                margin: 7px 0 0 10px;
+            }
         }
     }
 }
 
 @media (max-width: 650px) {
-
-    .english-link {
-        font-size: 80%;
-    }
 
     .header-container {
         height: 300px;
@@ -437,21 +432,21 @@
 
         & >.left-vhbox {
             margin-top: 50px;
+
             & >.profile-picture {
                 width: 200px;
                 height: 200px;
                 border-radius: 20px;
+            }
+
+            .english-link {
+                font-size: 80%;
             }
         }
     }
 }
 
 @media (max-width: 450px) {
-
-    .english-link {
-        font-size: 70%;
-        margin: 5px 0 0 7px;
-    }
 
     .header-container {
         height: 200px;
@@ -519,10 +514,16 @@
 
         & >.left-vhbox {
             margin-top: 35px;
+
             & >.profile-picture {
                 width: 150px;
                 height: 150px;
                 border-radius: 15px;
+            }
+
+            .english-link {
+                font-size: 70%;
+                margin: 5px 0 0 7px;
             }
         }
     }
@@ -1345,6 +1346,56 @@
                 }
             }
         }
+    }
+}
+
+
+// *--------------------------------------------* //
+// *------------  PROJECTS SECTION  ------------* //
+// *--------------------------------------------* //
+
+
+.project-container {
+    display: flex;
+    background-color: var(--main-blue);
+    height: 600px;
+
+    & >.left-vhbox {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        & >#title {
+            font-size: 40px;
+            color: var(--main-beige);
+        }
+
+        p {
+            color: var(--main-beige);
+        }
+    }
+
+    & >.right-vhbox {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(/MEDIAS/profile-picture.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /* & >.project-video {
+            background-image: url(/MEDIAS/profile-picture.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 600px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }*/
     }
 }
 
