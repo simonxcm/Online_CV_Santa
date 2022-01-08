@@ -538,7 +538,7 @@
 .bio {
     text-align: left;
     font-size: 30px;
-    margin: 100px auto 150px auto;
+    margin: 150px auto 150px auto;
     color: var(--main-blue);
     font-weight: lighter;
     width: 930px;
@@ -600,7 +600,7 @@
     .bio {
         font-size: 19px;
         width: 600px;
-        margin: 60px auto 80px auto;
+        margin: 80px auto 80px auto;
     }
 }
 
@@ -619,6 +619,27 @@
         font-size: 15px;
         width: 320px;
         margin: 40px auto 60px auto;
+    }
+}
+
+
+// *----------------------------------------------* //
+// *--------------  NAV BAR SECTION  -------------* //
+// *----------------------------------------------* //
+
+
+.navbar {
+    padding: 30px 30px;
+    border-top: 1.5px solid var(--main-blue);
+
+    &>.menu {
+        
+        &>ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            color: var(--main-blue);
+        }
     }
 }
 
