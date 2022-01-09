@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/SCSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/MEDIAS/icon.png">
     <title>Santa De Oliveira</title>
 </head>
@@ -26,7 +27,7 @@
             <div class="left-vhbox">
                 <div class="profile-picture"></div>
                 <div class="english-link">
-                    <a href="/homepage-english.html"> English version </a>  
+                    <a href="/homepage-english.html"> Switch to english </a>  
                 </div>
             </div>
         </div>
@@ -37,11 +38,29 @@
             <p>
                 Étudiante en 3ème année de Bachelor RP Communication & Événementiel à l'école Internationale Tunon, <span class="highlight-animation"><strong> je suis à la recherche d'un stage</strong></span> de 5 à 6 mois à compter de février 2022. De nature très dynamique, attentive et créative, je m'investis dans tous les projets que j'entreprends au quotidien.
             </p>
+        </div>           
+        
+        <!-- NAV BAR SECTION -->
+
+        <div id="navbar" class="topnav">
+            <div class="menu">
+                <ul>
+                    <li> <a href="#xp-location">EXPÉRIENCES</a></li>
+                    <li> <a href="#projects-location">PROJETS</a></li>
+                    <li> <a href="#studies-location">ÉTUDES</a></li>
+                    <li> <a href="#skills-location">COMPÉTENCES</a></li>
+                    <li> <a href="#form-location">CONTACTEZ-MOI</a></li>
+                    <li class="name-burger"> <a href="#">SANTA DE OLIVEIRA</a></li>
+                    <li class="icon"> <a href="javascript:void(0);" onclick="displayBurger()">
+                        <i class="fa fa-bars"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <!-- EXPERIENCES SECTION -->
 
-        <div class="xp-section">
+        <div id="xp-location" class="xp-section">
             <div class="xp-container">
                 <div class="xp-title">
                     <h2>EXPÉRIENCES</h2>
@@ -78,10 +97,10 @@
 
          <!-- PROJECTS SECTION -->
 
-         <div class="project-container">
+        <div id="projects-location" class="project-container">
             <div class="title-vhbox">
                 <h3 id="title">LLC's Agency</h3>
-                <p>Réalisation d'une vidéo promotionnelle à propos d'une agence événementiel qui créé des moments inoubliables</p>
+                <p>Réalisation d'une vidéo promotionnelle pour le lancement de LLC's Agency, une agence événementiel.</p>
             </div>
             <div class="video-vhbox">
                 <iframe id="player" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/lnKpIqHqGt0?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -99,10 +118,10 @@
         <div class="project-container">
             <div class="title-vhbox">
                 <h3 id="title">Candy Village</h3>
-                <p>Réalisation d'une vidéo de présentation pour l'organisation d'un festival. Inspiré des films de Wes Anderson, bienvenue au festival de Candy Village, un village entièrement fait de bonbons ou vous serez accueilli par un majordome hors du commun. </p>
+                <p>Réalisation d'une vidéo de présentation pour l'organisation d'un festival. Inspiré des films de Wes Anderson, bienvenue au festival de Candy Village, un village entièrement fait de bonbons, et géré par la main de maître d'un majordome hors du commun. </p>
             </div>
             <div class="video-vhbox">
-                 <iframe id="player3" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/rSVSUahmYLg?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="player3" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/rSVSUahmYLg?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         
@@ -118,7 +137,7 @@
         
         <!-- STUDIES SECTION -->
         
-        <div class="studies-section">
+        <div id="studies-location" class="studies-section">
             <div class="studies-container">
                 <div class="studies-title">
                     <h2>ÉTUDES</h2>
@@ -145,7 +164,7 @@
         
         <!-- SKILLS SECTION -->
         
-        <div class="skills-section">
+        <div id="skills-location" class="skills-section">
             <div class="skills-container">
                 <div class="skills-stars">
                     <ul>
