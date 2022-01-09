@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/SCSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/MEDIAS/icon.png">
     <title>Santa De Oliveira</title>
 </head>
@@ -26,7 +27,7 @@
             <div class="left-vhbox">
                 <div class="profile-picture"></div>
                 <div class="english-link">
-                    <a href="/homepage.html"> Version Française </a>  
+                    <a href="/homepage.html"> Voir en français </a>  
                 </div>
             </div>
         </div>
@@ -38,10 +39,24 @@
                 As a 3rd year student in Bachelor PR Communication & Event Management at Tunon International School, <span class="highlight-animation"><strong> I am looking for a 5 to 6 months internship</strong></span> starting in February 2022. Very dynamic, attentive and creative, I invest myself in all the projects I undertake on a daily basis.
             </p>
         </div>
+
+        <!-- NAV BAR SECTION -->
+
+        <div id="navbar">
+            <div class="menu">
+                <ul>
+                    <li> <a href="#xp-location">EXPERIENCES</a></li>
+                    <li> <a href="#projects-location">PROJECTS</a></li>
+                    <li> <a href="#studies-location">STUDIES</a></li>
+                    <li> <a href="#skills-location">SKILLS</a></li>
+                    <li> <a href="#form-location">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
         
         <!-------------- EXPERIENCE SECTION -------------->
 
-        <div class="xp-section">
+        <div id="xp-location" class="xp-section">
             <div class="xp-container">
                 <div class="xp-title">
                     <h2>EXPERIENCES</h2>
@@ -76,6 +91,36 @@
             </div>
         </div>
 
+        <!-- PROJECTS SECTION -->
+
+        <div id="projects-location" class="project-container">
+            <div class="title-vhbox">
+                <h3 id="title">LLC's Agency</h3>
+                <p>Production of a promotional video for the launch of LLC's Agency, an event agency.s</p>
+            </div>
+            <div class="video-vhbox">
+                <iframe id="player" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/lnKpIqHqGt0?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="video-vhbox">
+                <iframe id="player2" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/SB4yZeWilKk?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="title-vhbox">
+                <h3 id="title">SheSounds Production</h3>
+                <p> I worked on the creation of a music label for female artists and talents, of our generation.  </p>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="title-vhbox">
+                <h3 id="title">Candy Village</h3>
+                <p>Creation of a presentation video for the organization of a festival. Inspired by Wes Anderson's movies, welcome to the Candy Village festival, a village made entirely of candy, and managed by the masterful hand of an extraordinary butler. </p>
+            </div>
+            <div class="video-vhbox">
+                    <iframe id="player3" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/rSVSUahmYLg?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
         <!-------------- SAYING SECTION -------------->
 
         <div class="saying-section">
@@ -88,7 +133,7 @@
 
         <!-------------- STUDIES SECTION -------------->
 
-        <div class="studies-section">
+        <div id="studies-location" class="studies-section">
             <div class="studies-container">
                 <div class="studies-title">
                     <h2>STUDIES</h2>
@@ -115,7 +160,7 @@
 
         <!-------------- SKILLS SECTION -------------->
 
-        <div class="skills-section">
+        <div id="skills-location" class="skills-section">
             <div class="skills-container">
                 <div class="skills-stars">
                     <ul>
@@ -190,5 +235,7 @@
             </div>
         </div>
 
+    <script src="animations.js"></script> 
+    <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
     </body>
 </html>
