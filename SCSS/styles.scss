@@ -665,6 +665,11 @@
     position: fixed;
     top: 0;
     z-index: 3;
+    transition: opacity 0.3s linear 2s;
+}
+
+#xp-location.without-navbar {
+    padding-top: 50px;
 }
 
 
