@@ -672,6 +672,14 @@
     padding-top: 50px;
 }
 
+.topnav .icon {
+    display: none;
+}
+
+.name-burger {
+    display: none;
+}
+
 
 // *---------------  NAVBAR MEDIA QUERIES  --------------* //
 
@@ -700,6 +708,37 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 650px) {
+
+    #navbar {
+        padding: 20px 0 20px 0;
+
+        .menu {
+
+            padding: 0 30px 0 30px;
+            
+            ul {
+                font-size: 15px;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .topnav li:nth-child(-n+5) {
+        display: none;
+    }
+
+    .topnav {
+        
+        .icon, .name-burger {
+            float: right;
+            display: block;
+            font-size: 150%;
+        }
+    }
+
 }
 
 
