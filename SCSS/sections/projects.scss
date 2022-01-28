@@ -1,6 +1,8 @@
+@import "commons.scss";
+
 .project-container {
     display: flex;
-    background-color: var(--main-beige);
+    background-color: var($beige);
     height: 600px;
 
     & >.title-vhbox {
@@ -14,7 +16,7 @@
             text-align: center;
             font-size: 40px;
             margin: 0 10px 0 10px;
-            color: var(--main-blue);
+            color: var($blue);
         }
 
         p {
@@ -22,7 +24,7 @@
             font-size: 20px;
             font-weight: lighter;
             margin-top: 30px;
-            color: var(--main-blue);
+            color: var($blue);
             width: 60%;
         }
     }
@@ -55,10 +57,11 @@
 }
 
 
-// *---------------  PROJECT MEDIA QUERIES  --------------* //
+// *-------  MEDIA QUERIES  ------* //
 
 
 @media (max-width: 1160px) {
+    
     .project-container {
         height: 500px;
 

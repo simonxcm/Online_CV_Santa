@@ -1,5 +1,7 @@
+@import "commons.scss";
+
 .skills-section {
-    color: var(--main-blue);
+    color: var($blue);
     height: auto;
     padding: 100px 0 100px 0;
     text-align: center;
@@ -29,7 +31,7 @@
 
         & >.skills-line {
             width: 2px;
-            background-color: var(--main-altblue);
+            background-color: var($altBlue);
             border-radius: 10px;
         }
 
@@ -51,7 +53,7 @@
 }
 
 
-// *---------------------  SKILLS MEDIA QUERIES  ---------------------* //
+// *------- MEDIA QUERIES -------* //
 
 
 @media (max-width: 650px) {

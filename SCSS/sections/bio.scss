@@ -1,9 +1,11 @@
+@import "commons.scss";
+
 .bio {
     text-align: center;
     line-height: 45px;
     font-size: 30px;
     margin: 100px auto 100px auto;
-    color: var(--main-blue);
+    color: var($blue);
     font-weight: lighter;
     width: 930px;
     
@@ -44,7 +46,7 @@
 }
 
 
-// *---------------------  BIO MEDIA QUERIES  ---------------------* //
+// *-------  MEDIA QUERIES  -------* //
 
 
 @media (max-width: 1160px) {

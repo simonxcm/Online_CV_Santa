@@ -1,3 +1,4 @@
+@import 'sections/commons.scss';
 @import 'sections/header';
 @import 'sections/bio.scss';
 @import 'sections/navbar.scss';
@@ -8,74 +9,7 @@
 @import 'sections/skills.scss';
 @import 'sections/footer.scss';
 
-:root {
-    --main-blue: #5784BA;
-    --main-beige: #FBFAE0;
-    --main-altblue: #30B2D1;
-    --main-darkgrey: #5a5a5a;
-    --main-purple: #646CA1;
-}
 
-// MAIN COLORS 
-
-$blue: #5784BA;
-$beige: #FBFAE0;
-$altBlue: #30B2D1;
-$darkGrey: #5a5a5a;
-$purple: #646CA1;
-
-// BASIC SETTINGS
-
-@font-face {
-    font-family: 'Gill Sans';
-    src: url(/FONT/GILLSANS.ttf) format(ttf);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    background-color: var(--main-beige);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    scroll-behavior: smooth;
-    margin: 0;
-
-}
-
-.psa {
-    position: absolute;
-}
-
-.psr {
-    position: relative;
-}
-
-.op80{
-    background-color: black;
-    opacity: 0.8;
-}
-
-.db {
-    display: block;
-}
-
-.w100 {
-    width: 100%;
-}
-
-.h100 {
-    height: 100%;
-}
-
-.t0 {
-    top: 0;
-}
-
-.l0 {
-    left: 0;
-}
 
 
 

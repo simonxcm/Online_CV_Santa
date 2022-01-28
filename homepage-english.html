@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/SCSS/styles.css">
+    <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/MEDIAS/icon.png">
     <title>Santa De Oliveira</title>
@@ -22,7 +22,7 @@
                 <h3 id="assistant">ASSISTANT PROJECT</h3>
                 <h3 id="project-manager">MANAGER & PR</h3>
                 <span><a class="linkedin-icon" href="https://www.linkedin.com/in/santa-de-oliveira-bb3743134/" target="_blank"><img src="/MEDIAS/linkedin-blue.png" alt="linkedin"></a></span>
-                <a class="contact-btn-link" href="#form-location"><button class="email-me-button" name="email" type="button">CONTACT ME!</button></a>
+                <a class="contact-btn-link" href="#contact"><button class="email-me-button" name="email" type="button">CONTACT ME!</button></a>
             </div>
             <div class="left-vhbox">
                 <div class="profile-picture"></div>
@@ -42,14 +42,18 @@
 
         <!-- NAV BAR SECTION -->
 
-        <div id="navbar">
+        <div id="navbar" class="topnav">
             <div class="menu">
                 <ul>
-                    <li> <a href="#xp-location">EXPERIENCES</a></li>
-                    <li> <a href="#projects-location">PROJECTS</a></li>
-                    <li> <a href="#studies-location">STUDIES</a></li>
-                    <li> <a href="#skills-location">SKILLS</a></li>
-                    <li> <a href="#form-location">CONTACT</a></li>
+                    <li> <a href="#experience">EXPERIENCES</a></li>
+                    <li> <a href="#projects">PROJECTS</a></li>
+                    <li> <a href="#studies">STUDIES</a></li>
+                    <li> <a href="#skills">SKILLS</a></li>
+                    <li> <a href="#contact">CONTACT</a></li>
+                    <li class="name-burger"> <a href="#">SANTA DE OLIVEIRA</a></li>
+                    <li class="icon"> <a href="javascript:void(0);" onclick="displayBurger()">
+                        <i class="fa fa-bars"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -99,12 +103,12 @@
                 <p>Production of a promotional video for the launch of LLC's Agency, an event agency.s</p>
             </div>
             <div class="video-vhbox">
-                <iframe id="player" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/lnKpIqHqGt0?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="player" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/lnKpIqHqGt0?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0"></iframe>
             </div>
         </div>
         <div class="project-container">
             <div class="video-vhbox">
-                <iframe id="player2" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/SB4yZeWilKk?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="player2" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/SB4yZeWilKk?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0"></iframe>
             </div>
             <div class="title-vhbox">
                 <h3 id="title">SheSounds Production</h3>
@@ -117,7 +121,7 @@
                 <p>Creation of a presentation video for the organization of a festival. Inspired by Wes Anderson's movies, welcome to the Candy Village festival, a village made entirely of candy, and managed by the masterful hand of an extraordinary butler. </p>
             </div>
             <div class="video-vhbox">
-                    <iframe id="player3" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/rSVSUahmYLg?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="player3" class="youtube-box" width="auto" height="auto" src="https://www.youtube.com/embed/rSVSUahmYLg?controls=0&enablejsapi=1&modestbranding=1&playsinline=1&showinfo=0&rel=0" title="YouTube video player"></iframe>
             </div>
         </div>
 

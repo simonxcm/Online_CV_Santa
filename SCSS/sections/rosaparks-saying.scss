@@ -1,6 +1,8 @@
+@import "commons.scss";
+
 .saying-section {
     width: 65%;
-    color: var(--main-blue);
+    color: var($blue);
     text-align: left;
     margin: 150px auto 150px auto;
     height: auto;
@@ -17,13 +19,13 @@
         font-weight: bold;
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: var(--main-altblue);
+        -webkit-text-stroke-color: var($altBlue);
         transform: translateY(20%);
     }
 }
 
 
-// *---------------------  ROSA PARKS SAYING MEDIA QUERIES  ---------------------* //
+// *--------  MEDIA QUERIES  --------* //
 
 
 @media (max-width: 1400px) {
