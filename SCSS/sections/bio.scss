@@ -1,0 +1,87 @@
+.bio {
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    margin: 100px auto 100px auto;
+    color: var(--main-blue);
+    font-weight: lighter;
+    width: 930px;
+    
+    & p {
+
+        & >.highlight-animation {
+            position: relative;
+    
+            &:after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                background: linear-gradient(to top, rgb(170, 219, 241) 100%, transparent 100%);
+                animation-name: highlight;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+              }
+              
+            @keyframes highlight {
+                0% {
+                    width: 0;
+                    opacity: 0;
+                }
+                
+                50% {
+                    width: 100%;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+// *---------------------  BIO MEDIA QUERIES  ---------------------* //
+
+
+@media (max-width: 1160px) {
+
+    .bio {
+        font-size: 22px;
+        width: 700px;
+
+        & >.blue-line {
+            transform: translateY(480%) translateX(-50%);
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .bio {
+        font-size: 19px;
+        width: 600px;
+        margin: 80px auto 80px auto;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .bio {
+        font-size: 17px;
+        width: 372px;
+        margin: 10px auto 70px auto;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .bio {
+        font-size: 15px;
+        width: 320px;
+        margin: 40px auto 60px auto;
+    }
+}

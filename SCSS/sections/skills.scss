@@ -1,0 +1,127 @@
+.skills-section {
+    color: var(--main-blue);
+    height: auto;
+    padding: 100px 0 100px 0;
+    text-align: center;
+
+    & >.skills-container {
+        display: flex;
+        justify-content: center;
+
+        & >.skills-stars {
+
+            text-align: right;
+            font-size: 30px;
+            
+            & ul {
+                margin-right: 30px;
+            }
+
+            & li {
+                list-style-type: none;
+                line-height: 200%;
+
+                & img {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        & >.skills-line {
+            width: 2px;
+            background-color: var(--main-altblue);
+            border-radius: 10px;
+        }
+
+        & >.skills-names {
+            text-align: left;
+            font-size: 30px;
+            font-weight: lighter;
+
+            & ul {
+                margin-left: 30px;
+            }
+
+            & li {
+                list-style-type: none;
+                line-height: 200%;
+            }
+        }
+    }
+}
+
+
+// *---------------------  SKILLS MEDIA QUERIES  ---------------------* //
+
+
+@media (max-width: 650px) {
+
+    .skills-section {
+
+        & >.skills-container {
+
+            & >.skills-stars {
+    
+                & ul {
+                    margin-right: 20px;
+                }
+    
+                & li {
+                    line-height: 132%;
+
+                    & img {
+                        width: 20px;
+                    }
+                }
+            }
+    
+            & >.skills-names {
+                font-size: 20px;
+    
+                & ul {
+                    margin-left: 20px;
+                }
+    
+                & li {
+                    line-height: 200%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .skills-section {
+
+        & >.skills-container {
+
+            & >.skills-stars {
+    
+                & ul {
+                    margin-right: 20px;
+                }
+    
+                & li {
+                    line-height: 98%;
+
+                    & img {
+                        width: 15px;
+                    }
+                }
+            }
+    
+            & >.skills-names {
+                font-size: 15px;
+    
+                & ul {
+                    margin-left: 20px;
+                }
+    
+                & li {
+                    line-height: 200%;
+                }
+            }
+        }
+    }
+}

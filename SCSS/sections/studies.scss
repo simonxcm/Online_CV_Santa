@@ -1,0 +1,211 @@
+.studies-section {
+    background-color: var(--main-blue);
+    color: var(--main-beige);
+
+    & >.studies-container {
+        display: flex;
+        margin: auto;
+        width: 66%;
+        justify-content: space-around;
+        
+        & >.studies-title {
+            writing-mode: sideways-lr;
+            margin-right: 40px;
+            font-size: 50px;
+            color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: var(--main-beige);
+
+            & h2 {
+                text-align: center;
+            }
+        }
+
+        & >.studies-chrono {
+            margin: 0 40px 0 40px;
+            font-size: 30px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            & p {
+                margin: 40px 0 40px 0;
+            }
+
+            & >.line-out-top {
+                width: 3px;
+                height: 160px;
+                background-color: var(--main-beige);
+                border-radius: 0 0 10px 10px;
+            }
+
+            & >.line-in {
+                width: 3px;
+                height: 60px;
+                background-color: var(--main-beige);
+                border-radius: 10px;
+            }
+
+            & >.line-out-down {
+                width: 3px;
+                height: 160px;
+                background-color: var(--main-beige);
+                border-radius: 10px 10px 0 0;
+            }
+        }
+
+        & >.studies-content {
+            margin: 0 320px 0 40px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & >:nth-child(1) {
+                margin: 37px 0 112px 0;
+            }
+
+            & >.studies-block {
+
+                & >h4 {
+                    font-size: 22px;
+                    font-weight: normal;
+                    & >mark {
+                        color: var(--main-blue);
+                        background-color: var(--main-beige);
+                    }
+                }
+
+                & >p {
+                    font-size: 19px;
+                    font-weight: lighter;
+                    margin-top: 15px;
+                }
+            }
+        }
+    } 
+}
+
+
+// *---------------------  STUDIES MEDIA QUERIES  ---------------------* //
+
+
+@media (max-width: 1400px) {
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 240px 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 150px 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .studies-section {
+
+        & .studies-container {
+            
+            & .studies-content {
+
+                margin: 0 0 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .studies-section {
+
+        & .studies-container {
+            width: 70%;
+
+            & .studies-title {
+                font-size: 22px;
+                margin: 40px 0 0 0;
+                -webkit-text-stroke-width: 1px;
+
+                & h2 {
+                    text-align: left;
+                }
+
+            }
+            
+            & .studies-content {
+                margin: 0 0 0 40px;
+
+                & .studies-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .studies-section {
+
+        & .studies-container {
+            width: 70%;
+
+            & .studies-title {
+                font-size: 22px;
+                margin: 40px 40px 0 0;
+                -webkit-text-stroke-width: 1px;
+
+                & h2 {
+                    text-align: left;
+                }
+            }
+
+            & .studies-chrono {
+                margin: 0 ;
+                font-size: 20px;
+            }
+            
+            & .studies-content {
+                margin: 0 0 0 40px;
+
+                & .studies-block {
+
+                    & h4 {
+                        font-size: 18px;
+                    }
+
+                    & p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

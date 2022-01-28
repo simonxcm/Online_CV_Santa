@@ -1,60 +1,3 @@
-:root {
-  --main-blue: #5784BA;
-  --main-beige: #FBFAE0;
-  --main-altblue: #30B2D1;
-  --main-darkgrey: #5a5a5a;
-  --main-purple: #646CA1;
-}
-
-@font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  background-color: var(--main-beige);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  scroll-behavior: smooth;
-  margin: 0;
-}
-
-.psa {
-  position: absolute;
-}
-
-.psr {
-  position: relative;
-}
-
-.op80 {
-  background-color: black;
-  opacity: 0.8;
-}
-
-.db {
-  display: block;
-}
-
-.w100 {
-  width: 100%;
-}
-
-.h100 {
-  height: 100%;
-}
-
-.t0 {
-  top: 0;
-}
-
-.l0 {
-  left: 0;
-}
-
 .header-container {
   display: flex;
   position: relative;
@@ -599,7 +542,7 @@ html {
   width: 66%;
 }
 .xp-section > .xp-container > .xp-title {
-  writing-mode: vertical-lr;
+  writing-mode: sideways-lr;
   font-size: 50px;
   margin: 40px 40px 0 0;
   color: transparent;
@@ -926,7 +869,7 @@ html {
   justify-content: space-around;
 }
 .studies-section > .studies-container > .studies-title {
-  writing-mode: vertical-lr;
+  writing-mode: sideways-lr;
   margin-right: 40px;
   font-size: 50px;
   color: transparent;
@@ -1175,6 +1118,63 @@ html {
 }
 .footer-section > .footer-container .top :hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+:root {
+  --main-blue: #5784BA;
+  --main-beige: #FBFAE0;
+  --main-altblue: #30B2D1;
+  --main-darkgrey: #5a5a5a;
+  --main-purple: #646CA1;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url(/FONT/GILLSANS.ttf) format(ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--main-beige);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.psa {
+  position: absolute;
+}
+
+.psr {
+  position: relative;
+}
+
+.op80 {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.db {
+  display: block;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.t0 {
+  top: 0;
+}
+
+.l0 {
+  left: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

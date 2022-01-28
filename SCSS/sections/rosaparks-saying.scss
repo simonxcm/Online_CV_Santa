@@ -1,0 +1,99 @@
+.saying-section {
+    width: 65%;
+    color: var(--main-blue);
+    text-align: left;
+    margin: 150px auto 150px auto;
+    height: auto;
+
+    & >.saying-text {
+        font-size: 50px;
+        font-weight: lighter;
+        line-height: 80%;
+        width: 83%;
+    }
+
+    & >.saying-author {
+        font-size: 50px;
+        font-weight: bold;
+        color: transparent;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: var(--main-altblue);
+        transform: translateY(20%);
+    }
+}
+
+
+// *---------------------  ROSA PARKS SAYING MEDIA QUERIES  ---------------------* //
+
+
+@media (max-width: 1400px) {
+
+    .saying-section {
+
+        & .saying-text {
+
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .saying-section {
+
+        & >.quote-up {
+
+            & img {
+                width: 45px;
+            }
+        }
+
+        & .saying-text {
+
+            font-size: 30px;
+        }
+    
+        & .saying-author {
+
+            & .quote-down {
+                width: 45px;
+            }
+        }
+
+        & .saying-author {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .saying-section {
+
+        margin: 100px auto 100px auto;
+
+        & >.quote-up {
+
+            & img {
+                width: 30px;
+            }
+        }
+
+        & .saying-text {
+
+            font-size: 25px;
+        }
+    
+        & .saying-author {
+
+            & .quote-down {
+                width: 30px;
+            }
+        }
+
+        & .saying-author {
+            font-size: 25px;
+            -webkit-text-stroke-width: 1px;
+        }
+    }
+}
