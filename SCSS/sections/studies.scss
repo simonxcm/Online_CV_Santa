@@ -1,8 +1,8 @@
-@import "commons.scss";
+@import "commons";
 
 .studies-section {
-    background-color: var($blue);
-    color: var($beige);
+    background-color: $blue;
+    color: $beige;
 
     & >.studies-container {
         display: flex;
@@ -16,7 +16,7 @@
             font-size: 50px;
             color: transparent;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: var($beige);
+            -webkit-text-stroke-color: $beige;
 
             & h2 {
                 text-align: center;
@@ -39,21 +39,21 @@
             & >.line-out-top {
                 width: 3px;
                 height: 160px;
-                background-color: var($beige);
+                background-color: $beige;
                 border-radius: 0 0 10px 10px;
             }
 
             & >.line-in {
                 width: 3px;
                 height: 60px;
-                background-color: var($beige);
+                background-color: $beige;
                 border-radius: 10px;
             }
 
             & >.line-out-down {
                 width: 3px;
                 height: 160px;
-                background-color: var($beige);
+                background-color: $beige;
                 border-radius: 10px 10px 0 0;
             }
         }
@@ -75,8 +75,8 @@
                     font-size: 22px;
                     font-weight: normal;
                     & >mark {
-                        color: var($blue);
-                        background-color: var($beige);
+                        color: $blue;
+                        background-color: $beige;
                     }
                 }
 

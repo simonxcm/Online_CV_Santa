@@ -1,8 +1,8 @@
-@import "commons.scss";
+@import "commons";
 
 .project-container {
     display: flex;
-    background-color: var($beige);
+    background-color: $beige;
     height: 600px;
 
     & >.title-vhbox {
@@ -16,7 +16,7 @@
             text-align: center;
             font-size: 40px;
             margin: 0 10px 0 10px;
-            color: var($blue);
+            color: $blue;
         }
 
         p {
@@ -24,7 +24,7 @@
             font-size: 20px;
             font-weight: lighter;
             margin-top: 30px;
-            color: var($blue);
+            color: $blue;
             width: 60%;
         }
     }

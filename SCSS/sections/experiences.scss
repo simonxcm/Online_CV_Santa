@@ -1,8 +1,8 @@
-@import "commons.scss";
+@import "commons";
 
 .xp-section {
-    background-color: var($blue);
-    color: var($beige);
+    background-color: $blue;
+    color: $beige;
     height: auto;
 
     & >.xp-container {
@@ -16,7 +16,7 @@
             margin: 40px 40px 0 0;
             color: transparent;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: var($beige);
+            -webkit-text-stroke-color: $beige;
             margin-bottom: 50px;
 
             & h2 {
@@ -40,21 +40,21 @@
             & >.line-out-top {
                 width: 3px;
                 height: 200px;
-                background-color: var($beige);
+                background-color: $beige;
                 border-radius: 0 0 10px 10px;
             }
 
             & >.line-in {
                 width: 3px;
                 height: 100px;
-                background-color: var($beige);
+                background-color: $beige;
                 border-radius: 10px;
             }
 
             & >.line-out-down {
                 width: 3px;
                 height: 200px;
-                background-color: var($beige);
+                background-color: $beige;
                 border-radius: 10px 10px 0 0;
             }
         }
@@ -78,13 +78,13 @@
                     font-weight: normal;
 
                     & >mark {
-                        color: var($blue);
-                        background-color: var($beige);
+                        color: $blue;
+                        background-color: $beige;
                     }
 
                     & >a {
                         text-decoration: none;
-                        color: var($beige);
+                        color: $beige;
                     }
                 }
 
@@ -114,8 +114,8 @@
 @media (max-width: 950px) {
 
     .xp-section {
-        background-color: var($blue);
-        color: var($beige);
+        background-color: $blue;
+        color: $beige;
         height: auto;
 
         & >.xp-container {
@@ -152,7 +152,7 @@
                 font-size: 22px;
                 color: transparent;
                 -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: var($beige);
+                -webkit-text-stroke-color: $beige;
 
                 & h2 {
                     text-align: left;
@@ -212,7 +212,7 @@
                 font-size: 22px;
                 color: transparent;
                 -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: var($beige);
+                -webkit-text-stroke-color: $beige;
 
                 & h2 {
                     text-align: left;

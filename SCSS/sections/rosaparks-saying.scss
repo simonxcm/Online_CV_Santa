@@ -1,8 +1,8 @@
-@import "commons.scss";
+@import "commons";
 
 .saying-section {
     width: 65%;
-    color: var($blue);
+    color: $blue;
     text-align: left;
     margin: 150px auto 150px auto;
     height: auto;
@@ -19,7 +19,7 @@
         font-weight: bold;
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: var($altBlue);
+        -webkit-text-stroke-color: $altBlue;
         transform: translateY(20%);
     }
 }

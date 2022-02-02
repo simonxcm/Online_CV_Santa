@@ -1,4 +1,4 @@
-@import "commons.scss";
+@import "commons";
 
 .header-container {
     display: flex;
@@ -13,7 +13,7 @@
         & >#first-santa {
             font-size: 180px;
             font-weight: bold;
-            color: var($blue);
+            color: $blue;
             transform: translateX(15%);
         }
         
@@ -22,14 +22,14 @@
             font-weight: bold;
             color: transparent;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: var($altBlue);
+            -webkit-text-stroke-color: $altBlue;
             transform: translateX(16%) translateY(-96%);
         }
         
         & >#first-deoliveira {
             font-size: 90px;
             font-weight: bold;
-            color: var($blue);
+            color: $blue;
             transform: translateY(-240%);
             margin-right: 20px;
         }
@@ -39,20 +39,20 @@
             font-weight: bold;
             color: transparent;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: var($altBlue);
+            -webkit-text-stroke-color: $altBlue;
             transform: translateX(-1.8%) translateY(-335.5%);
         }
         
         & >#assistant {
             font-size: 40px;
-            color: var(--main-darkgrey);
+            color: $darkGrey;
             margin-right: 20px;
             transform: translateY(-710%);
         }
         
         & >#project-manager {
             font-size: 40px;
-            color: var(--main-darkgrey);
+            color: $darkGrey;
             margin-right: 20px;
             transform: translateY(-730%);
         }
@@ -66,7 +66,7 @@
         
         & .contact-btn-link {
             text-decoration: none;
-            color: var($beige);
+            color: $beige;
 
             & >.email-me-button {
                 width: 220px;
@@ -77,8 +77,8 @@
                 font-weight: bold;
                 border: none;
                 border-radius: 12px;
-                color: var($beige);
-                background: linear-gradient(-90deg, var($blue), var($altBlue));
+                color: $beige;
+                background: linear-gradient(-90deg, $blue, $altBlue);
                 background-size: 800% 800%;
                 animation: gradient 15s ease infinite;
             }
@@ -96,10 +96,10 @@
             }
 
             & :hover {
-                color: var($blue);
+                color: $blue;
                 background: none;
-                background-color: var($beige);
-                border: 2px solid var($beige);
+                background-color: $beige;
+                border: 2px solid $beige;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 10px 25px -18px inset;
                 cursor: pointer;
             }
@@ -122,12 +122,12 @@
 
         .english-link {
             font-size: 120%;
-            color: var($blue);
+            color: $blue;
             margin: 12px 0 0 15px;
             text-align: left;
             
             & a {
-                color: var($blue);
+                color: $blue;
                 text-decoration: none;
             }
         }

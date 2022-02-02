@@ -1,14 +1,14 @@
-@import "commons.scss";
+@import "commons";
 
 .footer-line {
     width: 100%;
     height: 2px;
-    background-color: var($beige);
+    background-color: $beige;
 }
 
 .footer-section {
-    background-color: var($blue);
-    color: var($beige);
+    background-color: $blue;
+    color: $beige;
     padding: 30px 0 30px 0;
     font-size: 20px;
     display: flex;
@@ -19,7 +19,7 @@
 
         & a {
             text-decoration: none;
-            color: var($beige);
+            color: $beige;
         }
 
         & >div {
@@ -28,17 +28,17 @@
 
         & .top {
             text-decoration: none;
-            color: var($beige);
+            color: $beige;
 
             & button {
                 width: 200px;
                 height: 30px;
                 font-size: 15px;
                 font-weight: bold;
-                border: 1px solid var($beige);
+                border: 1px solid $beige;
                 border-radius: 12px;
-                color: var($beige);
-                background-color: var($blue);
+                color: $beige;
+                background-color: $blue;
             }
 
             & :hover {

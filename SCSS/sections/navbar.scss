@@ -1,9 +1,9 @@
-@import "commons.scss";
+@import "commons";
 
 .topnav {
     padding: 30px 0 30px 0;
-    border-top: 1px solid var($blue);
-    background-color: var($beige);
+    border-top: 1px solid $blue;
+    background-color: $beige;
     width: 100%;
     z-index: 3;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -20,7 +20,7 @@
 
                 a {
                     text-decoration: none;
-                    color: var($blue);
+                    color: $blue;
 
                     &:hover {
                         opacity: 0.5;
@@ -91,7 +91,8 @@
             
             ul {
                 font-size: 15px;
-                justify-content: space-between;
+                justify-content: center;
+                align-items: center;
             }
         }        
         

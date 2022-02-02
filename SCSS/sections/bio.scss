@@ -1,17 +1,17 @@
-@import "commons.scss";
+@import "commons";
 
 .bio {
     text-align: center;
     line-height: 45px;
     font-size: 30px;
     margin: 100px auto 100px auto;
-    color: var($blue);
+    color: $blue;
     font-weight: lighter;
     width: 930px;
     
-    & p {
+    p {
 
-        & >.highlight-animation {
+        .highlight-animation {
             position: relative;
     
             &:after {
@@ -28,7 +28,7 @@
                 animation-duration: 2s;
                 animation-iteration-count: infinite;
                 animation-direction: alternate;
-              }
+            }
               
             @keyframes highlight {
                 0% {
@@ -54,10 +54,7 @@
     .bio {
         font-size: 22px;
         width: 700px;
-
-        & >.blue-line {
-            transform: translateY(480%) translateX(-50%);
-        }
+        line-height: 40px;
     }
 }
 
@@ -74,8 +71,20 @@
 
     .bio {
         font-size: 17px;
-        width: 372px;
-        margin: 10px auto 70px auto;
+        width: 420px;
+        margin: 30px auto 70px auto;
+        line-height: 30px;
+
+        p {
+
+            .highlight-animation {
+    
+                &:after {
+                    display: none;
+                }
+            }
+        }
+
     }
 }
 
@@ -83,7 +92,7 @@
 
     .bio {
         font-size: 15px;
-        width: 320px;
-        margin: 40px auto 60px auto;
+        width: 300px;
+        margin: 60px auto 60px auto;
     }
 }

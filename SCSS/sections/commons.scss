@@ -19,11 +19,10 @@ $purple: #646CA1;
 }
 
 html {
-    background-color: var($beige);
+    background-color: $beige;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     scroll-behavior: smooth;
     margin: 0;
-
 }
 
 .psa {
