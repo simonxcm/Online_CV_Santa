@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -48,8 +48,8 @@ html {
 }
 
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -58,7 +58,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -470,8 +470,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -480,7 +480,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -589,8 +589,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -599,7 +599,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -731,8 +731,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -741,7 +741,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -957,8 +957,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -967,7 +967,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -1097,8 +1097,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -1107,7 +1107,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -1205,8 +1205,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -1215,7 +1215,7 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -1392,8 +1392,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Gill Sans";
-  src: url(/FONT/GILLSANS.ttf) format(ttf);
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
 }
 * {
   margin: 0;
@@ -1402,7 +1402,95 @@ html {
 
 html {
   background-color: #FBFAE0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.psa {
+  position: absolute;
+}
+
+.psr {
+  position: relative;
+}
+
+.op80 {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.db {
+  display: block;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.t0 {
+  top: 0;
+}
+
+.l0 {
+  left: 0;
+}
+
+.contact-section {
+  background-color: #FBFAE0;
+  color: #5784BA;
+  height: auto;
+}
+.contact-section .contact-container {
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  .contact-section .contact-container {
+    height: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .contact-section .contact-container {
+    height: 250px;
+  }
+}
+.contact-section .contact-container a {
+  text-decoration: none;
+  color: #5784BA;
+  font-size: 35px;
+}
+@media (max-width: 500px) {
+  .contact-section .contact-container a {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .contact-section .contact-container a {
+    font-size: 20px;
+  }
+}
+
+@font-face {
+  font-family: "Source Sans";
+  src: url(/FONT/SourceSansPro-Regular.ttf) format(ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #FBFAE0;
+  font-family: "Source sans", Calibri, "Trebuchet MS", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
 }
